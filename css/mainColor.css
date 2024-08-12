@@ -1,0 +1,14 @@
+* {
+    --theme-color: var(--btn-bg);
+    /* 外链地址样式 */
+    --linkDiv-hoverColor: #fff;
+    --linkDiv-titleColor: #2e2e2e;
+    --linkDiv-textColor: #999;
+    --linkDiv-bgColor: #f1f3f8;
+    --linkDiv-tipsBorder: 1px solid var(--linkDiv-textColor);
+    --linkDiv-tipsBorderHover: 1px solid #e5e5e5;
+
+    --linkDiv-dark-bgColor: #1F1F1F;
+    --linkDiv-dark-titleColor: #a2a2a2;
+    /* 外链地址样式 */
+}
