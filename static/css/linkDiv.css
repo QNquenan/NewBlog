@@ -81,17 +81,3 @@
     margin-left: auto;
     transition: all .5s;
 }
-
-[data-theme="dark"] #article-container .tag-Link {
-    background: var(--linkDiv-dark-bgColor);
-}
-
-[data-theme="dark"] #article-container .tag-Link:hover {
-    border: 1px solid var(--theme-color);
-    background: var(--theme-color);
-    box-shadow: 0 0 10px 2px var(--theme-color);
-}
-
-[data-theme="dark"] #article-container .tag-Link .tag-link-bottom .tag-link-right .tag-link-title {
-    color: var(--linkDiv-dark-titleColor);
-}

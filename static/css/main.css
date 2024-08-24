@@ -1,0 +1,358 @@
+/* 首页修改 */
+
+body {
+    background: var(--qn-body-bg);
+}
+
+/* 首页修改 end */
+
+/* Nav导航栏 */
+#nav {
+    justify-content: space-between;
+    user-select: none;
+}
+
+#nav .site-page:not(.child):after {
+    display: none;
+}
+
+.nav-fixed #nav {
+    backdrop-filter: blur(5px) saturate(150%);
+}
+
+.menus_item_child li:not(#sidebar-menus li) {
+    float: left;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+}
+
+.menus_item_child:not(#sidebar-menus ul) {
+    /*
+    left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调
+    改为：*/
+    left: 50%;
+    translate: -50%;
+}
+
+#nav #blog-info {
+    overflow: visible;
+    flex: none;
+    z-index: 99;
+}
+
+#nav #blog-info a {
+    position: relative;
+    font-size: 1.2em;
+}
+
+#nav #blog-info a::before {
+    opacity: 0;
+    background-color: var(--theme-color) !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    width: 120%;
+    height: 120%;
+    content: "\f015";
+    box-shadow: 0 0 5px var(--theme-color);
+    font-family: "Font Awesome 6 Free";
+    text-align: center;
+    color: white;
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#nav #blog-info a:hover::before {
+    opacity: 1;
+    scale: 1.03;
+}
+
+#nav.hide-menu .menus_items {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#nav .menus_items .menus_item {
+    padding: 0 10px;
+}
+
+#menuTitleBox {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#menuTitleBox #name-container {
+    height: 100%;
+    line-height: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+#menuTitleBox #name-container::before {
+    opacity: 0;
+    background-color: var(--theme-color) !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 60%;
+    content: "回到顶部";
+    box-shadow: 0 0 5px var(--theme-color);
+    text-align: center;
+    color: white;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#menuTitleBox #name-container:hover::before {
+    opacity: 1;
+    scale: 1.03;
+}
+
+#nav.hide-menu #toggle-menu {
+    display: none !important;
+}
+
+#nav #nav-right {
+    z-index: 99;
+}
+
+@media screen and (max-width: 572px) {
+
+    /* 菜单修复 */
+    #nav.hide-menu #toggle-menu {
+        display: inline-block !important;
+    }
+
+    #menus {
+        display: none;
+    }
+
+    #nav #blog-info a {
+        font-size: 1em;
+    }
+}
+
+/* Nav导航栏 */
+
+/* 返回顶部 */
+
+button#go-up #percent {
+    display: none;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+
+button#go-up span:nth-child(2) {
+    font-size: 12px !important;
+    margin-right: -1px;
+}
+
+/* 鼠标滑动到按钮上时显示返回顶部图标 */
+
+button#go-up:hover i {
+    display: block !important;
+}
+
+button#go-up:hover #percent {
+    display: none !important;
+}
+
+/* 返回顶部 end */
+
+/* Snackbar弹窗 */
+
+.snackbar-container,
+.snackbar-pos.top-right {
+    border-radius: 15px !important;
+}
+
+/* Snackbar弹窗 end */
+
+/* 加载动画头像 */
+
+.loading-img {
+    background: url(https://pub.quenan.love/img/logo_head.webp) no-repeat center center;
+    background-size: cover;
+}
+
+/* 加载动画头像 end */
+
+/* 宽屏适配 */
+
+.layout {
+    /* 全局宽度 */
+    max-width: 1400px;
+}
+
+.aside-content {
+    /* 侧边卡片栏宽度 */
+    max-width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+
+    /* 平板尺寸自适应(不启用侧边栏宽度限制) */
+    .aside-content {
+        max-width: none !important;
+        padding: 0 5px 0 5px;
+    }
+}
+
+/* 除了首页以外其他页面隐藏卡片，并采用宽屏显示 */
+#archive,
+#page,
+#category,
+#tag {
+    width: 100%;
+}
+
+.page:not(.page.home) .aside-content {
+    display: none;
+}
+
+/* 宽屏适配 end */
+
+/* 信息卡片头像状态 */
+
+#aside-content .card-widget {
+    overflow: visible;
+}
+
+.card-info-avatar .author-status-box {
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 28px);
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d0d7de;
+    border-radius: 2em;
+    background-color: #f8f8f8f8;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+[data-theme="dark"] .card-info-avatar .author-status-box {
+    background-color: #222222f2;
+    border: 1px solid #5c6060;
+}
+
+.card-info-avatar .author-status-box .author-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    padding: 0 5px;
+}
+
+.card-info-avatar .author-status-box:hover {
+    width: 120px;
+}
+
+.card-info-avatar .author-status-box:hover .author-status span {
+    width: 105px;
+    margin-left: 4px;
+}
+
+.card-info-avatar .author-status-box .author-status span {
+    width: 0;
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: 0.4s;
+}
+
+.card-widget .card-info-avatar {
+    display: inline-block;
+    position: relative;
+}
+
+/* 信息卡片头像状态 end */
+
+/* 超链接修改 */
+
+#post a:hover {
+    color: var(--theme-color);
+}
+
+#article-container a:not(.box, .fancybox, .flink-list-item a, .headerlink, .imgbox, .magnet_link, .pimgbox, .swf, .tag-Link) {
+    position: relative;
+    text-decoration: none !important;
+    transition: all .3s;
+}
+
+#article-container .flink-list-item a::before {
+    display: none !important;
+}
+
+#article-container a:not(.box, .fancybox, .flink-list-item a, .headerlink, .imgbox, .magnet_link, .pimgbox, .swf, .tag-Link):hover {
+    color: var(--theme-color);
+}
+
+#article-container a:not(.box, .fancybox, .flink-list-item a, .headerlink, .imgbox, .link-card, .magnet_link, .pimgbox, .swf, .tag-Link)::before,
+#nav .site-page:not(.child):before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: -3px;
+    height: 3px;
+    background: var(--theme-color);
+    transition: all .3s;
+    transform: scaleX(0);
+    border-radius: 25px;
+}
+
+#article-container a:not(.box, .fancybox, .headerlink, .imgbox, .magnet_link, .pimgbox, .swf, .tag-Link):hover::before,
+#nav .site-page:not(.child):hover::before {
+    transform: scaleX(1);
+}
+
+a[data-fancybox="gallery"]:hover::before {
+    display: none !important;
+}
+
+#article-container #hpp_talk p img {
+    display: inline;
+}
+
+/* 超链接修改 end */

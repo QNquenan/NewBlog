@@ -1,0 +1,25 @@
+:root {
+    /* 主要样式 */
+    --theme-color: #fe8599;
+    --card-box-shadow: 0 0 15px 5px rgba(7, 17, 27, 0.05);
+    --qn-body-bg: #F7F9FE;
+    /* 外链地址样式 */
+    --linkDiv-hoverColor: #fff;
+    --linkDiv-titleColor: #2e2e2e;
+    --linkDiv-textColor: #999;
+    --linkDiv-bgColor: #f1f3f8;
+    --linkDiv-tipsBorder: 1px solid var(--linkDiv-textColor);
+    --linkDiv-tipsBorderHover: 1px solid #e5e5e5;
+    /* 主页文章样式 */
+    --recent-post-bgcolor: var(--global-bg);
+    --recent-post-borderColor: rgba(0,0,0,0);
+    --recent-post-hover-borderColor: var(--theme-color);
+}
+
+[data-theme="dark"] {
+    /* 主要样式 */
+    --qn-body-bg: var(--global-bg);
+    /* 外链地址样式 */
+    --linkDiv-bgColor: #1F1F1F;
+    --linkDiv-titleColor: #a2a2a2;
+}
