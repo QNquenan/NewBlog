@@ -2614,7 +2614,7 @@ figure.highlight pre .javascript .function {
   content: "❞";
   font-size: 20px;
 }
-@media screen and (min-width: 572px) and (min-width: 1069px) {
+@media screen and (min-width: 572px) {
   .recent-posts .recent-post-item {
     width: 49%;
     border: 2px solid var(--recent-post-borderColor);

@@ -1,8 +1,14 @@
 :root {
-    /* 主要样式 */
+    /* 主题颜色 */
     --theme-color: #fe8599;
+    /* 首页卡片阴影 */
     --card-box-shadow: 0 0 15px 5px rgba(7, 17, 27, 0.05);
+    /* 背景颜色 */
     --qn-body-bg: #F7F9FE;
+    /* 首页分类磁贴 */
+    --fl-bg: #e5e5e5;
+    --fl-text: #000;
+    --fl-hover-text: #fff;
     /* 外链地址样式 */
     --linkDiv-hoverColor: #fff;
     --linkDiv-titleColor: #2e2e2e;
@@ -12,13 +18,31 @@
     --linkDiv-tipsBorderHover: 1px solid #e5e5e5;
     /* 主页文章样式 */
     --recent-post-bgcolor: var(--global-bg);
-    --recent-post-borderColor: rgba(0,0,0,0);
+    --recent-post-borderColor: rgba(0, 0, 0, 0);
     --recent-post-hover-borderColor: var(--theme-color);
+    /* 归档 */
+    --ichika-hover-color: #ECAFFF;
+    --ichika-widget-hover: #CFF0FF;
+    --archives-font-white: #FDFDFD;
+    --ichika-light-green: #B2FFCA;
+    --ichika-light-purple: #F6B9FF;
+    --ichika-green: #11D991;
+    --ichika-purple: #E764FF;
+    --ichika-light-grey: #F2F2F2;
+    --ichika-card-bg: rgba(255, 255, 255, 0.45);
+    --ichika-emphasis-color: #F7F81A;
+    --ichika-bgblur: blur(10px);
+    --ichika-footer-bg: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.7) 40%);
+    --ichika-font-grey: #888888;
+    --ichika-categorycard-bg: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
 [data-theme="dark"] {
-    /* 主要样式 */
+    /* 背景颜色 */
     --qn-body-bg: var(--global-bg);
+    /* 首页分类磁贴 */
+    --fl-bg: #222;
+    --fl-text: #fff;
     /* 外链地址样式 */
     --linkDiv-bgColor: #1F1F1F;
     --linkDiv-titleColor: #a2a2a2;

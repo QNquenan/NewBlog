@@ -1,4 +1,6 @@
-document.addEventListener('pjax:complete', tonav);
+document.addEventListener('pjax:complete', () => {
+    setTimeout(tonav, 100); // 延迟100ms确保页面完全加载后调用 tonav
+});
 document.addEventListener('DOMContentLoaded', tonav);
 
 function up() {
@@ -32,7 +34,26 @@ function tonav() {
 
     document.querySelector("#name-container").addEventListener("click", function () {
         scrollToTop();
-    })
+    });
 
-    document.getElementById("page-name").innerText = document.title.split(" | 鹊楠の小窝")[0];
+    updatePageName(); // 调用更新页面标题的函数
+}
+
+function updatePageName() {
+    const pageNameElement = document.getElementById("page-name");
+    if (pageNameElement) {
+        pageNameElement.innerText = document.title.split(" | 鹊楠の小窝")[0];
+    } else {
+        // 使用 MutationObserver 监听 DOM 变化，确保元素加载后更新标题
+        const observer = new MutationObserver((mutations, observer) => {
+            const pageNameElement = document.getElementById("page-name");
+            if (pageNameElement) {
+                pageNameElement.innerText = document.title.split(" | 鹊楠の小窝")[0];
+                observer.disconnect();  // 元素找到后停止观察
+            }
+        });
+
+        // 开始观察整个文档
+        observer.observe(document.body, { childList: true, subtree: true });
+    }
 }
