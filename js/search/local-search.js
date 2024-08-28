@@ -4,9 +4,6 @@ window.addEventListener('load', () => {
   const $searchMask = document.getElementById('search-mask')
 
   const openSearch = () => {
-    const bodyStyle = document.body.style
-    bodyStyle.width = '100%'
-    bodyStyle.overflow = 'hidden'
     btf.animateIn($searchMask, 'to_show 0.5s')
     btf.animateIn(document.querySelector('#local-search .search-dialog'), 'titleScale 0.5s')
     setTimeout(() => { document.querySelector('#local-search-input input').focus() }, 100)
@@ -15,7 +12,7 @@ window.addEventListener('load', () => {
       loadFlag = true
     }
     // shortcut: ESC
-    document.addEventListener('keydown', function f (event) {
+    document.addEventListener('keydown', function f(event) {
       if (event.code === 'Escape') {
         closeSearch()
         document.removeEventListener('keydown', f)

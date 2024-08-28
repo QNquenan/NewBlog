@@ -5,6 +5,8 @@
     --card-box-shadow: 0 0 15px 5px rgba(7, 17, 27, 0.05);
     /* 背景颜色 */
     --qn-body-bg: #F7F9FE;
+    /* 首页背景图片 */
+    --qn-bg-img: url(https://pub.quenan.love/img/bg.svg);
     /* 首页头部颜色 */
     --header-font-color: #000;
     /* 首页分类磁贴 */
@@ -37,6 +39,8 @@
 [data-theme="dark"] {
     /* 背景颜色 */
     --qn-body-bg: var(--global-bg);
+    /* 首页背景图片 */
+    --qn-bg-img: url(https://pub.quenan.love/img/night.webp);
     /* 首页头部颜色 */
     --header-font-color: #fff;
     /* 首页分类磁贴 */

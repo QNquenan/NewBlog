@@ -52,7 +52,7 @@ window.addEventListener('scroll', function () {
     // 获取当前页面滚动的高度
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-    // 获取90%视口高度，即页面90vh对应的像素值
+    // 获取x%视口高度，即页面xvh对应的像素值
     const thresholdHeight = window.innerHeight * 0.8;
 
     // 计算scrollTop占thresholdHeight的比例，并限制在0-1之间

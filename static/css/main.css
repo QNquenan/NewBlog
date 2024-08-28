@@ -6,11 +6,12 @@ body {
 }
 
 @media screen and (min-width:768px) {
-    .home {
+    .page {
         position: relative;
+        overflow: hidden;
     }
 
-    .home::before {
+    .page::before {
         content: "";
         position: absolute;
         top: 0;
@@ -23,21 +24,58 @@ body {
         background-attachment: local;
         background-position: center;
         background-repeat: initial;
-        background-image: url(https://pub.quenan.love/img/bg.svg);
+        background-image: var(--qn-bg-img);
         will-change: opacity, transform, filter;
         opacity: calc(1 - var(--process) * 1) !important;
         filter: blur(calc(var(--process) * 10px));
         transform: scale(calc(1 + var(--process)* .1));
         /* 可选，增加平滑过渡效果 */
     }
+
+    [data-theme="dark"] .page.home::before {
+        height: 100vh;
+    }
+
+    [data-theme="dark"] .page::before {
+        width: 100%;
+        height: 400px;
+        background: var(--qn-body-bg);
+        background-attachment: local;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* 保持背景图片的原始尺寸 */
+        background-image: var(--qn-bg-img);
+    }
 }
 
 @media screen and (max-width:768px) {
-    body {
+    .page::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        /* 确保伪元素在内容的下方 */
+        background: var(--qn-body-bg);
         background-attachment: local;
         background-position: center;
         background-repeat: initial;
-        background-image: url(https://pub.quenan.love/img/bg.svg);
+        background-image: var(--qn-bg-img);
+    }
+
+    [data-theme="dark"] .page::before {
+        width: 100%;
+        height: 100dvh;
+        background: var(--qn-body-bg);
+        background-attachment: local;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        background-image: var(--qn-bg-img);
     }
 }
 
@@ -47,7 +85,8 @@ body {
     margin: 0 6px;
 }
 
-.home #page-header:not(.not-top-img):before {
+.home #page-header:not(.not-top-img):before,
+.page #page-header::before {
     display: none;
 }
 
@@ -132,6 +171,93 @@ body {
 /* 目录 */
 #aside-content #card-toc .toc-content .toc-link.active {
     border-radius: 5px;
+}
+
+/* 波浪css */
+.main-hero-waves-area {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    z-index: 5;
+}
+
+.waves-area .waves-svg {
+    width: 100%;
+    height: 5rem;
+}
+
+/* Animation */
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+    fill: #f7f9febd;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+    fill: #f7f9fe82;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+    fill: #f7f9fe36;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+    fill: #f7f9fe;
+}
+
+/* 黑色模式背景 */
+[data-theme="dark"] .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+    fill: #18171dc8;
+}
+
+[data-theme="dark"] .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+    fill: #18171d80;
+}
+
+[data-theme="dark"] .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+    fill: #18171d3e;
+}
+
+[data-theme="dark"] .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+    fill: #18171d;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves-area .waves-svg {
+        height: 40px;
+        min-height: 40px;
+    }
 }
 
 /* 文章页 end */
@@ -317,6 +443,25 @@ body {
     display: none;
 }
 
+#nav .menus_items .menus_item .menus_item_child {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li {
+    transition: .3s;
+    border-radius: 10px !important;
+    margin: 0 2px;
+}
+
+#nav .menus_items .menus_item .menus_item_child li:hover {
+    background: var(--theme-color);
+}
+
+#nav .menus_items .menus_item .menus_item_child li:hover a {
+    color: #fff !important;
+}
+
 @media screen and (max-width:768px) {
 
     /* 菜单修复 */
@@ -422,6 +567,10 @@ button#go-up:hover #percent {
 
 .page:not(.page.home) .aside-content {
     display: none;
+}
+
+#article-container .flink .flink-list>.flink-list-item {
+    width: calc(100% / 4 - 15px);
 }
 
 /* 宽屏适配 end */
