@@ -63,9 +63,6 @@ window.addEventListener('scroll', function () {
         scrollPercentage = 0;
     }
 
-    // 输出或使用这个scrollPercentage值
-    console.log(scrollPercentage);
-
     // 将这个值应用于其他操作，例如CSS变量
     document.documentElement.style.setProperty('--process', scrollPercentage);
 });

@@ -28,6 +28,10 @@
     --archives-hover-font: #FDFDFD;
     /* 标签 */
     --tag-icon-color: #2e2e2e;
+    /* 文章页 */
+    --mark-bg: rgba(0, 0, 0, 0.3);
+    --post-header-font-color: #fff;
+    --post-phone-header-font-color: #000;
 }
 
 [data-theme="dark"] {
@@ -41,4 +45,7 @@
     /* 外链地址样式 */
     --linkDiv-bgColor: #1F1F1F;
     --linkDiv-titleColor: #a2a2a2;
+    /* 文章页 */
+    --mark-bg: transparent;
+    --post-phone-header-font-color: #fff;
 }

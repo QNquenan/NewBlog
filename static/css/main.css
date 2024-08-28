@@ -1,30 +1,44 @@
 /* 首页修改 */
 
 body {
-    position: relative;
     background: var(--qn-body-bg);
     /* 确保伪元素相对于容器定位 */
 }
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    /* 确保伪元素在内容的下方 */
-    background: var(--qn-body-bg);
-    background-attachment: local;
-    background-position: center;
-    background-repeat: initial;
-    background-image: url(https://pub.quenan.love/img/bg.svg);
-    will-change: opacity, transform, filter;
-    opacity: calc(1 - var(--process) * 1) !important;
-    filter: blur(calc(var(--process) * 10px));
-    transform: scale(calc(1 + var(--process)* .1));
-    /* 可选，增加平滑过渡效果 */
+@media screen and (min-width:768px) {
+    .home {
+        position: relative;
+    }
+
+    .home::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        /* 确保伪元素在内容的下方 */
+        background: var(--qn-body-bg);
+        background-attachment: local;
+        background-position: center;
+        background-repeat: initial;
+        background-image: url(https://pub.quenan.love/img/bg.svg);
+        will-change: opacity, transform, filter;
+        opacity: calc(1 - var(--process) * 1) !important;
+        filter: blur(calc(var(--process) * 10px));
+        transform: scale(calc(1 + var(--process)* .1));
+        /* 可选，增加平滑过渡效果 */
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-attachment: local;
+        background-position: center;
+        background-repeat: initial;
+        background-image: url(https://pub.quenan.love/img/bg.svg);
+    }
 }
 
 .article-meta-separator,
@@ -33,7 +47,7 @@ body::before {
     margin: 0 6px;
 }
 
-#page-header:not(.not-top-img):before {
+.home #page-header:not(.not-top-img):before {
     display: none;
 }
 
@@ -56,9 +70,7 @@ body::before {
 
 /* 图片模糊渐变清晰 */
 /*3s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
-#page-header,
-#web_bg,
-body::before {
+.home::before {
     -webkit-animation: imgblur 2s 1 ease-in-out;
     animation: imgblur 2s 1 ease-in-out;
 }
@@ -85,6 +97,44 @@ body::before {
 }
 
 /* 图片模糊渐变清晰 end */
+
+/* 文章页 */
+
+/* 顶部封面 */
+.post-bg {
+    position: relative;
+}
+
+#page-header:not(.not-top-img):before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--mark-bg);
+    content: '';
+    backdrop-filter: blur(8px) brightness(.5);
+}
+
+.post #page-header {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 导航栏 */
+.post #page-header #nav a {
+    color: var(--post-header-font-color);
+}
+
+.post #page-header.nav-fixed #nav a {
+    color: var(--post-fixed-nav-font-color);
+}
+
+/* 目录 */
+#aside-content #card-toc .toc-content .toc-link.active {
+    border-radius: 5px;
+}
+
+/* 文章页 end */
 
 /* Nav导航栏 */
 #nav {
@@ -329,8 +379,6 @@ button#go-up:hover #percent {
         padding: 0 15px 0 0;
     }
 }
-
-@media screen and (max-width:768px) {}
 
 /* 除了首页以外其他页面隐藏卡片，并采用宽屏显示 */
 #archive,
