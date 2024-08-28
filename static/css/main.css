@@ -1043,3 +1043,31 @@ a[data-fancybox="gallery"]:hover::before {
 }
 
 /* 滚动条 end */
+
+/* 那年今日 */
+
+.swiper-slide.history_slide {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.history_slide {
+    text-align: left;
+    font-size: 16px;
+    background: var(--card-bg);
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start;
+}
+
+#history-baidu>.blog-slider__pagination {
+    display: none
+}
+
+.history_slide_time {
+    color: #858585;
+    Font-style: italic;
+    font-weight: lighter;
+}
+
+/* 那年今日 */
