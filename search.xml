@@ -384,7 +384,18 @@
 <h2 id="搜索时滚动条消失恢复"><a href="#搜索时滚动条消失恢复" class="headerlink" title="搜索时滚动条消失恢复"></a>搜索时滚动条消失恢复</h2><p>我发现在打开搜索弹窗的时候会禁止滚动页面，并且滚动条会消失，造成页面宽度变化，很丑，所以就找办法给他干掉了</p>
 <p>修改 <code>[themes]\butterfly\source\js\search\local-search.js</code> 大约第 7 行</p>
 <figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">window.addEventListener(&#x27;load&#x27;, () =&gt; &#123;</span><br><span class="line">  let loadFlag = false</span><br><span class="line">  let dataObj = []</span><br><span class="line">  const $searchMask = document.getElementById(&#x27;search-mask&#x27;)</span><br><span class="line"></span><br><span class="line">  const openSearch = () =&gt; &#123;</span><br><span class="line"><span class="deletion">-    const bodyStyle = document.body.style</span></span><br><span class="line"><span class="deletion">-    bodyStyle.width = &#x27;100%&#x27;</span></span><br><span class="line"><span class="deletion">-    bodyStyle.overflow = &#x27;hidden&#x27;</span></span><br><span class="line">    btf.animateIn($searchMask, &#x27;to_show 0.5s&#x27;)</span><br><span class="line">    btf.animateIn(document.querySelector(&#x27;#local-search .search-dialog&#x27;), &#x27;titleScale 0.5s&#x27;)</span><br><span class="line">    setTimeout(() =&gt; &#123; document.querySelector(&#x27;#local-search-input input&#x27;).focus() &#125;, 100)</span><br><span class="line">    if (!loadFlag) &#123;</span><br><span class="line">      search()</span><br><span class="line">      loadFlag = true</span><br><span class="line">    &#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<h2 id="修改网站-cdn"><a href="#修改网站-cdn" class="headerlink" title="修改网站 cdn"></a>修改网站 cdn</h2>]]></content>
+<h2 id="修改网站-cdn"><a href="#修改网站-cdn" class="headerlink" title="修改网站 cdn"></a>修改网站 cdn</h2><h2 id="那年今日"><a href="#那年今日" class="headerlink" title="那年今日"></a>那年今日</h2><a class="tag-Link" target="_blank" href="https://zfe.space/post/history-card.html">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/zfe.space/post/history-card.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">基于 butterfly 主题的历史上的今天 2.0 重置版</div>
+            <div class="tag-link-sitename">しゅふがく</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+]]></content>
       <categories>
         <category>Python</category>
         <category>笔记</category>

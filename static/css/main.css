@@ -1064,7 +1064,7 @@ a[data-fancybox="gallery"]:hover::before {
 
 /* 那年今日 */
 
-.swiper-slide.history_slide {
+/* .swiper-slide.history_slide {
     display: flex;
     flex-direction: column !important;
 }
@@ -1086,6 +1086,6 @@ a[data-fancybox="gallery"]:hover::before {
     color: #858585;
     Font-style: italic;
     font-weight: lighter;
-}
+} */
 
 /* 那年今日 */
