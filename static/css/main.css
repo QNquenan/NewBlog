@@ -263,9 +263,12 @@ body {
 /* 文章页 end */
 
 /* Nav导航栏 */
-#nav {
-    justify-content: space-between;
-    user-select: none;
+#nav #navBox {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 #nav .site-page:not(.child):after {
@@ -296,7 +299,7 @@ body {
 #nav #blog-info {
     overflow: visible;
     flex: none;
-    z-index: 99;
+    z-index: 100;
 }
 
 #nav #blog-info a {
@@ -427,7 +430,9 @@ body {
 }
 
 #nav #nav-right {
-    z-index: 99;
+    z-index: 100;
+    position: absolute;
+    right: 0;
 }
 
 #nav a.site-page {
@@ -441,6 +446,18 @@ body {
 
 #nav a.site-page::before {
     display: none;
+}
+
+#nav #menus {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav #menus .menus_items {
+    transition: .3s;
 }
 
 #nav .menus_items .menus_item .menus_item_child {
