@@ -1,7 +1,30 @@
 /* 首页修改 */
 
 body {
+    position: relative;
     background: var(--qn-body-bg);
+    /* 确保伪元素相对于容器定位 */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /* 确保伪元素在内容的下方 */
+    background: var(--qn-body-bg);
+    background-attachment: local;
+    background-position: center;
+    background-repeat: initial;
+    background-image: url(https://pub.quenan.love/img/bg.svg);
+    will-change: opacity, transform, filter;
+    opacity: calc(1 - var(--process) * 1) !important;
+    filter: blur(calc(var(--process) * 10px));
+    transform: scale(calc(1 + var(--process)* .1));
+    /* 可选，增加平滑过渡效果 */
 }
 
 .article-meta-separator,
@@ -10,7 +33,58 @@ body {
     margin: 0 6px;
 }
 
+#page-header:not(.not-top-img):before {
+    display: none;
+}
+
+#page-header {
+    background: none;
+}
+
+/* 导航栏 */
+/* 封面标题 */
+/* 封面副标题 */
+/* 手机端Icon */
+#nav a,
+#page-header #site-title,
+#page-header #site-subtitle,
+#page-header #site_social_icons .social-icon {
+    color: var(--header-font-color);
+}
+
 /* 首页修改 end */
+
+/* 图片模糊渐变清晰 */
+/*3s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
+#page-header,
+#web_bg,
+body::before {
+    -webkit-animation: imgblur 2s 1 ease-in-out;
+    animation: imgblur 2s 1 ease-in-out;
+}
+
+@keyframes imgblur {
+    0% {
+        filter: blur(5px);
+    }
+
+    100% {
+        filter: blur(0px);
+    }
+}
+
+/*适配使用-webkit内核的浏览器 */
+@-webkit-keyframes imgblur {
+    0% {
+        -webkit-filter: blur(5px);
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+    }
+}
+
+/* 图片模糊渐变清晰 end */
 
 /* Nav导航栏 */
 #nav {
@@ -392,6 +466,17 @@ a[data-fancybox="gallery"]:hover::before {
     font-size: 1em;
 }
 
+#swiper_container .swiper-button-next,
+#swiper_container .swiper-button-prev {
+    opacity: .3;
+}
+
+.recent-post-item:hover #swiper_container .swiper-button-next,
+.recent-post-item:hover #swiper_container .swiper-button-prev {
+    opacity: 1;
+    font-weight: bolder;
+}
+
 #swiper_container .swiper-button-next:after,
 #swiper_container .swiper-button-prev:after {
     color: var(--theme-color);
@@ -711,3 +796,21 @@ a[data-fancybox="gallery"]:hover::before {
 }
 
 /* 归档、标签、分类页 end */
+
+/* 右下角菜单 */
+
+#rightside #rightside-config-show>button,
+#rightside #rightside-config-hide>button {
+    border-radius: 50%;
+}
+
+/* 右下角菜单 end */
+
+/* 滚动条 */
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+
+/* 滚动条 end */

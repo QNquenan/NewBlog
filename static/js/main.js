@@ -45,3 +45,29 @@ document.onkeydown = function (e) {
 };
 
 // 检测事件并弹窗 end --
+
+// 首页封面样式
+
+window.addEventListener('scroll', function () {
+    // 获取当前页面滚动的高度
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+    // 获取90%视口高度，即页面90vh对应的像素值
+    const thresholdHeight = window.innerHeight * 0.8;
+
+    // 计算scrollTop占thresholdHeight的比例，并限制在0-1之间
+    let scrollPercentage = scrollTop / thresholdHeight;
+    if (scrollPercentage > 1) {
+        scrollPercentage = 1;
+    } else if (scrollPercentage < 0) {
+        scrollPercentage = 0;
+    }
+
+    // 输出或使用这个scrollPercentage值
+    console.log(scrollPercentage);
+
+    // 将这个值应用于其他操作，例如CSS变量
+    document.documentElement.style.setProperty('--process', scrollPercentage);
+});
+
+// 首页封面样式 end --

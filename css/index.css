@@ -3387,22 +3387,31 @@ h1.page-title + .tag-cloud-list {
 }
 #footer {
   position: relative;
-  background-color: #fe8599;
-  background-attachment: scroll;
-  background-position: bottom;
-  background-size: cover;
+}
+#footer .wordcount {
+  text-align: center;
+  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial, serif;
+  font-size: large;
+  padding: 2rem 0 0 0;
+}
+#footer::before {
+  display: none;
 }
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
-  color: var(--light-grey);
+  color: var(--font-color);
   text-align: center;
 }
 #footer-wrap a {
   color: var(--light-grey);
+  margin: 0 5px;
 }
 #footer-wrap a:hover {
   text-decoration: underline;
+}
+#footer-wrap>div {
+  margin: 10px 0;
 }
 #footer-wrap .footer-separator {
   margin: 0 4px;
