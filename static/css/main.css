@@ -487,7 +487,8 @@ body {
         display: inline-block !important;
     }
 
-    #menus {
+    #nav #menus,
+    #nav #menuTitleBox {
         display: none;
     }
 
