@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', tonav);
 function tonav() {
 
     function up() {
-        document.querySelector("#name-container").style.top = "60px";
+        document.querySelector("#name-container").style.transform = "translate(-50%, 60px)";
         document.querySelector("#nav .menus_items").style.transform = "translateY(0)";
         document.querySelector("#menuTitleBox").style.zIndex = "-1";
     }
@@ -40,7 +40,7 @@ function tonav() {
         var scroll = window.scrollY;
 
         if (scroll > position) {
-            document.querySelector("#name-container").style.top = "0";
+            document.querySelector("#name-container").style.transform = "translate(-50%, 0)";
             document.querySelector("#nav .menus_items").style.transform = "translateY(-60px)";
             document.querySelector("#menuTitleBox").style.zIndex = "1";
         } else {
