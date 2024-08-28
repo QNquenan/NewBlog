@@ -423,6 +423,7 @@ body {
 #menuTitleBox #name-container:hover::before {
     opacity: 1;
     scale: 1.03;
+    cursor: pointer;
 }
 
 #nav.hide-menu #toggle-menu {
