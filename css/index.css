@@ -5697,196 +5697,133 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
 [data-theme="dark"] .checkbox {
   filter: brightness(0.7);
 }
-details.folding-tag {
-  display: block;
-  padding: 16px;
+.details {
   margin: 1em 0;
-  border-radius: 4px;
-  background: #fff;
-  font-size: var(--global-font-size);
-  -webkit-transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  -ms-transition: all 0.28s ease;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  border: 1px solid #f6f6f6;
+  border: 1px solid var(--linkDiv-bgColor);
+  border-radius: 10px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
 }
-details.folding-tag summary {
+.details:hover {
+  border: 1px solid var(--theme-color);
+}
+.details:hover .collapsible {
+  background-color: var(--theme-color);
+  color: var(--linkDiv-hoverColor);
+}
+.details:hover .collapsible:after {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  color: var(--linkDiv-hoverColor);
+}
+.details:hover .collapsible:before {
+  color: var(--linkDiv-hoverColor);
+}
+.collapsible {
+  background-color: var(--linkDiv-bgColor);
+  color: #fff;
   cursor: pointer;
-  padding: 16px;
-  margin: -16px;
-  border-radius: 4px;
-  color: rgba(68,68,68,0.7);
-  font-size: 0.875rem !important;
-  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  color: var(--linkDiv-titleColor);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
   position: relative;
-  line-height: normal;
 }
-details.folding-tag summary > p,
-details.folding-tag summary > h1,
-details.folding-tag summary > h2,
-details.folding-tag summary > h3,
-details.folding-tag summary > h4,
-details.folding-tag summary > h5,
-details.folding-tag summary > h6 {
-  display: inline;
-  border-bottom: none !important;
+.collapsible:hover {
+  cursor: pointer;
 }
-details.folding-tag summary:hover {
-  color: #444;
+.collapsible:before {
+  content: "\f0da";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  font-size: 1.3em;
+  color: var(--theme-color);
+  margin-right: 10px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
 }
-details.folding-tag summary:hover:after {
+.collapsible:after {
+  content: '\002B';
+  color: var(--linkDiv-titleColor);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  font-weight: bold;
+  float: right;
   position: absolute;
-  content: '+';
-  text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 16px;
+  right: 15px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
 }
-details.folding-tag >summary {
-  background: #f6f6f6;
+.content {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
 }
-details.folding-tag[purple] {
-  border-color: #fae7fd;
+.active .collapsible:after {
+  content: "\2212";
 }
-details.folding-tag[purple] >summary {
-  background: #fae7fd;
+.active .collapsible {
+  border-radius: 10px 10px 0 0;
+  background-color: var(--theme-color);
+  color: var(--linkDiv-hoverColor);
 }
-details.folding-tag[blue] {
-  border-color: #e8f4fd;
+.active .collapsible:after {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  color: var(--linkDiv-hoverColor);
 }
-details.folding-tag[blue] >summary {
-  background: #e8f4fd;
+.active .collapsible:before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: var(--linkDiv-hoverColor);
 }
-details.folding-tag[cyan] {
-  border-color: #e8fafe;
+.active .content {
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+  overflow: visible;
 }
-details.folding-tag[cyan] >summary {
-  background: #e8fafe;
-}
-details.folding-tag[green] {
-  border-color: #ebf9ed;
-}
-details.folding-tag[green] >summary {
-  background: #ebf9ed;
-}
-details.folding-tag[yellow] {
-  border-color: #fff8e9;
-}
-details.folding-tag[yellow] >summary {
-  background: #fff8e9;
-}
-details.folding-tag[orange] {
-  border-color: #fdf1e7;
-}
-details.folding-tag[orange] >summary {
-  background: #fdf1e7;
-}
-details.folding-tag[red] {
-  border-color: #feefee;
-}
-details.folding-tag[red] >summary {
-  background: #feefee;
-}
-details.folding-tag[open] {
-  border-color: rgba(68,68,68,0.2);
-}
-details.folding-tag[open] >summary {
-  border-bottom: 1px solid rgba(68,68,68,0.2);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-details.folding-tag[open][purple] {
-  border-color: rgba(208,23,238,0.3);
-}
-details.folding-tag[open][purple] >summary {
-  border-bottom-color: rgba(208,23,238,0.3);
-}
-details.folding-tag[open][blue] {
-  border-color: rgba(33,150,243,0.3);
-}
-details.folding-tag[open][blue] >summary {
-  border-bottom-color: rgba(33,150,243,0.3);
-}
-details.folding-tag[open][cyan] {
-  border-color: rgba(27,205,252,0.3);
-}
-details.folding-tag[open][cyan] >summary {
-  border-bottom-color: rgba(27,205,252,0.3);
-}
-details.folding-tag[open][green] {
-  border-color: rgba(61,197,80,0.3);
-}
-details.folding-tag[open][green] >summary {
-  border-bottom-color: rgba(61,197,80,0.3);
-}
-details.folding-tag[open][yellow] {
-  border-color: rgba(255,189,43,0.3);
-}
-details.folding-tag[open][yellow] >summary {
-  border-bottom-color: rgba(255,189,43,0.3);
-}
-details.folding-tag[open][orange] {
-  border-color: rgba(236,118,22,0.3);
-}
-details.folding-tag[open][orange] >summary {
-  border-bottom-color: rgba(236,118,22,0.3);
-}
-details.folding-tag[open][red] {
-  border-color: rgba(254,95,88,0.3);
-}
-details.folding-tag[open][red] >summary {
-  border-bottom-color: rgba(254,95,88,0.3);
-}
-details.folding-tag[open] >summary {
-  color: #444;
-  margin-bottom: 0;
-}
-details.folding-tag[open] >summary:hover:after {
-  content: '-';
-}
-details.folding-tag[open] >div.content {
-  padding: 16px;
-  margin: -16px;
-  margin-top: 0;
-}
-details.folding-tag[open] >div.content p>a:hover {
-  text-decoration: underline;
-}
-details.folding-tag[open] >div.content > p:first-child,
-details.folding-tag[open] >div.content > .tabs:first-child,
-details.folding-tag[open] >div.content > ul:first-child,
-details.folding-tag[open] >div.content > ol:first-child,
-details.folding-tag[open] >div.content > .highlight:first-child,
-details.folding-tag[open] >div.content > .note:first-child,
-details.folding-tag[open] >div.content > details:first-child {
-  margin-top: 0;
-}
-details.folding-tag[open] >div.content > p:last-child,
-details.folding-tag[open] >div.content > .tabs:last-child,
-details.folding-tag[open] >div.content > ul:last-child,
-details.folding-tag[open] >div.content > ol:last-child,
-details.folding-tag[open] >div.content > .highlight:last-child,
-details.folding-tag[open] >div.content > .note:last-child,
-details.folding-tag[open] >div.content > details:last-child {
-  margin-bottom: 0;
-}
-[data-theme="dark"] details[open] > div.content {
-  padding: 16px;
-  margin: -16px;
-  margin-top: 0;
-  background: #2c2d2d;
-  color: rgba(255,255,255,0.6);
-}
-[data-theme="dark"] details > summary {
-  filter: brightness(0.7);
+.active.details {
+  border: 1px solid var(--theme-color);
+  padding-bottom: 20px;
 }
 #article-container figure.gallery-group {
   position: relative;
@@ -6224,14 +6161,6 @@ psw {
   color: transparent;
   background: #a1a1a1;
   border-radius: 2px;
-  -webkit-transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-  -ms-transition: all 0.28s ease;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
 }
 psw:hover {
   color: #444;

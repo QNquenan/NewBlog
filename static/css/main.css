@@ -1,3 +1,12 @@
+/* 鼠标样式 */
+
+/* 点击 */
+.recent-post-item:hover {
+    cursor: pointer;
+}
+
+/* 鼠标样式 end */
+
 /* 首页修改 */
 
 body {
@@ -92,6 +101,18 @@ body {
 
 #page-header {
     background: none;
+}
+
+.recent-post-item .recent-post-cover {
+    overflow: hidden;
+}
+
+.recent-post-item .recent-post-cover img {
+    transition: .5s;
+}
+
+.recent-post-item:hover .recent-post-cover img {
+    transform: scale(1.1);
 }
 
 /* 导航栏 */
@@ -1063,30 +1084,10 @@ a[data-fancybox="gallery"]:hover::before {
 
 /* 滚动条 end */
 
-/* 那年今日 */
+/* 侧边栏 */
 
-/* .swiper-slide.history_slide {
-    display: flex;
-    flex-direction: column !important;
+#aside-content .aside-list>.aside-list-item img {
+    border-radius: 10px;
 }
 
-.history_slide {
-    text-align: left;
-    font-size: 16px;
-    background: var(--card-bg);
-    display: flex;
-    flex-direction: column !important;
-    align-items: flex-start;
-}
-
-#history-baidu>.blog-slider__pagination {
-    display: none
-}
-
-.history_slide_time {
-    color: #858585;
-    Font-style: italic;
-    font-weight: lighter;
-} */
-
-/* 那年今日 */
+/* 侧边栏 end */
