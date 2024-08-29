@@ -5786,7 +5786,7 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
 }
 .content {
   padding: 0 20px;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;

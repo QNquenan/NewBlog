@@ -1,9 +1,9 @@
 // 初始状态设置
 document.querySelectorAll('.details').forEach((details) => {
     if (details.hasAttribute('open')) {
-        details.classList.add('active');
+        details.classList.toggle('active');
         const content = details.querySelector('.content');
-        content.style.maxHeight = (content.scrollHeight + 20) + "px";
+        content.style.height = (content.scrollHeight - 40) + "px";
     }
 });
 
@@ -19,9 +19,9 @@ function toggleDetails(details) {
     details.classList.toggle('active');
     const content = details.querySelector('.content');
 
-    if (content.style.maxHeight) {
-        content.style.maxHeight = null;
+    if (content.style.height) {
+        content.style.height = null;
     } else {
-        content.style.maxHeight = (content.scrollHeight + 20) + "px";
+        content.style.height = (content.scrollHeight + 50) + "px";
     }
 }
