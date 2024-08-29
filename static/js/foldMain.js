@@ -3,7 +3,7 @@ document.querySelectorAll('.details').forEach((details) => {
     if (details.hasAttribute('open')) {
         details.classList.add('active');
         const content = details.querySelector('.content');
-        content.style.maxHeight = content.scrollHeight + "px";
+        content.style.maxHeight = (content.scrollHeight + 20) + "px";
     }
 });
 

@@ -5823,7 +5823,6 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
 }
 .active.details {
   border: 1px solid var(--theme-color);
-  padding-bottom: 20px;
 }
 #article-container figure.gallery-group {
   position: relative;
