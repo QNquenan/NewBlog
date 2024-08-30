@@ -5699,16 +5699,13 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
 }
 .details {
   margin: 1em 0;
-  border: 1px solid var(--linkDiv-bgColor);
+  border: 1px solid transparent;
   border-radius: 10px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
-}
-.details:hover {
-  border: 1px solid var(--theme-color);
 }
 .details:hover .collapsible {
   background-color: var(--theme-color);
