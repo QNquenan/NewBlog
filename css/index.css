@@ -5707,19 +5707,6 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
   -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
-.details:hover .collapsible {
-  background-color: var(--theme-color);
-  color: var(--linkDiv-hoverColor);
-}
-.details:hover .collapsible:after {
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
-  color: var(--linkDiv-hoverColor);
-}
-.details:hover .collapsible:before {
-  color: var(--linkDiv-hoverColor);
-}
 .collapsible {
   background-color: var(--linkDiv-bgColor);
   color: #fff;
@@ -5751,6 +5738,17 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
 }
 .collapsible:hover {
   cursor: pointer;
+  background-color: var(--theme-color);
+  color: var(--linkDiv-hoverColor);
+}
+.collapsible:hover:after {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  color: var(--linkDiv-hoverColor);
+}
+.collapsible:hover:before {
+  color: var(--linkDiv-hoverColor);
 }
 .collapsible:before {
   content: "\f0da";
@@ -5783,7 +5781,7 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
 }
 .content {
   padding: 0 20px;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -5791,22 +5789,22 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
   -ms-transition: all 0.3s;
   transition: all 0.3s;
 }
-.active .collapsible:after {
+.details[open]>.collapsible:after {
   content: "\2212";
 }
-.active .collapsible {
+.details[open]>.collapsible {
   border-radius: 9px 9px 0 0;
   background-color: var(--theme-color);
   color: var(--linkDiv-hoverColor);
   margin-bottom: 20px;
 }
-.active .collapsible:after {
+.details[open]>.collapsible:after {
   opacity: 1;
   -ms-filter: none;
   filter: none;
   color: var(--linkDiv-hoverColor);
 }
-.active .collapsible:before {
+.details[open]>.collapsible:before {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -5814,10 +5812,10 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
   transform: rotate(90deg);
   color: var(--linkDiv-hoverColor);
 }
-.active .content {
+.details[open]>.content {
   border-radius: 0 0 10px 10px;
 }
-.active.details {
+.details[open] {
   border: 1px solid var(--theme-color);
 }
 #article-container figure.gallery-group {
