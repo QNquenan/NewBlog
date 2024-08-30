@@ -5735,6 +5735,10 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
   -webkit-align-items: center;
   align-items: center;
   position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .collapsible:hover {
   cursor: pointer;
