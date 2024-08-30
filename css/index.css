@@ -5711,7 +5711,7 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
   background-color: var(--linkDiv-bgColor);
   color: #fff;
   cursor: pointer;
-  padding: 9px;
+  padding: 8px;
   text-align: left;
   outline: none;
   font-size: 15px;
