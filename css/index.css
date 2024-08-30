@@ -5798,7 +5798,7 @@ img.medium-zoom-image.entered.loaded.medium-zoom-image--opened {
   content: "\2212";
 }
 .active .collapsible {
-  border-radius: 10px 10px 0 0;
+  border-radius: 9px 9px 0 0;
   background-color: var(--theme-color);
   color: var(--linkDiv-hoverColor);
   margin-bottom: 20px;
