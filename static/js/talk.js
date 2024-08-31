@@ -41,8 +41,6 @@ function arrangeItems() {
     container.style.height = `${Math.max(...columnHeights)}px`;
 }
 
-document.addEventListener('pjax:complete', arrangeItems);
-
 window.onload = arrangeItems();
 
 // 滚动后重新布局
