@@ -1,0 +1,61 @@
+#talk-container {
+    width: 100%;
+    position: relative;
+}
+
+.talk-wrapper {
+    width: 30%;
+    position: absolute;
+    /* 默认宽度，适用于三列布局 */
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 10px;
+    transform: translate(0, 0);
+    /* 初始位置 */
+    transition: all 0.3s;
+    box-shadow: var(--card-box-shadow);
+    border: 1px solid var(--talk-time-bg);
+}
+
+.talk-wrapper:hover {
+    box-shadow: var(--card-hover-box-shadow);
+    border-color: var(--theme-color);
+}
+
+.talk-content h1,
+.talk-content h2,
+.talk-content h3,
+.talk-content h4,
+.talk-content h5,
+.talk-content h6 {
+    color: var(--font-color);
+}
+
+.talk-footer {
+    border-top: 2px dotted var(--talk-time-bg);
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.talk-time {
+    padding: 3px 7px;
+    background: var(--talk-time-bg);
+    font-size: .7rem;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.talk-time::before {
+    content: "\f017";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .talk-wrapper {
+        width: 100% !important;
+        /* 单列布局 */
+    }
+}

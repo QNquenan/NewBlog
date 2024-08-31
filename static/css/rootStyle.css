@@ -34,6 +34,9 @@
     --mark-bg: rgba(0, 0, 0, 0.3);
     --post-header-font-color: #fff;
     --post-phone-header-font-color: #000;
+    /* 说说 */
+    --talk-card-bg: #fff;
+    --talk-time-bg: #e5e5e5;
 }
 
 [data-theme="dark"] {
@@ -52,4 +55,6 @@
     /* 文章页 */
     --mark-bg: transparent;
     --post-phone-header-font-color: #fff;
+    /* 说说 */
+    --talk-time-bg: #4a4a4a;
 }
