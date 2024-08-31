@@ -42,7 +42,8 @@ function arrangeItems() {
 }
 
 document.addEventListener('pjax:complete', arrangeItems);
-document.addEventListener('DOMContentLoaded', arrangeItems);
+
+window.onload = arrangeItems();
 
 // 滚动后重新布局
 window.addEventListener('scroll', arrangeItems)
