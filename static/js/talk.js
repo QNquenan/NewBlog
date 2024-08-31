@@ -41,8 +41,8 @@ function arrangeItems() {
     container.style.height = `${Math.max(...columnHeights)}px`;
 }
 
-// 当所有内容（包括图片）加载完成后初始化布局
-window.onload = arrangeItems;
+document.addEventListener('pjax:complete', arrangeItems);
+document.addEventListener('DOMContentLoaded', arrangeItems);
 
 // 滚动后重新布局
 window.addEventListener('scroll', arrangeItems)
