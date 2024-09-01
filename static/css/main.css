@@ -1091,3 +1091,26 @@ a[data-fancybox="gallery"]:hover::before {
 }
 
 /* 侧边栏 end */
+
+/* 那年今日 */
+
+.history_slide {
+    text-align: left;
+    font-size: 14px;
+    background: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#history-baidu>.blog-slider__pagination {
+    display: none
+}
+
+.history_slide_time {
+    color: #858585;
+    Font-style: italic;
+    font-weight: lighter;
+}
+
+/* 那年今日 end */
