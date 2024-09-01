@@ -1114,3 +1114,11 @@ a[data-fancybox="gallery"]:hover::before {
 }
 
 /* 那年今日 end */
+
+/* 外挂标签 */
+
+psw {
+    transition: all .3s;
+}
+
+/* 外挂标签 end */
