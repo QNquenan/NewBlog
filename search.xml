@@ -385,7 +385,22 @@
 <h2 id="搜索时滚动条消失恢复"><a href="#搜索时滚动条消失恢复" class="headerlink" title="搜索时滚动条消失恢复"></a>搜索时滚动条消失恢复</h2><p>我发现在打开搜索弹窗的时候会禁止滚动页面，并且滚动条会消失，造成页面宽度变化，很丑，所以就找办法给他干掉了</p>
 <p>修改 <code>[themes]\butterfly\source\js\search\local-search.js</code> 大约第 7 行</p>
 <figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">window.addEventListener(&#x27;load&#x27;, () =&gt; &#123;</span><br><span class="line">  let loadFlag = false</span><br><span class="line">  let dataObj = []</span><br><span class="line">  const $searchMask = document.getElementById(&#x27;search-mask&#x27;)</span><br><span class="line"></span><br><span class="line">  const openSearch = () =&gt; &#123;</span><br><span class="line"><span class="deletion">-    const bodyStyle = document.body.style</span></span><br><span class="line"><span class="deletion">-    bodyStyle.width = &#x27;100%&#x27;</span></span><br><span class="line"><span class="deletion">-    bodyStyle.overflow = &#x27;hidden&#x27;</span></span><br><span class="line">    btf.animateIn($searchMask, &#x27;to_show 0.5s&#x27;)</span><br><span class="line">    btf.animateIn(document.querySelector(&#x27;#local-search .search-dialog&#x27;), &#x27;titleScale 0.5s&#x27;)</span><br><span class="line">    setTimeout(() =&gt; &#123; document.querySelector(&#x27;#local-search-input input&#x27;).focus() &#125;, 100)</span><br><span class="line">    if (!loadFlag) &#123;</span><br><span class="line">      search()</span><br><span class="line">      loadFlag = true</span><br><span class="line">    &#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-<h2 id="修改网站-cdn"><a href="#修改网站-cdn" class="headerlink" title="修改网站 cdn"></a>修改网站 cdn</h2><h2 id="那年今日"><a href="#那年今日" class="headerlink" title="那年今日"></a>那年今日</h2><a class="tag-Link" target="_blank" href="https://zfe.space/post/history-card.html">
+<h2 id="修改网站-cdn"><a href="#修改网站-cdn" class="headerlink" title="修改网站 cdn"></a>修改网站 cdn</h2><p>优化一下加载速度</p>
+<p>cdn 大部分来自 Heo 佬</p>
+<a class="tag-Link" target="_blank" href="https://blog.zhheo.com/p/790087d9.html">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/blog.zhheo.com/p/790087d9.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">Butterfly CDN链接更改指南，替换jsdelivr提升访问速度</div>
+            <div class="tag-link-sitename">张洪Heo</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<p>我的 option</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">option:</span></span><br><span class="line">	<span class="attr">countup_js:</span> <span class="string">/static/js/countup.js</span></span><br><span class="line">	<span class="comment"># main_css:</span></span><br><span class="line">	<span class="comment"># main:</span></span><br><span class="line">	<span class="comment"># utils:</span></span><br><span class="line">	<span class="attr">translate:</span> <span class="string">https://cdn1.tianli0.top/npm/js-heo@1.0.6/translate/tw_cn.js</span></span><br><span class="line">	<span class="comment"># local_search:</span></span><br><span class="line">	<span class="attr">algolia_js:</span> <span class="string">https://cdn1.tianli0.top/npm/js-heo@1.0.11/algolia/algolia.js</span></span><br><span class="line">	<span class="attr">algolia_search_v4:</span> <span class="string">https://cdn.staticfile.org/algoliasearch/4.14.3/algoliasearch-lite.umd.min.js</span></span><br><span class="line">	<span class="attr">instantsearch_v4:</span> <span class="string">https://cdn.staticfile.org/instantsearch.js/4.49.2/instantsearch.production.min.js</span></span><br><span class="line">	<span class="comment"># docsearch_js:</span></span><br><span class="line">	<span class="comment"># docsearch_css:</span></span><br><span class="line">	<span class="attr">pjax:</span> <span class="string">https://lib.baomitu.com/pjax/0.2.8/pjax.min.js</span></span><br><span class="line">	<span class="attr">gitalk:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.js</span></span><br><span class="line">	<span class="attr">gitalk_css:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gitalk/1.7.2/gitalk.min.css</span></span><br><span class="line">	<span class="comment"># blueimp_md5:</span></span><br><span class="line">	<span class="attr">valine:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/valine/1.4.16/Valine.min.js</span></span><br><span class="line">	<span class="attr">disqusjs:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqus.js</span></span><br><span class="line">	<span class="attr">disqusjs_css:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/disqusjs/1.3.0/disqusjs.css</span></span><br><span class="line">	<span class="attr">twikoo:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js</span></span><br><span class="line">	<span class="comment"># waline_js:</span></span><br><span class="line">	<span class="comment"># waline_css:</span></span><br><span class="line">	<span class="attr">sharejs:</span> <span class="string">https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js</span></span><br><span class="line">	<span class="attr">sharejs_css:</span> <span class="string">https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css</span></span><br><span class="line">	<span class="comment"># mathjax:</span></span><br><span class="line">	<span class="comment"># katex:</span></span><br><span class="line">	<span class="comment"># katex_copytex:</span></span><br><span class="line">	<span class="comment"># mermaid:</span></span><br><span class="line">	<span class="comment"># canvas_ribbon:</span></span><br><span class="line">	<span class="comment"># canvas_fluttering_ribbon:</span></span><br><span class="line">	<span class="comment"># canvas_nest:</span></span><br><span class="line">	<span class="attr">lazyload:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js</span></span><br><span class="line">	<span class="attr">instantpage:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js</span></span><br><span class="line">	<span class="attr">typed:</span> <span class="string">https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js</span></span><br><span class="line">	<span class="comment"># pangu:</span></span><br><span class="line">	<span class="attr">fancybox_css_v4:</span> <span class="string">https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.min.css</span></span><br><span class="line">	<span class="attr">fancybox_v4:</span> <span class="string">https://cdn.staticfile.org/fancyapps-ui/4.0.31/fancybox.umd.min.js</span></span><br><span class="line">	<span class="attr">medium_zoom:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/medium-zoom/1.0.6/medium-zoom.min.js</span></span><br><span class="line">	<span class="attr">snackbar_css:</span> <span class="string">https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css</span></span><br><span class="line">	<span class="attr">snackbar:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js</span></span><br><span class="line">	<span class="comment"># activate_power_mode:</span></span><br><span class="line">	<span class="comment"># fireworks:</span></span><br><span class="line">	<span class="comment"># click_heart:</span></span><br><span class="line">	<span class="comment"># ClickShowText:</span></span><br><span class="line">	<span class="attr">fontawesomeV6:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css</span></span><br><span class="line">	<span class="comment"># flickr_justified_gallery_js:</span></span><br><span class="line">	<span class="comment"># flickr_justified_gallery_css:</span></span><br><span class="line">	<span class="attr">aplayer_css:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css</span></span><br><span class="line">	<span class="attr">aplayer_js:</span> <span class="string">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js</span></span><br><span class="line">	<span class="attr">meting_js:</span> <span class="string">https://cdn1.tianli0.top/npm/js-heo@1.0.12/metingjs/Meting.min.js</span></span><br><span class="line">	<span class="attr">prismjs_js:</span> <span class="string">https://cdn1.tianli0.top/npm/prismjs@1.1.0/prism.js</span></span><br><span class="line">	<span class="attr">prismjs_lineNumber_js:</span> <span class="string">https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js</span></span><br><span class="line">	<span class="attr">prismjs_autoloader:</span> <span class="string">https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js</span></span><br><span class="line">	<span class="comment"># artalk_js:</span></span><br><span class="line">	<span class="comment"># artalk_css:</span></span><br><span class="line">	<span class="attr">busuanzi:</span> <span class="string">//npm.elemecdn.com/penndu@1.0.0/bsz.js</span></span><br></pre></td></tr></table></figure>
+<h2 id="那年今日"><a href="#那年今日" class="headerlink" title="那年今日"></a>那年今日</h2><a class="tag-Link" target="_blank" href="https://zfe.space/post/history-card.html">
     <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
     <div class="tag-link-bottom">
         <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/zfe.space/post/history-card.html.png);"></div>
@@ -475,7 +490,48 @@
 <p>最后在 <code>source\_data</code> 文件夹下新建 <code>talk.yml</code></p>
 <p>参考写法</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">content:</span> <span class="string">|</span></span><br><span class="line"><span class="string">    1</span></span><br><span class="line"><span class="string">    test</span></span><br><span class="line"><span class="string">    # test1</span></span><br><span class="line"><span class="string">    ![](https://tuchuang.voooe.cn/images/2024/06/19/MUICanvas.webp)</span></span><br><span class="line"><span class="string">    ![](https://tuchuang.voooe.cn/images/2024/06/19/InstallDolby.webp)</span></span><br><span class="line"><span class="string"></span>  <span class="attr">time:</span> <span class="string">&quot;2024-09-01&quot;</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">content:</span> <span class="string">|</span></span><br><span class="line"><span class="string">    2</span></span><br><span class="line"><span class="string">    # test1</span></span><br><span class="line"><span class="string"></span>  <span class="attr">time:</span> <span class="string">&quot;2024-09-01&quot;</span></span><br></pre></td></tr></table></figure>
-<h1 id=""><a href="#" class="headerlink" title="#"></a>#</h1>]]></content>
+<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>直接从鱼那里搬过来的关于页面，做了一点点自己的修改</p>
+<ul>
+<li>删除捐赠 <del>楠的破烂博客还敢开捐赠？！</del></li>
+<li>修改 51LA 的统计数据为 Hexo 自带数据</li>
+</ul>
+<a class="tag-Link" target="_blank" href="https://blog.anheyu.com/posts/e62b.html">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/blog.anheyu.com/posts/e62b.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">butterfly魔改关于页面</div>
+            <div class="tag-link-sitename">安知鱼</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<h3 id="统计数据部分"><a href="#统计数据部分" class="headerlink" title="统计数据部分"></a>统计数据部分</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#statistic</span><br><span class="line">    div</span><br><span class="line">        span 文章数量</span><br><span class="line">        span= site.posts.length</span><br><span class="line">    div</span><br><span class="line">        span 运行时间</span><br><span class="line">        span#runtimeshow(data-publishDate=date_xml(theme.runtimeshow.publish_date))</span><br><span class="line">    div</span><br><span class="line">        span 访客数量</span><br><span class="line">        span#busuanzi_value_site_uv</span><br><span class="line">    div</span><br><span class="line">        span 总访问量</span><br><span class="line">        span#busuanzi_value_site_pv</span><br><span class="line">    div</span><br><span class="line">        span 最近更新</span><br><span class="line">        span#last-push-date(data-lastPushDate=date_xml(Date.now()))</span><br></pre></td></tr></table></figure>
+<h2 id="修改国内不蒜子统计平台"><a href="#修改国内不蒜子统计平台" class="headerlink" title="修改国内不蒜子统计平台"></a>修改国内不蒜子统计平台</h2><p>来自杜老师的教程</p>
+<a class="tag-Link" target="_blank" href="https://dusays.com/476/">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/dusays.com/476/.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">杜老师自建国内不蒜子统计平台</div>
+            <div class="tag-link-sitename">Teacher Du</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<h2 id="压缩静态资源"><a href="#压缩静态资源" class="headerlink" title="压缩静态资源"></a>压缩静态资源</h2><p>来自 空梦大佬</p>
+<a class="tag-Link" target="_blank" href="https://kmar.top/posts/7d9fb37e/">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/kmar.top/posts/7d9fb37e/.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">网站加载速度优化方案总结</div>
+            <div class="tag-link-sitename">空梦</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+]]></content>
       <categories>
         <category>Python</category>
         <category>笔记</category>
