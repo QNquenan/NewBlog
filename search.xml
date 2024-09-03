@@ -240,52 +240,6 @@
       </tags>
   </entry>
   <entry>
-    <title>VM虚拟机进入Pe系统</title>
-    <url>/posts/19b64ef3/</url>
-    <content><![CDATA[<h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
-<li><p>插入 Pe 盘</p>
-</li>
-<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
-<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
-</li>
-<li><p>记住 Pe 磁盘的序号</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
-</li>
-<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
-</li>
-<li><p>硬盘类型选择 <strong>SCSI</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
-</li>
-<li><p>选择 <strong>使用物理磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
-</li>
-<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
-</li>
-<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
-</li>
-<li><p>选择 <strong>打开电源时进入固件</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
-</li>
-<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
-</li>
-<li><p>回车确定即可进入 Pe 系统</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>VM</category>
-      </categories>
-      <tags>
-        <tag>VM</tag>
-        <tag>Pe</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SpringBootのPost登录注册</title>
     <url>/posts/a28f30b4/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -623,6 +577,52 @@
       </tags>
   </entry>
   <entry>
+    <title>VM虚拟机进入Pe系统</title>
+    <url>/posts/19b64ef3/</url>
+    <content><![CDATA[<h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
+<li><p>插入 Pe 盘</p>
+</li>
+<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
+<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
+</li>
+<li><p>记住 Pe 磁盘的序号</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
+</li>
+<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
+</li>
+<li><p>硬盘类型选择 <strong>SCSI</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
+</li>
+<li><p>选择 <strong>使用物理磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
+</li>
+<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
+</li>
+<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
+</li>
+<li><p>选择 <strong>打开电源时进入固件</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
+</li>
+<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
+</li>
+<li><p>回车确定即可进入 Pe 系统</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>VM</category>
+      </categories>
+      <tags>
+        <tag>VM</tag>
+        <tag>Pe</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows安装alist并美化</title>
     <url>/posts/67ef0433/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文安装部分教程只针对 <code>Windows</code> 系统毕竟 Linux 系统可以一键部署，不需要教了。</p>
@@ -819,62 +819,6 @@
         <tag>Artitalk</tag>
         <tag>Butterfly</tag>
         <tag>说说</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免费安装杜比全景声</title>
-    <url>/posts/1dfc6ea9/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>工具地址：<a href="https://fpsplay.github.io/">酸奶会发光</a><br>作者的视频教程</p>
-<iframe src="//player.bilibili.com/player.html?aid=602908112&bvid=BV11B4y137cf&cid=1143612800&p=1" frameborder="no" scrolling="no" width="95%" height="600"> </iframe>
-
-<h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><ol>
-<li>打开音效安装器</li>
-<li>进入第一个 <strong>音效驱动</strong></li>
-<li>点击 <strong>Next</strong></li>
-<li>点击 <code>Add or Remove Features</code></li>
-<li>勾选如下驱动（不需要 DTS 可以不勾选）<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/1.webp" alt="1"></li>
-<li>点击 <strong>Next</strong></li>
-<li>点击 <strong>Install</strong> 安装</li>
-</ol>
-<h2 id="配置音效"><a href="#配置音效" class="headerlink" title="配置音效"></a>配置音效</h2><ol>
-<li>进入第二个 <strong>音效配置</strong></li>
-<li>点击顶部的 <strong>Endpoints</strong> 选择自己要安装的扬声器，如只是给扬声器安装，找到带有 <strong>[Active]</strong> 字样的即可<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/2.webp" alt="2"></li>
-<li>先点击 <strong>Backup</strong> 备份<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/3.webp" alt="3"></li>
-<li>点击 <strong>Product Config Tool</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/4.webp" alt="4"></li>
-<li>点击 <strong>Products</strong> 选择 <strong>Dolby DAX3 UWP (DAPv251-VLLDP120)</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/5.webp" alt="5"></li>
-<li>最后点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
-</ol>
-<h2 id="安装杜比全景声软件"><a href="#安装杜比全景声软件" class="headerlink" title="安装杜比全景声软件"></a>安装杜比全景声软件</h2><ol>
-<li>点击 <strong>杜比全景声</strong> 会自动安装</li>
-<li>安装成功后点击 <strong>重启服务</strong></li>
-<li>打开任务管理器，等待出现两个 <strong>DAX API</strong> 进程</li>
-</ol>
-<h2 id="切换杜比"><a href="#切换杜比" class="headerlink" title="切换杜比"></a>切换杜比</h2><ol>
-<li>点击想要切换的杜比</li>
-<li>等待安装完成后重启服务</li>
-</ol>
-<h2 id="安装-DTS"><a href="#安装-DTS" class="headerlink" title="安装 DTS"></a>安装 DTS</h2><ol>
-<li>重复上述操作，直到配置音效</li>
-<li><strong>Products</strong> 换成 <strong>DTS APO3x UWP</strong></li>
-<li>点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
-<li>点击安装 <strong>DTS 音效</strong></li>
-<li>重启服务</li>
-</ol>
-<h2 id="完全卸载"><a href="#完全卸载" class="headerlink" title="完全卸载"></a>完全卸载</h2><ol>
-<li>卸载音效软件</li>
-<li>进入 <strong>音效配置</strong></li>
-<li>点击 <strong>Restore</strong></li>
-<li>找到备份文件，恢复备份</li>
-<li>点击 <strong>音效驱动</strong></li>
-<li>点击 <strong>Remove</strong> 卸载驱动</li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-        <tag>音效</tag>
       </tags>
   </entry>
   <entry>
@@ -1094,6 +1038,62 @@
       </tags>
   </entry>
   <entry>
+    <title>免费安装杜比全景声</title>
+    <url>/posts/1dfc6ea9/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>工具地址：<a href="https://fpsplay.github.io/">酸奶会发光</a><br>作者的视频教程</p>
+<iframe src="//player.bilibili.com/player.html?aid=602908112&bvid=BV11B4y137cf&cid=1143612800&p=1" frameborder="no" scrolling="no" width="95%" height="600"> </iframe>
+
+<h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><ol>
+<li>打开音效安装器</li>
+<li>进入第一个 <strong>音效驱动</strong></li>
+<li>点击 <strong>Next</strong></li>
+<li>点击 <code>Add or Remove Features</code></li>
+<li>勾选如下驱动（不需要 DTS 可以不勾选）<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/1.webp" alt="1"></li>
+<li>点击 <strong>Next</strong></li>
+<li>点击 <strong>Install</strong> 安装</li>
+</ol>
+<h2 id="配置音效"><a href="#配置音效" class="headerlink" title="配置音效"></a>配置音效</h2><ol>
+<li>进入第二个 <strong>音效配置</strong></li>
+<li>点击顶部的 <strong>Endpoints</strong> 选择自己要安装的扬声器，如只是给扬声器安装，找到带有 <strong>[Active]</strong> 字样的即可<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/2.webp" alt="2"></li>
+<li>先点击 <strong>Backup</strong> 备份<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/3.webp" alt="3"></li>
+<li>点击 <strong>Product Config Tool</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/4.webp" alt="4"></li>
+<li>点击 <strong>Products</strong> 选择 <strong>Dolby DAX3 UWP (DAPv251-VLLDP120)</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/5.webp" alt="5"></li>
+<li>最后点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
+</ol>
+<h2 id="安装杜比全景声软件"><a href="#安装杜比全景声软件" class="headerlink" title="安装杜比全景声软件"></a>安装杜比全景声软件</h2><ol>
+<li>点击 <strong>杜比全景声</strong> 会自动安装</li>
+<li>安装成功后点击 <strong>重启服务</strong></li>
+<li>打开任务管理器，等待出现两个 <strong>DAX API</strong> 进程</li>
+</ol>
+<h2 id="切换杜比"><a href="#切换杜比" class="headerlink" title="切换杜比"></a>切换杜比</h2><ol>
+<li>点击想要切换的杜比</li>
+<li>等待安装完成后重启服务</li>
+</ol>
+<h2 id="安装-DTS"><a href="#安装-DTS" class="headerlink" title="安装 DTS"></a>安装 DTS</h2><ol>
+<li>重复上述操作，直到配置音效</li>
+<li><strong>Products</strong> 换成 <strong>DTS APO3x UWP</strong></li>
+<li>点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
+<li>点击安装 <strong>DTS 音效</strong></li>
+<li>重启服务</li>
+</ol>
+<h2 id="完全卸载"><a href="#完全卸载" class="headerlink" title="完全卸载"></a>完全卸载</h2><ol>
+<li>卸载音效软件</li>
+<li>进入 <strong>音效配置</strong></li>
+<li>点击 <strong>Restore</strong></li>
+<li>找到备份文件，恢复备份</li>
+<li>点击 <strong>音效驱动</strong></li>
+<li>点击 <strong>Remove</strong> 卸载驱动</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+        <tag>音效</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>纯Css实现Input的动画样式</title>
     <url>/posts/4a8f6b30/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>灵感来自油管 <a href="https://m.youtube.com/watch?v=Tp1slQwyWaE&amp;feature=youtu.be">传送门</a></p>
@@ -1117,6 +1117,79 @@
       <tags>
         <tag>前端</tag>
         <tag>Css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自用的bf导航栏魔改</title>
+    <url>/posts/7aeab8a1/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这几天看到安知鱼大佬的洪里洪气的导航栏甚是喜欢，特别是那个下滑显示文章/页面标题，上滑显示菜单的功能十分眼馋。就找了找教程加上扒一下站，就有了这篇文章</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><a class="tag-Link" target="_blank" href=" https://blog.yaria.top/posts/53e6b356">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://blog.yaria.top/posts/53e6b356.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">关于Butterfly的导航栏的一些教程</div>
+            <div class="tag-link-sitename">Ariasaka</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<a class="tag-Link" target="_blank" href=" https://blog.anheyu.com/">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://blog.anheyu.com/.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">安知鱼</div>
+            <div class="tag-link-sitename">安知鱼</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<h2 id="我的魔改"><a href="#我的魔改" class="headerlink" title="我的魔改"></a>我的魔改</h2><p>我的导航栏使用了 <code>Ariasaka</code> 大佬的</p>
+<ul>
+<li>分离搜索栏与菜单栏</li>
+<li>导航栏居中</li>
+<li>导航栏居中</li>
+<li>网站标题部分的增强版</li>
+<li>顶栏常驻</li>
+<li>显示标题</li>
+</ul>
+<p>至于 <strong>去掉导航栏项目底下的蓝色长条</strong> 这个魔改我没用，因为我还是很喜欢下划线的，所以就做了一点魔改：</p>
+<ul>
+<li>更改下划线颜色</li>
+<li>更改下划线动画由中间向两边扩开<br>具体可以看我的<a class="tag-Link" target="_blank" href=" https://www.quenan.love/posts/42329.html">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.quenan.love/posts/42329.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">超链接动画样式</div>
+            <div class="tag-link-sitename">鹊楠吖</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+</li>
+</ul>
+<h3 id="显示标题洪哥切换动画版"><a href="#显示标题洪哥切换动画版" class="headerlink" title="显示标题洪哥切换动画版"></a>显示标题洪哥切换动画版</h3><ol>
+<li><p>修改 <code>[blogRoot]\themes\Butterfly\layout\includes\header\nav.pug</code></p>
+<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">nav#nav</span><br><span class="line">span#blog-info</span><br><span class="line">    a(href=url_for(&#x27;/&#x27;) title=config.title)</span><br><span class="line">    if theme.nav.logo</span><br><span class="line">        img.site-icon(src=url_for(theme.nav.logo))</span><br><span class="line">    if theme.nav.display_title</span><br><span class="line">        span.site-name=config.title</span><br><span class="line"></span><br><span class="line">#menus</span><br><span class="line">    if (theme.algolia_search.enable || theme.local_search.enable || theme.docsearch.enable)</span><br><span class="line">    #search-button</span><br><span class="line">        a.site-page.social-icon.search(href=&quot;javascript:void(0);&quot;)</span><br><span class="line">        svg.meta_icon(style=&quot;width:20px;height:20px;position:relative;top:2px&quot;).post-ui-icon</span><br><span class="line">            use(xlink:href=&#x27;#icon-sousuo&#x27;)</span><br><span class="line">    !=partial(&#x27;includes/header/menu_item&#x27;, &#123;&#125;, &#123;cache: true&#125;)</span><br><span class="line"><span class="addition">+    div.titleNameBox</span></span><br><span class="line"><span class="addition">+      center(id=&quot;name-container&quot;)</span></span><br><span class="line"><span class="addition">+        a(id=&quot;page-name&quot; href=&quot;javascript:scrollToTop()&quot;) PAGE_NAME</span></span><br><span class="line">    ...</span><br></pre></td></tr></table></figure>
+<p>这是节选，不能直接覆盖</p>
+</li>
+<li><p>在 <code>/source/js</code> 目录下新建 <code>nav.js</code>，并引入</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;pjax:complete&quot;</span>, tonav);</span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;DOMContentLoaded&quot;</span>, tonav);</span><br><span class="line"><span class="comment">//响应pjax</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">tonav</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="comment">// document.getElementById(&quot;name-container&quot;).setAttribute(&quot;style&quot;, &quot;display:none&quot;);</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> position = $(<span class="variable language_">window</span>).<span class="title function_">scrollTop</span>();</span><br><span class="line"></span><br><span class="line">  $(<span class="variable language_">window</span>).<span class="title function_">scroll</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> scroll = $(<span class="variable language_">window</span>).<span class="title function_">scrollTop</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (scroll &gt; position) &#123;</span><br><span class="line">      <span class="variable language_">document</span></span><br><span class="line">        .<span class="title function_">getElementById</span>(<span class="string">&quot;name-container&quot;</span>)</span><br><span class="line">        .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;top: 0 !important;&quot;</span>);</span><br><span class="line">      <span class="comment">// document.getElementById(&quot;name-container&quot;).classList.add(&#x27;titleShow&#x27;);</span></span><br><span class="line">      <span class="variable language_">document</span></span><br><span class="line">        .<span class="title function_">getElementsByClassName</span>(<span class="string">&quot;menus_items&quot;</span>)[<span class="number">1</span>]</span><br><span class="line">        .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;top: -60px !important&quot;</span>);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="variable language_">document</span></span><br><span class="line">        .<span class="title function_">getElementsByClassName</span>(<span class="string">&quot;menus_items&quot;</span>)[<span class="number">1</span>]</span><br><span class="line">        .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">      <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;name-container&quot;</span>).<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">      <span class="comment">// document.getElementById(&quot;name-container&quot;).classList.remove(&#x27;titleShow&#x27;);</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    position = scroll;</span><br><span class="line">  &#125;);</span><br><span class="line">  <span class="keyword">function</span> <span class="title function_">scrollToTop</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span></span><br><span class="line">      .<span class="title function_">getElementsByClassName</span>(<span class="string">&quot;menus_items&quot;</span>)[<span class="number">1</span>]</span><br><span class="line">      .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;name-container&quot;</span>).<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">    btf.<span class="title function_">scrollToDest</span>(<span class="number">0</span>, <span class="number">500</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//修复没有弄右键菜单的童鞋无法回顶部的问题</span></span><br><span class="line">  <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;page-name&quot;</span>).<span class="property">innerText</span> =</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">title</span>.<span class="title function_">split</span>(<span class="string">&quot; | 鹊楠の小窝&quot;</span>)[<span class="number">0</span>];</span><br><span class="line">  <span class="variable language_">document</span></span><br><span class="line">    .<span class="title function_">getElementById</span>(<span class="string">&quot;page-name&quot;</span>)</span><br><span class="line">    .<span class="title function_">addEventListener</span>(<span class="string">&quot;click&quot;</span>, scrollToTop);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>添加 css 样式，(由于我的样式都是野鸡写法，所以直接把整个 nav 的样式表贴过来了)</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 导航栏魔改 */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 一级菜单居中 */</span></span><br><span class="line"><span class="selector-id">#nav</span> <span class="selector-class">.menus_items</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">width</span>: fit-content <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>, -<span class="number">50%</span>) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#nav</span> <span class="selector-id">#blog-info</span> &#123;</span><br><span class="line">  <span class="attribute">flex</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 子菜单居中 */</span></span><br><span class="line"><span class="selector-class">.menus_item_child</span> <span class="selector-tag">li</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menus</span> <span class="selector-tag">li</span>) &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -webkit-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -moz-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -ms-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -o-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.menus_item_child</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menus</span> <span class="selector-tag">ul</span>) &#123;</span><br><span class="line">  <span class="comment">/* left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调改为：*/</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">translate</span>: -<span class="number">50%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 标题遮罩 */</span></span><br><span class="line"><span class="selector-class">.site-name</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--theme-color) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -webkit-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -moz-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -ms-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -o-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;\f015&quot;</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">var</span>(--theme-color);</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">&quot;Font Awesome 6 Free&quot;</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">color</span>: white;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">34px</span>;</span><br><span class="line">  <span class="comment">/*如果有溢出或者垂直不居中的现象微调一下这个参数*/</span></span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="comment">/*根据个人喜好*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.site-name</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">scale</span>: <span class="number">1.03</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.site-name</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">24px</span>;</span><br><span class="line">  <span class="comment">/*一定要把字体调大点，否则效果惨不忍睹！*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#nav</span><span class="selector-class">.hide-menu</span> <span class="selector-id">#toggle-menu</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">6px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-button</span>,</span><br><span class="line"><span class="selector-id">#toggle-menu</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 标题 */</span></span><br><span class="line"><span class="selector-id">#nav</span> &#123;</span><br><span class="line">  <span class="attribute">justify-content</span>: space-between <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.nav-fixed</span> <span class="selector-id">#nav</span> &#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -moz-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -ms-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -o-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#page-name</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">min-width</span>: <span class="number">100px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">35px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  <span class="attribute">color</span>: white <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>, -<span class="number">50%</span>);</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;回到顶部&quot;</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--theme-color);</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">3px</span> <span class="built_in">var</span>(--theme-color);</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">35px</span>;</span><br><span class="line">  <span class="comment">/*如果垂直位置不居中可以微调此值，也可以删了*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#page-name</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-id">#name-container</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.site-name</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">28px</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span> <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#nav</span> <span class="selector-class">.menus_items</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#nav</span><span class="selector-class">.hide-menu</span> <span class="selector-id">#toggle-menu</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.menus_item_child</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menus</span> <span class="selector-tag">ul</span>) &#123;</span><br><span class="line">    <span class="comment">/* left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调改为：*/</span></span><br><span class="line">    <span class="attribute">translate</span>: <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.menus_item_child</span> <span class="selector-tag">li</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menusli</span>) &#123;</span><br><span class="line">    <span class="attribute">float</span>: none;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#sidebar</span> <span class="selector-id">#sidebar-menus</span> <span class="selector-class">.menus_items</span> <span class="selector-class">.site-page</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.titleNameBox</span> &#123;</span><br><span class="line">  <span class="attribute">z-index</span>: -<span class="number">1</span>;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#name-container</span> &#123;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">60px</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">50%</span>);</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#name-container</span> <span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">60px</span>;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#name-container</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">scale</span>: <span class="number">1.03</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#page-name</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">30px</span>;</span><br><span class="line">  <span class="comment">/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">1060px</span>) &#123;</span><br><span class="line">  <span class="selector-id">#nav</span> <span class="selector-class">.menus_items</span> <span class="selector-class">.menus_item</span> &#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 导航栏魔改 end */</span></span><br></pre></td></tr></table></figure>
+<p>这样你就获得了个有切换动画的导航栏显示标题</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>Butterfly</tag>
+        <tag>魔改</tag>
       </tags>
   </entry>
   <entry>
@@ -1646,79 +1719,6 @@
       <tags>
         <tag>IDM</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自用的bf导航栏魔改</title>
-    <url>/posts/7aeab8a1/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这几天看到安知鱼大佬的洪里洪气的导航栏甚是喜欢，特别是那个下滑显示文章/页面标题，上滑显示菜单的功能十分眼馋。就找了找教程加上扒一下站，就有了这篇文章</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><a class="tag-Link" target="_blank" href=" https://blog.yaria.top/posts/53e6b356">
-    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://blog.yaria.top/posts/53e6b356.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">关于Butterfly的导航栏的一些教程</div>
-            <div class="tag-link-sitename">Ariasaka</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<a class="tag-Link" target="_blank" href=" https://blog.anheyu.com/">
-    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://blog.anheyu.com/.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">安知鱼</div>
-            <div class="tag-link-sitename">安知鱼</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<h2 id="我的魔改"><a href="#我的魔改" class="headerlink" title="我的魔改"></a>我的魔改</h2><p>我的导航栏使用了 <code>Ariasaka</code> 大佬的</p>
-<ul>
-<li>分离搜索栏与菜单栏</li>
-<li>导航栏居中</li>
-<li>导航栏居中</li>
-<li>网站标题部分的增强版</li>
-<li>顶栏常驻</li>
-<li>显示标题</li>
-</ul>
-<p>至于 <strong>去掉导航栏项目底下的蓝色长条</strong> 这个魔改我没用，因为我还是很喜欢下划线的，所以就做了一点魔改：</p>
-<ul>
-<li>更改下划线颜色</li>
-<li>更改下划线动画由中间向两边扩开<br>具体可以看我的<a class="tag-Link" target="_blank" href=" https://www.quenan.love/posts/42329.html">
-    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.quenan.love/posts/42329.html.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">超链接动画样式</div>
-            <div class="tag-link-sitename">鹊楠吖</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-</li>
-</ul>
-<h3 id="显示标题洪哥切换动画版"><a href="#显示标题洪哥切换动画版" class="headerlink" title="显示标题洪哥切换动画版"></a>显示标题洪哥切换动画版</h3><ol>
-<li><p>修改 <code>[blogRoot]\themes\Butterfly\layout\includes\header\nav.pug</code></p>
-<figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">nav#nav</span><br><span class="line">span#blog-info</span><br><span class="line">    a(href=url_for(&#x27;/&#x27;) title=config.title)</span><br><span class="line">    if theme.nav.logo</span><br><span class="line">        img.site-icon(src=url_for(theme.nav.logo))</span><br><span class="line">    if theme.nav.display_title</span><br><span class="line">        span.site-name=config.title</span><br><span class="line"></span><br><span class="line">#menus</span><br><span class="line">    if (theme.algolia_search.enable || theme.local_search.enable || theme.docsearch.enable)</span><br><span class="line">    #search-button</span><br><span class="line">        a.site-page.social-icon.search(href=&quot;javascript:void(0);&quot;)</span><br><span class="line">        svg.meta_icon(style=&quot;width:20px;height:20px;position:relative;top:2px&quot;).post-ui-icon</span><br><span class="line">            use(xlink:href=&#x27;#icon-sousuo&#x27;)</span><br><span class="line">    !=partial(&#x27;includes/header/menu_item&#x27;, &#123;&#125;, &#123;cache: true&#125;)</span><br><span class="line"><span class="addition">+    div.titleNameBox</span></span><br><span class="line"><span class="addition">+      center(id=&quot;name-container&quot;)</span></span><br><span class="line"><span class="addition">+        a(id=&quot;page-name&quot; href=&quot;javascript:scrollToTop()&quot;) PAGE_NAME</span></span><br><span class="line">    ...</span><br></pre></td></tr></table></figure>
-<p>这是节选，不能直接覆盖</p>
-</li>
-<li><p>在 <code>/source/js</code> 目录下新建 <code>nav.js</code>，并引入</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;pjax:complete&quot;</span>, tonav);</span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;DOMContentLoaded&quot;</span>, tonav);</span><br><span class="line"><span class="comment">//响应pjax</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">tonav</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="comment">// document.getElementById(&quot;name-container&quot;).setAttribute(&quot;style&quot;, &quot;display:none&quot;);</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> position = $(<span class="variable language_">window</span>).<span class="title function_">scrollTop</span>();</span><br><span class="line"></span><br><span class="line">  $(<span class="variable language_">window</span>).<span class="title function_">scroll</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> scroll = $(<span class="variable language_">window</span>).<span class="title function_">scrollTop</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (scroll &gt; position) &#123;</span><br><span class="line">      <span class="variable language_">document</span></span><br><span class="line">        .<span class="title function_">getElementById</span>(<span class="string">&quot;name-container&quot;</span>)</span><br><span class="line">        .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;top: 0 !important;&quot;</span>);</span><br><span class="line">      <span class="comment">// document.getElementById(&quot;name-container&quot;).classList.add(&#x27;titleShow&#x27;);</span></span><br><span class="line">      <span class="variable language_">document</span></span><br><span class="line">        .<span class="title function_">getElementsByClassName</span>(<span class="string">&quot;menus_items&quot;</span>)[<span class="number">1</span>]</span><br><span class="line">        .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;top: -60px !important&quot;</span>);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      <span class="variable language_">document</span></span><br><span class="line">        .<span class="title function_">getElementsByClassName</span>(<span class="string">&quot;menus_items&quot;</span>)[<span class="number">1</span>]</span><br><span class="line">        .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">      <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;name-container&quot;</span>).<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">      <span class="comment">// document.getElementById(&quot;name-container&quot;).classList.remove(&#x27;titleShow&#x27;);</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    position = scroll;</span><br><span class="line">  &#125;);</span><br><span class="line">  <span class="keyword">function</span> <span class="title function_">scrollToTop</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span></span><br><span class="line">      .<span class="title function_">getElementsByClassName</span>(<span class="string">&quot;menus_items&quot;</span>)[<span class="number">1</span>]</span><br><span class="line">      .<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;name-container&quot;</span>).<span class="title function_">setAttribute</span>(<span class="string">&quot;style&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">    btf.<span class="title function_">scrollToDest</span>(<span class="number">0</span>, <span class="number">500</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//修复没有弄右键菜单的童鞋无法回顶部的问题</span></span><br><span class="line">  <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;page-name&quot;</span>).<span class="property">innerText</span> =</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">title</span>.<span class="title function_">split</span>(<span class="string">&quot; | 鹊楠の小窝&quot;</span>)[<span class="number">0</span>];</span><br><span class="line">  <span class="variable language_">document</span></span><br><span class="line">    .<span class="title function_">getElementById</span>(<span class="string">&quot;page-name&quot;</span>)</span><br><span class="line">    .<span class="title function_">addEventListener</span>(<span class="string">&quot;click&quot;</span>, scrollToTop);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>添加 css 样式，(由于我的样式都是野鸡写法，所以直接把整个 nav 的样式表贴过来了)</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 导航栏魔改 */</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/* 一级菜单居中 */</span></span><br><span class="line"><span class="selector-id">#nav</span> <span class="selector-class">.menus_items</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">width</span>: fit-content <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>, -<span class="number">50%</span>) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#nav</span> <span class="selector-id">#blog-info</span> &#123;</span><br><span class="line">  <span class="attribute">flex</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 子菜单居中 */</span></span><br><span class="line"><span class="selector-class">.menus_item_child</span> <span class="selector-tag">li</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menus</span> <span class="selector-tag">li</span>) &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -webkit-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -moz-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -ms-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">  -o-<span class="attribute">border-radius</span>: <span class="number">6px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.menus_item_child</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menus</span> <span class="selector-tag">ul</span>) &#123;</span><br><span class="line">  <span class="comment">/* left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调改为：*/</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">translate</span>: -<span class="number">50%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 标题遮罩 */</span></span><br><span class="line"><span class="selector-class">.site-name</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--theme-color) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -webkit-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -moz-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -ms-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  -o-<span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  <span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;\f015&quot;</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">var</span>(--theme-color);</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">&quot;Font Awesome 6 Free&quot;</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">color</span>: white;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">34px</span>;</span><br><span class="line">  <span class="comment">/*如果有溢出或者垂直不居中的现象微调一下这个参数*/</span></span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="comment">/*根据个人喜好*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.site-name</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  <span class="attribute">scale</span>: <span class="number">1.03</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.site-name</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">24px</span>;</span><br><span class="line">  <span class="comment">/*一定要把字体调大点，否则效果惨不忍睹！*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#nav</span><span class="selector-class">.hide-menu</span> <span class="selector-id">#toggle-menu</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">6px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-button</span>,</span><br><span class="line"><span class="selector-id">#toggle-menu</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 标题 */</span></span><br><span class="line"><span class="selector-id">#nav</span> &#123;</span><br><span class="line">  <span class="attribute">justify-content</span>: space-between <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.nav-fixed</span> <span class="selector-id">#nav</span> &#123;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -moz-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -ms-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  -o-<span class="attribute">transform</span>: <span class="built_in">translateY</span>(<span class="number">60px</span>) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: all <span class="number">0.4s</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#page-name</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">18px</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">min-width</span>: <span class="number">100px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">35px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">8px</span>;</span><br><span class="line">  <span class="attribute">color</span>: white <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>, -<span class="number">50%</span>);</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;回到顶部&quot;</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="built_in">var</span>(--theme-color);</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">3px</span> <span class="built_in">var</span>(--theme-color);</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">35px</span>;</span><br><span class="line">  <span class="comment">/*如果垂直位置不居中可以微调此值，也可以删了*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#page-name</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-id">#name-container</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.site-name</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">28px</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">16px</span> <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#nav</span> <span class="selector-class">.menus_items</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#nav</span><span class="selector-class">.hide-menu</span> <span class="selector-id">#toggle-menu</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.menus_item_child</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menus</span> <span class="selector-tag">ul</span>) &#123;</span><br><span class="line">    <span class="comment">/* left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调改为：*/</span></span><br><span class="line">    <span class="attribute">translate</span>: <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.menus_item_child</span> <span class="selector-tag">li</span><span class="selector-pseudo">:not</span>(<span class="selector-id">#sidebar-menusli</span>) &#123;</span><br><span class="line">    <span class="attribute">float</span>: none;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#sidebar</span> <span class="selector-id">#sidebar-menus</span> <span class="selector-class">.menus_items</span> <span class="selector-class">.site-page</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.titleNameBox</span> &#123;</span><br><span class="line">  <span class="attribute">z-index</span>: -<span class="number">1</span>;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#name-container</span> &#123;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -webkit-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -moz-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -ms-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  -o-<span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">60px</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">50%</span>);</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#name-container</span> <span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">60px</span>;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#name-container</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">scale</span>: <span class="number">1.03</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#page-name</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">10px</span> <span class="number">30px</span>;</span><br><span class="line">  <span class="comment">/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">1060px</span>) &#123;</span><br><span class="line">  <span class="selector-id">#nav</span> <span class="selector-class">.menus_items</span> <span class="selector-class">.menus_item</span> &#123;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span> <span class="meta">!important</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 导航栏魔改 end */</span></span><br></pre></td></tr></table></figure>
-<p>这样你就获得了个有切换动画的导航栏显示标题</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>Butterfly</tag>
-        <tag>魔改</tag>
       </tags>
   </entry>
 </search>
