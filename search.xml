@@ -1,82 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Mui学习资料总结</title>
-    <url>/posts/40230011/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于学习 <code>Mui</code> 框架的一些资料总结</p>
-<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">备注</th>
-<th style="text-align:center">链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">【跨平台 APP 开发框 架- MUI 全套教程】</td>
-<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
-</tr>
-<tr>
-<td style="text-align:center">【MUI APP】</td>
-<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
-</tr>
-<tr>
-<td style="text-align:center">【MUI 01 课程介绍】</td>
-<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">备注</th>
-<th style="text-align:center">链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">HTML5+ API 文档【webview】</td>
-<td style="text-align:center"><a href="https://www.dcloud.io/docs/api/zh_cn/webview.html">https://www.dcloud.io/docs/api/zh_cn/webview.html</a></td>
-</tr>
-<tr>
-<td style="text-align:center">websocket 详情资料参考</td>
-<td style="text-align:center"><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket">https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Mui 简易使用教程-ZeFeng</td>
-<td style="text-align:center"><a href="https://00feng00.github.io/2018/11/18/mui-instructions/">https://00feng00.github.io/2018/11/18/mui-instructions/</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Hello mui 线上演示地址</td>
-<td style="text-align:center"><a href="http://www.dcloud.io/hellomui/index.html">http://www.dcloud.io/hellomui/index.html</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Mui 入门教程</td>
-<td style="text-align:center"><a href="https://zhuanlan.zhihu.com/p/361878292">https://zhuanlan.zhihu.com/p/361878292</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Mui 页面传值</td>
-<td style="text-align:center"><a href="https://ask.dcloud.net.cn/article/63">https://ask.dcloud.net.cn/article/63</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>]]></content>
-      <categories>
-        <category>Mui</category>
-        <category>前端</category>
-        <category>移动应用</category>
-      </categories>
-      <tags>
-        <tag>Mui</tag>
-        <tag>移动应用</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>IDM激活，理论永久</title>
     <url>/posts/a1ef6e91/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -131,52 +55,6 @@
       <tags>
         <tag>IDM</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VM虚拟机进入Pe系统</title>
-    <url>/posts/19b64ef3/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
-<li><p>插入 Pe 盘</p>
-</li>
-<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
-<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
-</li>
-<li><p>记住 Pe 磁盘的序号</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
-</li>
-<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
-</li>
-<li><p>硬盘类型选择 <strong>SCSI</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
-</li>
-<li><p>选择 <strong>使用物理磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
-</li>
-<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
-</li>
-<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
-</li>
-<li><p>选择 <strong>打开电源时进入固件</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
-</li>
-<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
-</li>
-<li><p>回车确定即可进入 Pe 系统</p>
-</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>VM</category>
-      </categories>
-      <tags>
-        <tag>VM</tag>
-        <tag>Pe</tag>
       </tags>
   </entry>
   <entry>
@@ -283,6 +161,128 @@
       <tags>
         <tag>SpringBoot</tag>
         <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mui学习资料总结</title>
+    <url>/posts/40230011/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于学习 <code>Mui</code> 框架的一些资料总结</p>
+<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">备注</th>
+<th style="text-align:center">链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">【跨平台 APP 开发框 架- MUI 全套教程】</td>
+<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
+</tr>
+<tr>
+<td style="text-align:center">【MUI APP】</td>
+<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
+</tr>
+<tr>
+<td style="text-align:center">【MUI 01 课程介绍】</td>
+<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">备注</th>
+<th style="text-align:center">链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">HTML5+ API 文档【webview】</td>
+<td style="text-align:center"><a href="https://www.dcloud.io/docs/api/zh_cn/webview.html">https://www.dcloud.io/docs/api/zh_cn/webview.html</a></td>
+</tr>
+<tr>
+<td style="text-align:center">websocket 详情资料参考</td>
+<td style="text-align:center"><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket">https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Mui 简易使用教程-ZeFeng</td>
+<td style="text-align:center"><a href="https://00feng00.github.io/2018/11/18/mui-instructions/">https://00feng00.github.io/2018/11/18/mui-instructions/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Hello mui 线上演示地址</td>
+<td style="text-align:center"><a href="http://www.dcloud.io/hellomui/index.html">http://www.dcloud.io/hellomui/index.html</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Mui 入门教程</td>
+<td style="text-align:center"><a href="https://zhuanlan.zhihu.com/p/361878292">https://zhuanlan.zhihu.com/p/361878292</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Mui 页面传值</td>
+<td style="text-align:center"><a href="https://ask.dcloud.net.cn/article/63">https://ask.dcloud.net.cn/article/63</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>]]></content>
+      <categories>
+        <category>Mui</category>
+        <category>前端</category>
+        <category>移动应用</category>
+      </categories>
+      <tags>
+        <tag>Mui</tag>
+        <tag>移动应用</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VM虚拟机进入Pe系统</title>
+    <url>/posts/19b64ef3/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
+<li><p>插入 Pe 盘</p>
+</li>
+<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
+<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
+</li>
+<li><p>记住 Pe 磁盘的序号</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
+</li>
+<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
+</li>
+<li><p>硬盘类型选择 <strong>SCSI</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
+</li>
+<li><p>选择 <strong>使用物理磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
+</li>
+<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
+</li>
+<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
+</li>
+<li><p>选择 <strong>打开电源时进入固件</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
+</li>
+<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
+</li>
+<li><p>回车确定即可进入 Pe 系统</p>
+</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>VM</category>
+      </categories>
+      <tags>
+        <tag>VM</tag>
+        <tag>Pe</tag>
       </tags>
   </entry>
   <entry>
@@ -647,13 +647,31 @@
 </ol>
 </div>]]></content>
       <categories>
-        <category>博客</category>
         <category>笔记</category>
+        <category>博客</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>CDN</tag>
         <tag>渺软</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用Python下载图片</title>
+    <url>/posts/1abe6423/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
+<p>安装 <code>requests</code></p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
+<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
+<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -694,24 +712,6 @@
         <tag>alist</tag>
         <tag>windows</tag>
         <tag>美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用Python下载图片</title>
-    <url>/posts/1abe6423/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
-<p>安装 <code>requests</code></p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
-<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
-<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -787,6 +787,170 @@
       <tags>
         <tag>软件</tag>
         <tag>音效</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在bf中部署Artitalk说说</title>
+    <url>/posts/a65b7a05/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想给博客添加个说说功能，但是没时间搞，今天就来嗦一下 <code>hexo</code> 框架下 <code>butterfly</code> 主题的 <code>artitalk</code> 说说部署和踩坑</p>
+<div class="note info simple"><p>小窝已于 2024/3/24 换为 <code>Tgtalk</code> 说说</p>
+</div>
+<h2 id="部署教程"><a href="#部署教程" class="headerlink" title="部署教程"></a>部署教程</h2><p>按照 <code>artitalk</code> 教程部署<br><a class="tag-Link" target="_blank" href="https://artitalk.js.org/doc.html#hexo-theme-butterfly">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/artitalk.js.org/doc.html#hexo-theme-butterfly.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">artitalk使用文档</div>
+            <div class="tag-link-sitename">artitalk</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a></p>
+<p>看不懂？没关系往下接着看</p>
+<h3 id="图文教程"><a href="#图文教程" class="headerlink" title="图文教程"></a>图文教程</h3><ol>
+<li><p>申请 <code>leancloud</code> 中国版账号，国际版也可以，但是需要自行添加域名，因为自 2022 年 8 月起，国际版共享域名不再向中国大陆提供服务。</p>
+<a class="tag-Link" target="_blank" href="https://console.leancloud.app/">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/console.leancloud.app/.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">leancloud</div>
+            <div class="tag-link-sitename">leancloud</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+</li>
+<li><p>创建应用</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/1.webp" alt="1"><br>名称任意，选择开发版</p>
+</li>
+<li><p>点击齿轮状的图标进入设置</p>
+</li>
+<li><p><code>数据储存</code> -&gt; <code>结构化数据</code> -&gt; <code>_user</code> -&gt; <code>添加行</code></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/2.webp" alt="2"></p>
+</li>
+<li><p><code>password</code> 填入密码，<code>username</code> 填入用户名，其他保持默认</p>
+<span class='p orange'>此处的用户名和账号是在前端登陆用的</span>
+</li>
+<li><p><code>数据储存</code> -&gt; <code>结构化数据</code> -&gt; <code>创建Class</code></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/3.webp" alt="3"></p>
+</li>
+<li><p><code>class名称</code> 填写 <code>shuoshuo</code> ，访问权限把红框框选的选项全部改为 <code>指定用户</code> 访问，用户输入上一步填写的用户名，稍等片刻选择下拉框中对应的用户即可</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/4.webp" alt="4"></p>
+</li>
+<li><p>重复上一步的操作，创建名为 <code>atComment</code> 的 Class 类，权限保持默认即可</p>
+</li>
+<li><p>进入 <code>设置</code> -&gt; <code>应用凭证</code> ，记下 <code>AppID</code> <code>AppKey</code> <code>API服务地址</code></p>
+</li>
+<li><p>在博客目录下打开终端，运行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new page artitalk # 此处的artitalk可以自定义</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>进入 <code>artitalk/index.md</code> ，加入如下代码</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/artitalk&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;artitalk_main&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">new</span> <span class="title class_">Artitalk</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">appId</span>: <span class="string">&quot;你的AppID&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">appKey</span>: <span class="string">&quot;你的AppKey&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">serverURL</span>: <span class="string">&quot;你的API地址&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">atComment</span>: <span class="number">0</span>,</span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>运行 hexo 三件套启动，进入 <code>你的域名/artitalk</code> 就可以看见说说页面了</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/6.webp" alt="5"></p>
+<p>（这是我改过样式的）</p>
+</li>
+</ol>
+<h2 id="我的-artitalk-样式参考"><a href="#我的-artitalk-样式参考" class="headerlink" title="我的 artitalk 样式参考"></a>我的 artitalk 样式参考</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 说说 */</span></span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmtimeline</span> &gt; <span class="selector-tag">li</span> <span class="selector-class">.cbp_tmlabel</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="number">#e5e5e5</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">background</span>: none <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmtimeline</span> &gt; <span class="selector-tag">li</span> <span class="selector-class">.cbp_tmlabel</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmlabel</span><span class="selector-class">.cbp_tmlabel</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">15px</span> <span class="number">32px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.15</span>) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmtimeline</span> &gt; <span class="selector-tag">li</span> <span class="selector-class">.cbp_tmlabel</span><span class="selector-pseudo">:after</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:last-child</span>) &#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="number">#e5e5e5</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">p</span><span class="selector-class">.shuoshuo_time</span> &#123;</span><br><span class="line">  <span class="attribute">border-top</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)<span class="selector-pseudo">::after</span>,</span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)<span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">13px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)<span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">13px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">svg</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">margin-right</span>: <span class="number">5px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#000</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.delete_right</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#000</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-class">.delete_right</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.at_button</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">2px</span> solid <span class="number">#e5e5e5</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-class">.at_button</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#1a1a1b</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>) &#123;</span><br><span class="line">  <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.at_button</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">var</span>(--theme-color) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">2px</span> solid <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> &#123;</span><br><span class="line">    <span class="attribute">flex-direction</span>: column;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:last-child</span>) &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">110px</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>) &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">160px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 说说 end */</span></span><br></pre></td></tr></table></figure>
+<h2 id="食用教程"><a href="#食用教程" class="headerlink" title="食用教程"></a>食用教程</h2><p><img src="https://tuchuang.voooe.cn/images/2024/03/25/7.webp" alt="7"></p>
+<ul>
+<li>第一个：发布</li>
+<li>第二个：用户信息</li>
+<li>第三个：发送图片</li>
+</ul>
+<h2 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h2><ul>
+<li><p>表情无法加载</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/8.webp" alt="8"></p>
+<p><strong>解决方法：</strong> 替换 <code>artitalk.js</code> 中的 <code>https://fastly.jsdelivr.net</code> 为别的可用 <code>jsdelivr</code> 镜像，或者挂魔法全部下载下来，再替换为自己的链接</p>
+</li>
+</ul>
+</div>]]></content>
+      <categories>
+        <category>博客</category>
+        <category>说说</category>
+      </categories>
+      <tags>
+        <tag>Artitalk</tag>
+        <tag>Butterfly</tag>
+        <tag>说说</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用Xd画一个文章封面</title>
+    <url>/posts/9bfa1cc/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
+<h2 id="确定主题，选择背景"><a href="#确定主题，选择背景" class="headerlink" title="确定主题，选择背景"></a>确定主题，选择背景</h2><p>想要画个封面，首先要确定自己的主题。比如我们的标题是 <strong>Python 下载图片</strong> 那么我们的主题就可以选 <strong>Python</strong> 、 <strong>编程</strong> 等</p>
+<p>然后去搜索引擎搜索确定好的主题，点击图片，选择自己满意的图片。</p>
+<p>选择图片不用看：</p>
+<ul>
+<li>清晰度</li>
+<li>好不好看</li>
+</ul>
+<p>因为背景都是用来模糊处理的</p>
+<h2 id="导入-XD，开始制作"><a href="#导入-XD，开始制作" class="headerlink" title="导入 XD，开始制作"></a>导入 XD，开始制作</h2><ol>
+<li><p>打开 xd，选择 <strong>Web 1920</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/1.webp" alt="1"></p>
+</li>
+<li><p>拖动图片至 xd 中，点击右边小锁解锁大小限制</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/2.webp" alt="2"></p>
+</li>
+<li><p>调整图片大小直至填满屏幕</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/3.webp" alt="3"></p>
+</li>
+<li><p>右侧下滑找到 <strong>背景模糊</strong> ，将其改为 <strong>对象模糊</strong>，并将进度条拉满</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/4.webp" alt="4"></p>
+</li>
+<li><p>添加图标，我这边选择使用 <strong>阿里巴巴图标库</strong></p>
+<a class="tag-Link" target="_blank" href=" https://www.iconfont.cn/">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.iconfont.cn/.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">阿里巴巴图标库</div>
+            <div class="tag-link-sitename">iconfont</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<p>选择图标，搜索自己需要的图标</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/5.webp" alt="5"></p>
+</li>
+<li><p>找到自己满意的图标后将鼠标放上去，点击下载图标；</p>
+<p>在这页面可以配置颜色大小，我们保持默认，点击 <strong>复制 SVG 代码</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/6.webp" alt="6"></p>
+</li>
+<li><p>回到 xd，按下 <kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴 SVG 代码。</p>
+</li>
+<li><p>按住 <kbd>Shift</kbd> 拖动图标四个角缩放图标，点击右侧顶部的垂直居中按钮</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/7.webp" alt="7"></p>
+</li>
+<li><p>输入标题，点击左侧工具栏的 <strong>T</strong> 或者 按下 <kbd>T</kbd> 输入。输入完成点击别处取消焦点。</p>
+</li>
+<li><p>拉动文本框下小白点缩放文字，在右侧选择文字字体，我比较喜欢用 <strong>方正超粗黑简体</strong></p>
+</li>
+<li><p>点击填充更改字体颜色</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/8.webp" alt="8"></p>
+</li>
+<li><p>与第 8 步一样，使标题垂直居中</p>
+</li>
+<li><p>按住 <kbd>Shift</kbd> 选中图标和标题，按下 <kbd>G</kbd> 合并</p>
+</li>
+<li><p>点击右侧的水平，垂直居中按钮</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/9.webp" alt="9"></p>
+</li>
+<li><p>点击顶部 <strong>文件</strong> -&gt; <strong>导出</strong> -&gt; <strong>所有画板</strong> -&gt; <strong>导出所有画板</strong></p>
+</li>
+</ol>
+<p>这样，你就获得了个文章封面</p>
+</div>]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>Xd</tag>
       </tags>
   </entry>
   <entry>
@@ -924,85 +1088,9 @@
         <category>说说</category>
       </categories>
       <tags>
-        <tag>博客</tag>
-        <tag>说说</tag>
         <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用Xd画一个文章封面</title>
-    <url>/posts/9bfa1cc/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
-<h2 id="确定主题，选择背景"><a href="#确定主题，选择背景" class="headerlink" title="确定主题，选择背景"></a>确定主题，选择背景</h2><p>想要画个封面，首先要确定自己的主题。比如我们的标题是 <strong>Python 下载图片</strong> 那么我们的主题就可以选 <strong>Python</strong> 、 <strong>编程</strong> 等</p>
-<p>然后去搜索引擎搜索确定好的主题，点击图片，选择自己满意的图片。</p>
-<p>选择图片不用看：</p>
-<ul>
-<li>清晰度</li>
-<li>好不好看</li>
-</ul>
-<p>因为背景都是用来模糊处理的</p>
-<h2 id="导入-XD，开始制作"><a href="#导入-XD，开始制作" class="headerlink" title="导入 XD，开始制作"></a>导入 XD，开始制作</h2><ol>
-<li><p>打开 xd，选择 <strong>Web 1920</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/1.webp" alt="1"></p>
-</li>
-<li><p>拖动图片至 xd 中，点击右边小锁解锁大小限制</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/2.webp" alt="2"></p>
-</li>
-<li><p>调整图片大小直至填满屏幕</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/3.webp" alt="3"></p>
-</li>
-<li><p>右侧下滑找到 <strong>背景模糊</strong> ，将其改为 <strong>对象模糊</strong>，并将进度条拉满</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/4.webp" alt="4"></p>
-</li>
-<li><p>添加图标，我这边选择使用 <strong>阿里巴巴图标库</strong></p>
-<a class="tag-Link" target="_blank" href=" https://www.iconfont.cn/">
-    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.iconfont.cn/.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">阿里巴巴图标库</div>
-            <div class="tag-link-sitename">iconfont</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<p>选择图标，搜索自己需要的图标</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/5.webp" alt="5"></p>
-</li>
-<li><p>找到自己满意的图标后将鼠标放上去，点击下载图标；</p>
-<p>在这页面可以配置颜色大小，我们保持默认，点击 <strong>复制 SVG 代码</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/6.webp" alt="6"></p>
-</li>
-<li><p>回到 xd，按下 <kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴 SVG 代码。</p>
-</li>
-<li><p>按住 <kbd>Shift</kbd> 拖动图标四个角缩放图标，点击右侧顶部的垂直居中按钮</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/7.webp" alt="7"></p>
-</li>
-<li><p>输入标题，点击左侧工具栏的 <strong>T</strong> 或者 按下 <kbd>T</kbd> 输入。输入完成点击别处取消焦点。</p>
-</li>
-<li><p>拉动文本框下小白点缩放文字，在右侧选择文字字体，我比较喜欢用 <strong>方正超粗黑简体</strong></p>
-</li>
-<li><p>点击填充更改字体颜色</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/8.webp" alt="8"></p>
-</li>
-<li><p>与第 8 步一样，使标题垂直居中</p>
-</li>
-<li><p>按住 <kbd>Shift</kbd> 选中图标和标题，按下 <kbd>G</kbd> 合并</p>
-</li>
-<li><p>点击右侧的水平，垂直居中按钮</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/9.webp" alt="9"></p>
-</li>
-<li><p>点击顶部 <strong>文件</strong> -&gt; <strong>导出</strong> -&gt; <strong>所有画板</strong> -&gt; <strong>导出所有画板</strong></p>
-</li>
-</ol>
-<p>这样，你就获得了个文章封面</p>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
+        <tag>说说</tag>
         <tag>博客</tag>
-        <tag>Xd</tag>
       </tags>
   </entry>
   <entry>
@@ -1032,91 +1120,20 @@
       </tags>
   </entry>
   <entry>
-    <title>在bf中部署Artitalk说说</title>
-    <url>/posts/a65b7a05/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直想给博客添加个说说功能，但是没时间搞，今天就来嗦一下 <code>hexo</code> 框架下 <code>butterfly</code> 主题的 <code>artitalk</code> 说说部署和踩坑</p>
-<div class="note info simple"><p>小窝已于 2024/3/24 换为 <code>Tgtalk</code> 说说</p>
-</div>
-<h2 id="部署教程"><a href="#部署教程" class="headerlink" title="部署教程"></a>部署教程</h2><p>按照 <code>artitalk</code> 教程部署<br><a class="tag-Link" target="_blank" href="https://artitalk.js.org/doc.html#hexo-theme-butterfly">
-    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/artitalk.js.org/doc.html#hexo-theme-butterfly.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">artitalk使用文档</div>
-            <div class="tag-link-sitename">artitalk</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a></p>
-<p>看不懂？没关系往下接着看</p>
-<h3 id="图文教程"><a href="#图文教程" class="headerlink" title="图文教程"></a>图文教程</h3><ol>
-<li><p>申请 <code>leancloud</code> 中国版账号，国际版也可以，但是需要自行添加域名，因为自 2022 年 8 月起，国际版共享域名不再向中国大陆提供服务。</p>
-<a class="tag-Link" target="_blank" href="https://console.leancloud.app/">
-    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/console.leancloud.app/.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">leancloud</div>
-            <div class="tag-link-sitename">leancloud</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-</li>
-<li><p>创建应用</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/1.webp" alt="1"><br>名称任意，选择开发版</p>
-</li>
-<li><p>点击齿轮状的图标进入设置</p>
-</li>
-<li><p><code>数据储存</code> -&gt; <code>结构化数据</code> -&gt; <code>_user</code> -&gt; <code>添加行</code></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/2.webp" alt="2"></p>
-</li>
-<li><p><code>password</code> 填入密码，<code>username</code> 填入用户名，其他保持默认</p>
-<span class='p orange'>此处的用户名和账号是在前端登陆用的</span>
-</li>
-<li><p><code>数据储存</code> -&gt; <code>结构化数据</code> -&gt; <code>创建Class</code></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/3.webp" alt="3"></p>
-</li>
-<li><p><code>class名称</code> 填写 <code>shuoshuo</code> ，访问权限把红框框选的选项全部改为 <code>指定用户</code> 访问，用户输入上一步填写的用户名，稍等片刻选择下拉框中对应的用户即可</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/4.webp" alt="4"></p>
-</li>
-<li><p>重复上一步的操作，创建名为 <code>atComment</code> 的 Class 类，权限保持默认即可</p>
-</li>
-<li><p>进入 <code>设置</code> -&gt; <code>应用凭证</code> ，记下 <code>AppID</code> <code>AppKey</code> <code>API服务地址</code></p>
-</li>
-<li><p>在博客目录下打开终端，运行</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo new page artitalk # 此处的artitalk可以自定义</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>进入 <code>artitalk/index.md</code> ，加入如下代码</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/artitalk&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;artitalk_main&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">new</span> <span class="title class_">Artitalk</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">appId</span>: <span class="string">&quot;你的AppID&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">appKey</span>: <span class="string">&quot;你的AppKey&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">serverURL</span>: <span class="string">&quot;你的API地址&quot;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">atComment</span>: <span class="number">0</span>,</span></span><br><span class="line"><span class="language-javascript">  &#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>运行 hexo 三件套启动，进入 <code>你的域名/artitalk</code> 就可以看见说说页面了</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/6.webp" alt="5"></p>
-<p>（这是我改过样式的）</p>
-</li>
-</ol>
-<h2 id="我的-artitalk-样式参考"><a href="#我的-artitalk-样式参考" class="headerlink" title="我的 artitalk 样式参考"></a>我的 artitalk 样式参考</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 说说 */</span></span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmtimeline</span> &gt; <span class="selector-tag">li</span> <span class="selector-class">.cbp_tmlabel</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="number">#e5e5e5</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">background</span>: none <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmtimeline</span> &gt; <span class="selector-tag">li</span> <span class="selector-class">.cbp_tmlabel</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmlabel</span><span class="selector-class">.cbp_tmlabel</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">15px</span> <span class="number">32px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.15</span>) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.cbp_tmtimeline</span> &gt; <span class="selector-tag">li</span> <span class="selector-class">.cbp_tmlabel</span><span class="selector-pseudo">:after</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:last-child</span>) &#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="number">#e5e5e5</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">p</span><span class="selector-class">.shuoshuo_time</span> &#123;</span><br><span class="line">  <span class="attribute">border-top</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)<span class="selector-pseudo">::after</span>,</span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)<span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">13px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)<span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">13px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">svg</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">margin-right</span>: <span class="number">5px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#000</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.delete_right</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#000</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-class">.delete_right</span> <span class="selector-tag">svg</span> <span class="selector-tag">path</span> &#123;</span><br><span class="line">  <span class="attribute">fill</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.at_button</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">2px</span> solid <span class="number">#e5e5e5</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span> <span class="selector-id">#artitalk_main</span> <span class="selector-class">.at_button</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#1a1a1b</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>) &#123;</span><br><span class="line">  <span class="attribute">display</span>: none <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#artitalk_main</span> <span class="selector-class">.at_button</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">var</span>(--theme-color) <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">outline</span>: <span class="number">2px</span> solid <span class="number">#fff</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">768px</span>) &#123;</span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> &#123;</span><br><span class="line">    <span class="attribute">flex-direction</span>: column;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:last-child</span>) &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">110px</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="selector-id">#artitalk_main</span> <span class="selector-tag">span</span><span class="selector-class">.cbp_tmlabel</span> &gt; <span class="selector-tag">p</span> <span class="selector-tag">span</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>) &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">160px</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 说说 end */</span></span><br></pre></td></tr></table></figure>
-<h2 id="食用教程"><a href="#食用教程" class="headerlink" title="食用教程"></a>食用教程</h2><p><img src="https://tuchuang.voooe.cn/images/2024/03/25/7.webp" alt="7"></p>
-<ul>
-<li>第一个：发布</li>
-<li>第二个：用户信息</li>
-<li>第三个：发送图片</li>
-</ul>
-<h2 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h2><ul>
-<li><p>表情无法加载</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/25/8.webp" alt="8"></p>
-<p><strong>解决方法：</strong> 替换 <code>artitalk.js</code> 中的 <code>https://fastly.jsdelivr.net</code> 为别的可用 <code>jsdelivr</code> 镜像，或者挂魔法全部下载下来，再替换为自己的链接</p>
-</li>
-</ul>
+    <title>超链接动画样式</title>
+    <url>/posts/acd54f33/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>觉得原来的超链接样式不是很符合我的审美，所以就改了一下，本文章用于记录防止遗忘咋写的</p>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>我是超链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="comment">/* 清除超链接样式 */</span></span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="comment">/* 更改初始颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置一个填充让伪元素正常渲染 */</span></span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span><br><span class="line">  <span class="comment">/* 设置绝对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置底部距离 */</span></span><br><span class="line">  <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span><br><span class="line">  <span class="comment">/* 设置宽度 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="comment">/* 设置高度 */</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置水平方向缩放比例 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">0</span>);</span><br><span class="line">  <span class="comment">/* 设置背景 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置鼠标接触时颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置比例为1，使其显示 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </div>]]></content>
       <categories>
-        <category>博客</category>
-        <category>说说</category>
+        <category>前端</category>
+        <category>Css</category>
       </categories>
       <tags>
-        <tag>说说</tag>
-        <tag>Butterfly</tag>
-        <tag>Artitalk</tag>
+        <tag>前端</tag>
+        <tag>Css</tag>
+        <tag>超链接</tag>
       </tags>
   </entry>
   <entry>
@@ -1190,23 +1207,6 @@
       <tags>
         <tag>Butterfly</tag>
         <tag>魔改</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超链接动画样式</title>
-    <url>/posts/acd54f33/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>觉得原来的超链接样式不是很符合我的审美，所以就改了一下，本文章用于记录防止遗忘咋写的</p>
-<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>我是超链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="comment">/* 清除超链接样式 */</span></span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="comment">/* 更改初始颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置一个填充让伪元素正常渲染 */</span></span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span><br><span class="line">  <span class="comment">/* 设置绝对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置底部距离 */</span></span><br><span class="line">  <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span><br><span class="line">  <span class="comment">/* 设置宽度 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="comment">/* 设置高度 */</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置水平方向缩放比例 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">0</span>);</span><br><span class="line">  <span class="comment">/* 设置背景 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置鼠标接触时颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置比例为1，使其显示 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>前端</category>
-        <category>Css</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Css</tag>
-        <tag>超链接</tag>
       </tags>
   </entry>
   <entry>
@@ -1712,8 +1712,8 @@
 <p>不过佬的瀑布流代码在我这里有点小问题，我就用我自己的屎山代码代替了））</p>
 <h1 id=""><a href="#" class="headerlink" title="#"></a>#</h1></div>]]></content>
       <categories>
-        <category>博客</category>
         <category>笔记</category>
+        <category>博客</category>
         <category>Python</category>
       </categories>
       <tags>
