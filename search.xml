@@ -58,188 +58,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringBootのGet请求新闻列表</title>
-    <url>/posts/82eb68b/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>可以和上期教程放在同意文件夹，或者按照上期教程新建一个项目</p>
-<p>上期教程传送门：<a href="https://www.quenan.love/posts/51385.html">SpringBoot の Post 登录注册案例</a></p>
-</blockquote>
-<h2 id="新建数据库表"><a href="#新建数据库表" class="headerlink" title="新建数据库表"></a>新建数据库表</h2><p>数据表代码参考，解释：</p>
-<ul>
-<li><code>xinwen</code> ： <strong>数据表名</strong></li>
-<li><code>id</code> ：<strong>键值，自增</strong></li>
-<li><code>title</code> ：<strong>标题</strong></li>
-<li><code>content</code> ：<strong>内容</strong></li>
-</ul>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> xinwen (</span><br><span class="line">    id <span class="type">INT</span>(<span class="number">10</span>) <span class="keyword">PRIMARY</span> KEY AUTO_INCREMENT,</span><br><span class="line">    title <span class="type">VARCHAR</span>(<span class="number">30</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    content <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    <span class="keyword">UNIQUE</span> (title)</span><br><span class="line">) ENGINE<span class="operator">=</span>InnoDB <span class="keyword">DEFAULT</span> CHARSET<span class="operator">=</span>utf8mb4;</span><br></pre></td></tr></table></figure>
-<div class="tip error"><p>如出现表不能插入中文数据时，记得转换为 utf8</p>
-</div>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SET</span> NAMES utf8mb4;</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> your_table <span class="keyword">CONVERT</span> <span class="keyword">TO</span> <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_unicode_ci;</span><br></pre></td></tr></table></figure>
-<h2 id="项目实现"><a href="#项目实现" class="headerlink" title="项目实现"></a>项目实现</h2><h3 id="实现-XinWen-实体类"><a href="#实现-XinWen-实体类" class="headerlink" title="实现 XinWen 实体类"></a>实现 XinWen 实体类</h3><ol>
-<li><p>在 <code>domain</code> 目录下新建名为 <code>XinWen</code> 的类</p>
-</li>
-<li><p>在 <code>public</code> 前添加 <code>@Table</code> 和 <code>@Entity</code> 注解</p>
-<ul>
-<li><code>@Table(name = &quot;xinwen&quot;)</code> 注解表示对应数据库 xinwen 表</li>
-<li><code>@Entity</code> 表示这是个实体类</li>
-</ul>
-</li>
-<li><p>主键 <code>id</code> 前添加 <code>@Id</code> 和 <code>@GeneratedValue(strategy = GenerationType.IDENTITY)</code> 注解</p>
-<ul>
-<li><p>目前代码如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-<li><p>在下方空白处使用 <strong>快捷生成 get、set 方法</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0User%E5%AE%9E%E4%BD%93%E7%B1%BB">此处</a></p>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getTitle</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setTitle</span><span class="params">(String title)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.title = title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getContent</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> content;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setContent</span><span class="params">(String content)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.content = content;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenDao"><a href="#实现-XinWenDao" class="headerlink" title="实现 XinWenDao"></a>实现 XinWenDao</h3><ol>
-<li><p>在 <code>repository</code> 目录下新建名为 <code>XinWenDao</code> 接口</p>
-</li>
-<li><p>由于只需要获取全部新闻列表，仅需添加少许代码</p>
-<ul>
-<li><p>添加 <code>@Repository</code> 注解，用于标识数据访问层（DAO）组件</p>
-</li>
-<li><p>继承 <code>JpaRepository</code></p>
-</li>
-</ul>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.repository;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> org.springframework.data.jpa.repository.JpaRepository;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Repository;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Repository</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenDao</span> <span class="keyword">extends</span> <span class="title class_">JpaRepository</span>&lt;XinWen, Long&gt; &#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenService"><a href="#实现-XinWenService" class="headerlink" title="实现 XinWenService"></a>实现 XinWenService</h3><ol>
-<li><p>在 <code>service</code> 目录下新建名为 <code>XinWenService</code> 接口</p>
-</li>
-<li><p>添加获取全部列表逻辑</p>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenServiceImpl"><a href="#实现-XinWenServiceImpl" class="headerlink" title="实现 XinWenServiceImpl"></a>实现 XinWenServiceImpl</h3><ol>
-<li><p>在 <code>service/serviceImpl</code> 目录下新建名为 <code>XinWenServiceImpl</code> 类</p>
-</li>
-<li><p>添加要实现的方法</p>
-<ul>
-<li>在 <code>public class UserServiceImpl</code> 后添加 <code>implements UserService</code> （此时会报错，原因是方法没实现）</li>
-<li>在报错处使用 <strong>快速修复</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0UserServiceImpl">此处</a></li>
-</ul>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service.serviceImpl;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.repository.XinWenDao;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenDao xinWenDao;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenDao.findAll();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenController"><a href="#实现-XinWenController" class="headerlink" title="实现 XinWenController"></a>实现 XinWenController</h3><ol>
-<li><p>在 <code>controller</code> 目录下创建 <code>XinWenController</code> 类</p>
-</li>
-<li><p>添加 <code>@RestController</code> 和 <code>@RequestMapping(&quot;/get&quot;)</code> 注解，分别表示标注这是个控制器和基路由</p>
-</li>
-<li><p>注入 <code>XinWenService</code></p>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.controller;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/get&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenController</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenService xinWenService;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/xinwen&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenService.getAllXinWen();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="测试项目"><a href="#测试项目" class="headerlink" title="测试项目"></a>测试项目</h2><p>使用 <code>postman</code> 测试</p>
-<ul>
-<li><p>向路由 <code>http://localhost:8080/user/register</code> 发送 <code>Get</code> 请求，无需添加参数和请求体</p>
-</li>
-<li><p>成功返回</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">1</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;111&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">2</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;neir&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">3</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻内容&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</div>]]></content>
-      <categories>
-        <category>Java</category>
-        <category>SpringBoot</category>
-      </categories>
-      <tags>
-        <tag>SpringBoot</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mui学习资料总结</title>
-    <url>/posts/40230011/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于学习 <code>Mui</code> 框架的一些资料总结</p>
-<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">备注</th>
-<th style="text-align:center">链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">【跨平台 APP 开发框 架- MUI 全套教程】</td>
-<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
-</tr>
-<tr>
-<td style="text-align:center">【MUI APP】</td>
-<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
-</tr>
-<tr>
-<td style="text-align:center">【MUI 01 课程介绍】</td>
-<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:center">备注</th>
-<th style="text-align:center">链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">HTML5+ API 文档【webview】</td>
-<td style="text-align:center"><a href="https://www.dcloud.io/docs/api/zh_cn/webview.html">https://www.dcloud.io/docs/api/zh_cn/webview.html</a></td>
-</tr>
-<tr>
-<td style="text-align:center">websocket 详情资料参考</td>
-<td style="text-align:center"><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket">https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Mui 简易使用教程-ZeFeng</td>
-<td style="text-align:center"><a href="https://00feng00.github.io/2018/11/18/mui-instructions/">https://00feng00.github.io/2018/11/18/mui-instructions/</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Hello mui 线上演示地址</td>
-<td style="text-align:center"><a href="http://www.dcloud.io/hellomui/index.html">http://www.dcloud.io/hellomui/index.html</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Mui 入门教程</td>
-<td style="text-align:center"><a href="https://zhuanlan.zhihu.com/p/361878292">https://zhuanlan.zhihu.com/p/361878292</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Mui 页面传值</td>
-<td style="text-align:center"><a href="https://ask.dcloud.net.cn/article/63">https://ask.dcloud.net.cn/article/63</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>]]></content>
-      <categories>
-        <category>Mui</category>
-        <category>前端</category>
-        <category>移动应用</category>
-      </categories>
-      <tags>
-        <tag>Mui</tag>
-        <tag>移动应用</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VM虚拟机进入Pe系统</title>
     <url>/posts/19b64ef3/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
@@ -623,37 +441,185 @@
       </tags>
   </entry>
   <entry>
-    <title>Jsdelivr与渺软CDN使用笔记</title>
-    <url>/posts/171ff1e4/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
-<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
+    <title>SpringBootのGet请求新闻列表</title>
+    <url>/posts/82eb68b/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>可以和上期教程放在同意文件夹，或者按照上期教程新建一个项目</p>
+<p>上期教程传送门：<a href="https://www.quenan.love/posts/51385.html">SpringBoot の Post 登录注册案例</a></p>
 </blockquote>
-<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
-<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
-<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
-<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
-<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
-<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+<h2 id="新建数据库表"><a href="#新建数据库表" class="headerlink" title="新建数据库表"></a>新建数据库表</h2><p>数据表代码参考，解释：</p>
+<ul>
+<li><code>xinwen</code> ： <strong>数据表名</strong></li>
+<li><code>id</code> ：<strong>键值，自增</strong></li>
+<li><code>title</code> ：<strong>标题</strong></li>
+<li><code>content</code> ：<strong>内容</strong></li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> xinwen (</span><br><span class="line">    id <span class="type">INT</span>(<span class="number">10</span>) <span class="keyword">PRIMARY</span> KEY AUTO_INCREMENT,</span><br><span class="line">    title <span class="type">VARCHAR</span>(<span class="number">30</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    content <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    <span class="keyword">UNIQUE</span> (title)</span><br><span class="line">) ENGINE<span class="operator">=</span>InnoDB <span class="keyword">DEFAULT</span> CHARSET<span class="operator">=</span>utf8mb4;</span><br></pre></td></tr></table></figure>
+<div class="tip error"><p>如出现表不能插入中文数据时，记得转换为 utf8</p>
+</div>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SET</span> NAMES utf8mb4;</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> your_table <span class="keyword">CONVERT</span> <span class="keyword">TO</span> <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_unicode_ci;</span><br></pre></td></tr></table></figure>
+<h2 id="项目实现"><a href="#项目实现" class="headerlink" title="项目实现"></a>项目实现</h2><h3 id="实现-XinWen-实体类"><a href="#实现-XinWen-实体类" class="headerlink" title="实现 XinWen 实体类"></a>实现 XinWen 实体类</h3><ol>
+<li><p>在 <code>domain</code> 目录下新建名为 <code>XinWen</code> 的类</p>
+</li>
+<li><p>在 <code>public</code> 前添加 <code>@Table</code> 和 <code>@Entity</code> 注解</p>
+<ul>
+<li><code>@Table(name = &quot;xinwen&quot;)</code> 注解表示对应数据库 xinwen 表</li>
+<li><code>@Entity</code> 表示这是个实体类</li>
+</ul>
+</li>
+<li><p>主键 <code>id</code> 前添加 <code>@Id</code> 和 <code>@GeneratedValue(strategy = GenerationType.IDENTITY)</code> 注解</p>
+<ul>
+<li><p>目前代码如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
-<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
-</ul>
-<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
-<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
-<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
+</li>
+<li><p>在下方空白处使用 <strong>快捷生成 get、set 方法</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0User%E5%AE%9E%E4%BD%93%E7%B1%BB">此处</a></p>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getTitle</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setTitle</span><span class="params">(String title)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.title = title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getContent</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> content;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setContent</span><span class="params">(String content)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.content = content;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
+<h3 id="实现-XinWenDao"><a href="#实现-XinWenDao" class="headerlink" title="实现 XinWenDao"></a>实现 XinWenDao</h3><ol>
+<li><p>在 <code>repository</code> 目录下新建名为 <code>XinWenDao</code> 接口</p>
+</li>
+<li><p>由于只需要获取全部新闻列表，仅需添加少许代码</p>
+<ul>
+<li><p>添加 <code>@Repository</code> 注解，用于标识数据访问层（DAO）组件</p>
+</li>
+<li><p>继承 <code>JpaRepository</code></p>
+</li>
+</ul>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.repository;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> org.springframework.data.jpa.repository.JpaRepository;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Repository;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Repository</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenDao</span> <span class="keyword">extends</span> <span class="title class_">JpaRepository</span>&lt;XinWen, Long&gt; &#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="实现-XinWenService"><a href="#实现-XinWenService" class="headerlink" title="实现 XinWenService"></a>实现 XinWenService</h3><ol>
+<li><p>在 <code>service</code> 目录下新建名为 <code>XinWenService</code> 接口</p>
+</li>
+<li><p>添加获取全部列表逻辑</p>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="实现-XinWenServiceImpl"><a href="#实现-XinWenServiceImpl" class="headerlink" title="实现 XinWenServiceImpl"></a>实现 XinWenServiceImpl</h3><ol>
+<li><p>在 <code>service/serviceImpl</code> 目录下新建名为 <code>XinWenServiceImpl</code> 类</p>
+</li>
+<li><p>添加要实现的方法</p>
+<ul>
+<li>在 <code>public class UserServiceImpl</code> 后添加 <code>implements UserService</code> （此时会报错，原因是方法没实现）</li>
+<li>在报错处使用 <strong>快速修复</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0UserServiceImpl">此处</a></li>
+</ul>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service.serviceImpl;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.repository.XinWenDao;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenDao xinWenDao;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenDao.findAll();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="实现-XinWenController"><a href="#实现-XinWenController" class="headerlink" title="实现 XinWenController"></a>实现 XinWenController</h3><ol>
+<li><p>在 <code>controller</code> 目录下创建 <code>XinWenController</code> 类</p>
+</li>
+<li><p>添加 <code>@RestController</code> 和 <code>@RequestMapping(&quot;/get&quot;)</code> 注解，分别表示标注这是个控制器和基路由</p>
+</li>
+<li><p>注入 <code>XinWenService</code></p>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.controller;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/get&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenController</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenService xinWenService;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/xinwen&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenService.getAllXinWen();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="测试项目"><a href="#测试项目" class="headerlink" title="测试项目"></a>测试项目</h2><p>使用 <code>postman</code> 测试</p>
+<ul>
+<li><p>向路由 <code>http://localhost:8080/user/register</code> 发送 <code>Get</code> 请求，无需添加参数和请求体</p>
+</li>
+<li><p>成功返回</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">1</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;111&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">2</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;neir&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">3</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻内容&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
 </div>]]></content>
       <categories>
-        <category>笔记</category>
-        <category>博客</category>
+        <category>Java</category>
+        <category>SpringBoot</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>CDN</tag>
-        <tag>渺软</tag>
+        <tag>SpringBoot</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mui学习资料总结</title>
+    <url>/posts/40230011/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于学习 <code>Mui</code> 框架的一些资料总结</p>
+<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">备注</th>
+<th style="text-align:center">链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">【跨平台 APP 开发框 架- MUI 全套教程】</td>
+<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Wt4y1k721?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
+</tr>
+<tr>
+<td style="text-align:center">【MUI APP】</td>
+<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1yh411d7NU?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
+</tr>
+<tr>
+<td style="text-align:center">【MUI 01 课程介绍】</td>
+<td style="text-align:center"><a href="https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0">https://www.bilibili.com/video/BV1Z841187Q4?vd_source=f363d79bca9571a905e18dad7d7469d0</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">备注</th>
+<th style="text-align:center">链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">HTML5+ API 文档【webview】</td>
+<td style="text-align:center"><a href="https://www.dcloud.io/docs/api/zh_cn/webview.html">https://www.dcloud.io/docs/api/zh_cn/webview.html</a></td>
+</tr>
+<tr>
+<td style="text-align:center">websocket 详情资料参考</td>
+<td style="text-align:center"><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket">https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Mui 简易使用教程-ZeFeng</td>
+<td style="text-align:center"><a href="https://00feng00.github.io/2018/11/18/mui-instructions/">https://00feng00.github.io/2018/11/18/mui-instructions/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Hello mui 线上演示地址</td>
+<td style="text-align:center"><a href="http://www.dcloud.io/hellomui/index.html">http://www.dcloud.io/hellomui/index.html</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Mui 入门教程</td>
+<td style="text-align:center"><a href="https://zhuanlan.zhihu.com/p/361878292">https://zhuanlan.zhihu.com/p/361878292</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Mui 页面传值</td>
+<td style="text-align:center"><a href="https://ask.dcloud.net.cn/article/63">https://ask.dcloud.net.cn/article/63</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>]]></content>
+      <categories>
+        <category>Mui</category>
+        <category>前端</category>
+        <category>移动应用</category>
+      </categories>
+      <tags>
+        <tag>Mui</tag>
+        <tag>移动应用</tag>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -672,6 +638,25 @@
       <tags>
         <tag>笔记</tag>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>侧滑菜单Div模式</title>
+    <url>/posts/e6052156/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于 Mui 官网写的文档不详细，所以在此记录一下 Div 模式的侧滑菜单</p>
+<h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello MUI<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span></span></span><br><span class="line"><span class="tag">      <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">      <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no&quot;</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/mui.min.css&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-wrap mui-draggable&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--侧滑菜单部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">aside</span> <span class="attr">id</span>=<span class="string">&quot;offCanvasSide&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-left&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;boxx&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tx&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">img</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">&quot;menuList&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view mui-table-view-chevron&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;zhuYe&quot;</span>&gt;</span> 首页 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;xinDe&quot;</span>&gt;</span> 心得 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gyhd&quot;</span>&gt;</span> 公益活动 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sjfx&quot;</span>&gt;</span> 数据分析 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sheZhi&quot;</span>&gt;</span> 设置 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--主界面部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-inner-wrap&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">header</span> <span class="attr">class</span>=<span class="string">&quot;mui-bar mui-bar-nav&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">            <span class="attr">href</span>=<span class="string">&quot;#offCanvasSide&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">class</span>=<span class="string">&quot;mui-icon mui-action-menu mui-icon-bars mui-pull-left&quot;</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;mui-title&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-content mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-content&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 关闭遮罩，点击可关闭 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-backdrop&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/mui.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      mui.<span class="title function_">init</span>();</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#box&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#boxx&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="显示侧滑按钮的事件"><a href="#显示侧滑按钮的事件" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;show&quot;</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="显示侧滑按钮的事件-1"><a href="#显示侧滑按钮的事件-1" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;hide&quot;</span>);</span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>Mui</category>
+        <category>前端</category>
+        <category>移动应用</category>
+      </categories>
+      <tags>
+        <tag>Mui</tag>
+        <tag>移动应用</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -712,25 +697,6 @@
         <tag>alist</tag>
         <tag>windows</tag>
         <tag>美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>侧滑菜单Div模式</title>
-    <url>/posts/e6052156/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于 Mui 官网写的文档不详细，所以在此记录一下 Div 模式的侧滑菜单</p>
-<h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello MUI<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span></span></span><br><span class="line"><span class="tag">      <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">      <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no&quot;</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/mui.min.css&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-wrap mui-draggable&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--侧滑菜单部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">aside</span> <span class="attr">id</span>=<span class="string">&quot;offCanvasSide&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-left&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;boxx&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tx&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">img</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">&quot;menuList&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view mui-table-view-chevron&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;zhuYe&quot;</span>&gt;</span> 首页 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;xinDe&quot;</span>&gt;</span> 心得 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gyhd&quot;</span>&gt;</span> 公益活动 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sjfx&quot;</span>&gt;</span> 数据分析 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sheZhi&quot;</span>&gt;</span> 设置 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--主界面部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-inner-wrap&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">header</span> <span class="attr">class</span>=<span class="string">&quot;mui-bar mui-bar-nav&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">            <span class="attr">href</span>=<span class="string">&quot;#offCanvasSide&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">class</span>=<span class="string">&quot;mui-icon mui-action-menu mui-icon-bars mui-pull-left&quot;</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;mui-title&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-content mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-content&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 关闭遮罩，点击可关闭 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-backdrop&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/mui.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      mui.<span class="title function_">init</span>();</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#box&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#boxx&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="显示侧滑按钮的事件"><a href="#显示侧滑按钮的事件" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;show&quot;</span>);</span><br></pre></td></tr></table></figure>
-<h3 id="显示侧滑按钮的事件-1"><a href="#显示侧滑按钮的事件-1" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;hide&quot;</span>);</span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>Mui</category>
-        <category>前端</category>
-        <category>移动应用</category>
-      </categories>
-      <tags>
-        <tag>Mui</tag>
-        <tag>移动应用</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -787,6 +753,40 @@
       <tags>
         <tag>软件</tag>
         <tag>音效</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jsdelivr与渺软CDN使用笔记</title>
+    <url>/posts/171ff1e4/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
+<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
+</blockquote>
+<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
+<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
+<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
+<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
+<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
+<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
+</ul>
+<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
+<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
+<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>CDN</tag>
+        <tag>渺软</tag>
       </tags>
   </entry>
   <entry>
@@ -878,79 +878,29 @@
       </tags>
   </entry>
   <entry>
-    <title>用Xd画一个文章封面</title>
-    <url>/posts/9bfa1cc/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
-<h2 id="确定主题，选择背景"><a href="#确定主题，选择背景" class="headerlink" title="确定主题，选择背景"></a>确定主题，选择背景</h2><p>想要画个封面，首先要确定自己的主题。比如我们的标题是 <strong>Python 下载图片</strong> 那么我们的主题就可以选 <strong>Python</strong> 、 <strong>编程</strong> 等</p>
-<p>然后去搜索引擎搜索确定好的主题，点击图片，选择自己满意的图片。</p>
-<p>选择图片不用看：</p>
-<ul>
-<li>清晰度</li>
-<li>好不好看</li>
-</ul>
-<p>因为背景都是用来模糊处理的</p>
-<h2 id="导入-XD，开始制作"><a href="#导入-XD，开始制作" class="headerlink" title="导入 XD，开始制作"></a>导入 XD，开始制作</h2><ol>
-<li><p>打开 xd，选择 <strong>Web 1920</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/1.webp" alt="1"></p>
-</li>
-<li><p>拖动图片至 xd 中，点击右边小锁解锁大小限制</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/2.webp" alt="2"></p>
-</li>
-<li><p>调整图片大小直至填满屏幕</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/3.webp" alt="3"></p>
-</li>
-<li><p>右侧下滑找到 <strong>背景模糊</strong> ，将其改为 <strong>对象模糊</strong>，并将进度条拉满</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/4.webp" alt="4"></p>
-</li>
-<li><p>添加图标，我这边选择使用 <strong>阿里巴巴图标库</strong></p>
-<a class="tag-Link" target="_blank" href=" https://www.iconfont.cn/">
-    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.iconfont.cn/.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">阿里巴巴图标库</div>
-            <div class="tag-link-sitename">iconfont</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<p>选择图标，搜索自己需要的图标</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/5.webp" alt="5"></p>
-</li>
-<li><p>找到自己满意的图标后将鼠标放上去，点击下载图标；</p>
-<p>在这页面可以配置颜色大小，我们保持默认，点击 <strong>复制 SVG 代码</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/6.webp" alt="6"></p>
-</li>
-<li><p>回到 xd，按下 <kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴 SVG 代码。</p>
-</li>
-<li><p>按住 <kbd>Shift</kbd> 拖动图标四个角缩放图标，点击右侧顶部的垂直居中按钮</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/7.webp" alt="7"></p>
-</li>
-<li><p>输入标题，点击左侧工具栏的 <strong>T</strong> 或者 按下 <kbd>T</kbd> 输入。输入完成点击别处取消焦点。</p>
-</li>
-<li><p>拉动文本框下小白点缩放文字，在右侧选择文字字体，我比较喜欢用 <strong>方正超粗黑简体</strong></p>
-</li>
-<li><p>点击填充更改字体颜色</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/8.webp" alt="8"></p>
-</li>
-<li><p>与第 8 步一样，使标题垂直居中</p>
-</li>
-<li><p>按住 <kbd>Shift</kbd> 选中图标和标题，按下 <kbd>G</kbd> 合并</p>
-</li>
-<li><p>点击右侧的水平，垂直居中按钮</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/9.webp" alt="9"></p>
-</li>
-<li><p>点击顶部 <strong>文件</strong> -&gt; <strong>导出</strong> -&gt; <strong>所有画板</strong> -&gt; <strong>导出所有画板</strong></p>
-</li>
-</ol>
-<p>这样，你就获得了个文章封面</p>
+    <title>纯Css实现Input的动画样式</title>
+    <url>/posts/4a8f6b30/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>灵感来自油管 <a href="https://m.youtube.com/watch?v=Tp1slQwyWaE&amp;feature=youtu.be">传送门</a></p>
+<p>看到 chatGPT 官网的登陆页面有这个样式，看着挺好看，所以就去找了下教程，并且自己优化了一点，纯 css 实现</p>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>首先创建一个盒子用于存放 <code>input</code> 和 <code>label</code></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;inputBox&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot; &quot;</span> <span class="attr">class</span>=<span class="string">&quot;input&quot;</span> <span class="attr">id</span>=<span class="string">&quot;input-userName&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;input-userName&quot;</span> <span class="attr">class</span>=<span class="string">&quot;label&quot;</span>&gt;</span>用户名<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>给他们加上样式</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置弹性盒子 */</span></span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="comment">/* 居中 */</span></span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="comment">/* 填充满屏幕 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.inputBox</span> &#123;</span><br><span class="line">  <span class="comment">/* 子绝父相，故设置父元素为相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.input</span> &#123;</span><br><span class="line">  <span class="comment">/* 取消自带样式轮廓 */</span></span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">  <span class="comment">/* 添加边框 */</span></span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 添加内边距 */</span></span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="comment">/* 添加圆角 */</span></span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">5px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.label</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置绝对定位，脱离文档流 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>);</span><br><span class="line">  <span class="comment">/* 强制不换行 */</span></span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="comment">/* 设置左边距离 */</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="comment">/* 设置字体大小 */</span></span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">12px</span>;</span><br><span class="line">  <span class="comment">/* 设置字体粗细 */</span></span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="comment">/* 添加上过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.2s</span>;</span><br><span class="line">  <span class="comment">/* 设置左右内边距 */</span></span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">3px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>添加上获得焦点样式，</p>
+<p><code>.input:not(:placeholder-shown).input:not(:focus) ~ .label</code> 的意思是：</p>
+<p>当输入框不具有占位符、且不处于焦点状态时选择其后的兄弟元素中类名为 “label” 的元素</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:focus</span> ~ <span class="selector-class">.label</span>,</span><br><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:placeholder-shown</span>)<span class="selector-class">.input</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:focus</span>) ~ <span class="selector-class">.label</span> &#123;</span><br><span class="line">  <span class="comment">/* 将提示文字移到上方 */</span></span><br><span class="line">  <span class="attribute">top</span>: <span class="number">1.5px</span>;</span><br><span class="line">  <span class="comment">/* 将提示文字向左移 */</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="comment">/* 显示背景，覆盖掉边框 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>至此，最基本的样子就有了，只需要再加上一点点的样式</p>
+<h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><p>获得焦点的颜色样式</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">  <span class="comment">/* 更改边框颜色 */</span></span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="built_in">rgb</span>(<span class="number">0</span>, <span class="number">200</span>, <span class="number">255</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:focus</span> ~ <span class="selector-class">.label</span> &#123;</span><br><span class="line">  <span class="comment">/* 更改字体颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">0</span>, <span class="number">200</span>, <span class="number">255</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </div>]]></content>
       <categories>
-        <category>博客</category>
+        <category>前端</category>
+        <category>Css</category>
       </categories>
       <tags>
-        <tag>博客</tag>
-        <tag>Xd</tag>
+        <tag>前端</tag>
+        <tag>Css</tag>
       </tags>
   </entry>
   <entry>
@@ -1094,46 +1044,79 @@
       </tags>
   </entry>
   <entry>
-    <title>纯Css实现Input的动画样式</title>
-    <url>/posts/4a8f6b30/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>灵感来自油管 <a href="https://m.youtube.com/watch?v=Tp1slQwyWaE&amp;feature=youtu.be">传送门</a></p>
-<p>看到 chatGPT 官网的登陆页面有这个样式，看着挺好看，所以就去找了下教程，并且自己优化了一点，纯 css 实现</p>
-<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>首先创建一个盒子用于存放 <code>input</code> 和 <code>label</code></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;inputBox&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot; &quot;</span> <span class="attr">class</span>=<span class="string">&quot;input&quot;</span> <span class="attr">id</span>=<span class="string">&quot;input-userName&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;input-userName&quot;</span> <span class="attr">class</span>=<span class="string">&quot;label&quot;</span>&gt;</span>用户名<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>给他们加上样式</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置弹性盒子 */</span></span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="comment">/* 居中 */</span></span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="comment">/* 填充满屏幕 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.inputBox</span> &#123;</span><br><span class="line">  <span class="comment">/* 子绝父相，故设置父元素为相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.input</span> &#123;</span><br><span class="line">  <span class="comment">/* 取消自带样式轮廓 */</span></span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">  <span class="comment">/* 添加边框 */</span></span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 添加内边距 */</span></span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="comment">/* 添加圆角 */</span></span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">5px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.label</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置绝对定位，脱离文档流 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>);</span><br><span class="line">  <span class="comment">/* 强制不换行 */</span></span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">  <span class="comment">/* 设置左边距离 */</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="comment">/* 设置字体大小 */</span></span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">12px</span>;</span><br><span class="line">  <span class="comment">/* 设置字体粗细 */</span></span><br><span class="line">  <span class="attribute">font-weight</span>: bold;</span><br><span class="line">  <span class="comment">/* 添加上过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.2s</span>;</span><br><span class="line">  <span class="comment">/* 设置左右内边距 */</span></span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">3px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>添加上获得焦点样式，</p>
-<p><code>.input:not(:placeholder-shown).input:not(:focus) ~ .label</code> 的意思是：</p>
-<p>当输入框不具有占位符、且不处于焦点状态时选择其后的兄弟元素中类名为 “label” 的元素</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:focus</span> ~ <span class="selector-class">.label</span>,</span><br><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:placeholder-shown</span>)<span class="selector-class">.input</span><span class="selector-pseudo">:not</span>(<span class="selector-pseudo">:focus</span>) ~ <span class="selector-class">.label</span> &#123;</span><br><span class="line">  <span class="comment">/* 将提示文字移到上方 */</span></span><br><span class="line">  <span class="attribute">top</span>: <span class="number">1.5px</span>;</span><br><span class="line">  <span class="comment">/* 将提示文字向左移 */</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="comment">/* 显示背景，覆盖掉边框 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>至此，最基本的样子就有了，只需要再加上一点点的样式</p>
-<h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><p>获得焦点的颜色样式</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">  <span class="comment">/* 更改边框颜色 */</span></span><br><span class="line">  <span class="attribute">border</span>: <span class="number">2px</span> solid <span class="built_in">rgb</span>(<span class="number">0</span>, <span class="number">200</span>, <span class="number">255</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.input</span><span class="selector-pseudo">:focus</span> ~ <span class="selector-class">.label</span> &#123;</span><br><span class="line">  <span class="comment">/* 更改字体颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">0</span>, <span class="number">200</span>, <span class="number">255</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <title>用Xd画一个文章封面</title>
+    <url>/posts/9bfa1cc/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
+<h2 id="确定主题，选择背景"><a href="#确定主题，选择背景" class="headerlink" title="确定主题，选择背景"></a>确定主题，选择背景</h2><p>想要画个封面，首先要确定自己的主题。比如我们的标题是 <strong>Python 下载图片</strong> 那么我们的主题就可以选 <strong>Python</strong> 、 <strong>编程</strong> 等</p>
+<p>然后去搜索引擎搜索确定好的主题，点击图片，选择自己满意的图片。</p>
+<p>选择图片不用看：</p>
+<ul>
+<li>清晰度</li>
+<li>好不好看</li>
+</ul>
+<p>因为背景都是用来模糊处理的</p>
+<h2 id="导入-XD，开始制作"><a href="#导入-XD，开始制作" class="headerlink" title="导入 XD，开始制作"></a>导入 XD，开始制作</h2><ol>
+<li><p>打开 xd，选择 <strong>Web 1920</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/1.webp" alt="1"></p>
+</li>
+<li><p>拖动图片至 xd 中，点击右边小锁解锁大小限制</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/2.webp" alt="2"></p>
+</li>
+<li><p>调整图片大小直至填满屏幕</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/3.webp" alt="3"></p>
+</li>
+<li><p>右侧下滑找到 <strong>背景模糊</strong> ，将其改为 <strong>对象模糊</strong>，并将进度条拉满</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/4.webp" alt="4"></p>
+</li>
+<li><p>添加图标，我这边选择使用 <strong>阿里巴巴图标库</strong></p>
+<a class="tag-Link" target="_blank" href=" https://www.iconfont.cn/">
+    <div class="tag-link-tips">这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.iconfont.cn/.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">阿里巴巴图标库</div>
+            <div class="tag-link-sitename">iconfont</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<p>选择图标，搜索自己需要的图标</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/5.webp" alt="5"></p>
+</li>
+<li><p>找到自己满意的图标后将鼠标放上去，点击下载图标；</p>
+<p>在这页面可以配置颜色大小，我们保持默认，点击 <strong>复制 SVG 代码</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/6.webp" alt="6"></p>
+</li>
+<li><p>回到 xd，按下 <kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴 SVG 代码。</p>
+</li>
+<li><p>按住 <kbd>Shift</kbd> 拖动图标四个角缩放图标，点击右侧顶部的垂直居中按钮</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/7.webp" alt="7"></p>
+</li>
+<li><p>输入标题，点击左侧工具栏的 <strong>T</strong> 或者 按下 <kbd>T</kbd> 输入。输入完成点击别处取消焦点。</p>
+</li>
+<li><p>拉动文本框下小白点缩放文字，在右侧选择文字字体，我比较喜欢用 <strong>方正超粗黑简体</strong></p>
+</li>
+<li><p>点击填充更改字体颜色</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/8.webp" alt="8"></p>
+</li>
+<li><p>与第 8 步一样，使标题垂直居中</p>
+</li>
+<li><p>按住 <kbd>Shift</kbd> 选中图标和标题，按下 <kbd>G</kbd> 合并</p>
+</li>
+<li><p>点击右侧的水平，垂直居中按钮</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/9.webp" alt="9"></p>
+</li>
+<li><p>点击顶部 <strong>文件</strong> -&gt; <strong>导出</strong> -&gt; <strong>所有画板</strong> -&gt; <strong>导出所有画板</strong></p>
+</li>
+</ol>
+<p>这样，你就获得了个文章封面</p>
 </div>]]></content>
       <categories>
-        <category>前端</category>
-        <category>Css</category>
+        <category>博客</category>
       </categories>
       <tags>
-        <tag>前端</tag>
-        <tag>Css</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超链接动画样式</title>
-    <url>/posts/acd54f33/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>觉得原来的超链接样式不是很符合我的审美，所以就改了一下，本文章用于记录防止遗忘咋写的</p>
-<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>我是超链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="comment">/* 清除超链接样式 */</span></span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="comment">/* 更改初始颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置一个填充让伪元素正常渲染 */</span></span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span><br><span class="line">  <span class="comment">/* 设置绝对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置底部距离 */</span></span><br><span class="line">  <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span><br><span class="line">  <span class="comment">/* 设置宽度 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="comment">/* 设置高度 */</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置水平方向缩放比例 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">0</span>);</span><br><span class="line">  <span class="comment">/* 设置背景 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置鼠标接触时颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置比例为1，使其显示 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>前端</category>
-        <category>Css</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Css</tag>
-        <tag>超链接</tag>
+        <tag>博客</tag>
+        <tag>Xd</tag>
       </tags>
   </entry>
   <entry>
@@ -1207,6 +1190,23 @@
       <tags>
         <tag>Butterfly</tag>
         <tag>魔改</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超链接动画样式</title>
+    <url>/posts/acd54f33/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>觉得原来的超链接样式不是很符合我的审美，所以就改了一下，本文章用于记录防止遗忘咋写的</p>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>我是超链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="comment">/* 清除超链接样式 */</span></span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="comment">/* 更改初始颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置一个填充让伪元素正常渲染 */</span></span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span><br><span class="line">  <span class="comment">/* 设置绝对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置底部距离 */</span></span><br><span class="line">  <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span><br><span class="line">  <span class="comment">/* 设置宽度 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="comment">/* 设置高度 */</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置水平方向缩放比例 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">0</span>);</span><br><span class="line">  <span class="comment">/* 设置背景 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置鼠标接触时颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置比例为1，使其显示 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>前端</category>
+        <category>Css</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Css</tag>
+        <tag>超链接</tag>
       </tags>
   </entry>
   <entry>
@@ -1713,8 +1713,8 @@
 <h1 id=""><a href="#" class="headerlink" title="#"></a>#</h1></div>]]></content>
       <categories>
         <category>笔记</category>
-        <category>博客</category>
         <category>Python</category>
+        <category>博客</category>
       </categories>
       <tags>
         <tag>IDM</tag>
