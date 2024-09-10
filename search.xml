@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>IDM激活，理论永久</title>
+    <url>/posts/a1ef6e91/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>本教程所用工具来源于 Github 项目 <code>IDM-Activation-Script</code></p>
+<p>项目地址：<a href="https://github.com/WindowsAddict/IDM-Activation-Script">传送门</a></p>
+<p>激活完毕可正常更新，如果失效，重新激活即可</p>
+</blockquote>
+<div class="details" >
+              <div class="collapsible"> 免责声明 </div>
+              <div class="content">
+              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
+              </div>
+            </div>
+<div class="details" open>
+              <div class="collapsible"> 更新日志 </div>
+              <div class="content">
+              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-3-18</p></div></div><div class='timeline-item-content'><ol><li>激活失效，改用冻结使用期</li></ol></div></div></div>
+              </div>
+            </div>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>作者提供了两种办法安装，本教程仅介绍第一种</p>
+<ol>
+<li><p>复制以下代码到 <code>powershell</code> 终端( 不是 <code>cmd</code> )，回车</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">irm</span> https://massgrave.dev/ias | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>等待片刻，会跳出个窗口</p>
+<p><img src="https://pub.quenan.love/img/2024-02-27/1.webp" alt="1"></p>
+</li>
+<li><p>意思如下</p>
+<ul>
+<li>[1] 冻结试用</li>
+<li>[2] 激活（失效）</li>
+<li>[3] 重置试用期</li>
+<li>[4] 下载 IDM</li>
+<li>[5] 帮助</li>
+<li>[6] 关闭</li>
+</ul>
+<p>输入 <code>1</code></p>
+</li>
+<li><p>等待出现绿色字样即成功</p>
+</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>如果遇到失败的情况，这边收集了一些解决方法，或查看作者 GitHub</p>
+<ul>
+<li>更改 DNS,推荐 8.8.8.8 或 119.29.29.29</li>
+<li>检查是否输入到了 <code>cmd</code> 中</li>
+</ul>
+</div>]]></content>
+      <categories>
+        <category>软件</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>IDM</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Mui学习资料总结</title>
     <url>/posts/40230011/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于学习 <code>Mui</code> 框架的一些资料总结</p>
@@ -74,6 +131,40 @@
         <tag>Mui</tag>
         <tag>移动应用</tag>
         <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jsdelivr与渺软CDN使用笔记</title>
+    <url>/posts/171ff1e4/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
+<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
+</blockquote>
+<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
+<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
+<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
+<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
+<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
+<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
+</ul>
+<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
+<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
+<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>博客</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>CDN</tag>
+        <tag>渺软</tag>
       </tags>
   </entry>
   <entry>
@@ -183,60 +274,49 @@
       </tags>
   </entry>
   <entry>
-    <title>IDM激活，理论永久</title>
-    <url>/posts/a1ef6e91/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>本教程所用工具来源于 Github 项目 <code>IDM-Activation-Script</code></p>
-<p>项目地址：<a href="https://github.com/WindowsAddict/IDM-Activation-Script">传送门</a></p>
-<p>激活完毕可正常更新，如果失效，重新激活即可</p>
-</blockquote>
-<div class="details" >
-              <div class="collapsible"> 免责声明 </div>
-              <div class="content">
-              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
-              </div>
-            </div>
-<div class="details" open>
-              <div class="collapsible"> 更新日志 </div>
-              <div class="content">
-              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-3-18</p></div></div><div class='timeline-item-content'><ol><li>激活失效，改用冻结使用期</li></ol></div></div></div>
-              </div>
-            </div>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>作者提供了两种办法安装，本教程仅介绍第一种</p>
-<ol>
-<li><p>复制以下代码到 <code>powershell</code> 终端( 不是 <code>cmd</code> )，回车</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">irm</span> https://massgrave.dev/ias | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure>
+    <title>VM虚拟机进入Pe系统</title>
+    <url>/posts/19b64ef3/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
+<li><p>插入 Pe 盘</p>
 </li>
-<li><p>等待片刻，会跳出个窗口</p>
-<p><img src="https://pub.quenan.love/img/2024-02-27/1.webp" alt="1"></p>
+<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
+<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
 </li>
-<li><p>意思如下</p>
-<ul>
-<li>[1] 冻结试用</li>
-<li>[2] 激活（失效）</li>
-<li>[3] 重置试用期</li>
-<li>[4] 下载 IDM</li>
-<li>[5] 帮助</li>
-<li>[6] 关闭</li>
-</ul>
-<p>输入 <code>1</code></p>
+<li><p>记住 Pe 磁盘的序号</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
 </li>
-<li><p>等待出现绿色字样即成功</p>
+<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
+</li>
+<li><p>硬盘类型选择 <strong>SCSI</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
+</li>
+<li><p>选择 <strong>使用物理磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
+</li>
+<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
+</li>
+<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
+</li>
+<li><p>选择 <strong>打开电源时进入固件</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
+</li>
+<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
+</li>
+<li><p>回车确定即可进入 Pe 系统</p>
 </li>
 </ol>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>如果遇到失败的情况，这边收集了一些解决方法，或查看作者 GitHub</p>
-<ul>
-<li>更改 DNS,推荐 8.8.8.8 或 119.29.29.29</li>
-<li>检查是否输入到了 <code>cmd</code> 中</li>
-</ul>
 </div>]]></content>
       <categories>
-        <category>软件</category>
-        <category>笔记</category>
+        <category>VM</category>
       </categories>
       <tags>
-        <tag>IDM</tag>
-        <tag>笔记</tag>
+        <tag>VM</tag>
+        <tag>Pe</tag>
       </tags>
   </entry>
   <entry>
@@ -577,105 +657,6 @@
       </tags>
   </entry>
   <entry>
-    <title>VM虚拟机进入Pe系统</title>
-    <url>/posts/19b64ef3/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
-<li><p>插入 Pe 盘</p>
-</li>
-<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
-<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
-</li>
-<li><p>记住 Pe 磁盘的序号</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
-</li>
-<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
-</li>
-<li><p>硬盘类型选择 <strong>SCSI</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
-</li>
-<li><p>选择 <strong>使用物理磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
-</li>
-<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
-</li>
-<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
-</li>
-<li><p>选择 <strong>打开电源时进入固件</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
-</li>
-<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
-</li>
-<li><p>回车确定即可进入 Pe 系统</p>
-</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>VM</category>
-      </categories>
-      <tags>
-        <tag>VM</tag>
-        <tag>Pe</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jsdelivr与渺软CDN使用笔记</title>
-    <url>/posts/171ff1e4/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
-<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
-</blockquote>
-<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
-<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
-<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
-<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
-<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
-<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
-<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
-</ul>
-<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
-<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
-<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>CDN</tag>
-        <tag>渺软</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>侧滑菜单Div模式</title>
-    <url>/posts/e6052156/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于 Mui 官网写的文档不详细，所以在此记录一下 Div 模式的侧滑菜单</p>
-<h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello MUI<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span></span></span><br><span class="line"><span class="tag">      <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">      <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no&quot;</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/mui.min.css&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-wrap mui-draggable&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--侧滑菜单部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">aside</span> <span class="attr">id</span>=<span class="string">&quot;offCanvasSide&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-left&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;boxx&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tx&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">img</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">&quot;menuList&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view mui-table-view-chevron&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;zhuYe&quot;</span>&gt;</span> 首页 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;xinDe&quot;</span>&gt;</span> 心得 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gyhd&quot;</span>&gt;</span> 公益活动 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sjfx&quot;</span>&gt;</span> 数据分析 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sheZhi&quot;</span>&gt;</span> 设置 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--主界面部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-inner-wrap&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">header</span> <span class="attr">class</span>=<span class="string">&quot;mui-bar mui-bar-nav&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">            <span class="attr">href</span>=<span class="string">&quot;#offCanvasSide&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">class</span>=<span class="string">&quot;mui-icon mui-action-menu mui-icon-bars mui-pull-left&quot;</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;mui-title&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-content mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-content&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 关闭遮罩，点击可关闭 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-backdrop&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/mui.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      mui.<span class="title function_">init</span>();</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#box&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#boxx&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="显示侧滑按钮的事件"><a href="#显示侧滑按钮的事件" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;show&quot;</span>);</span><br></pre></td></tr></table></figure>
-<h3 id="显示侧滑按钮的事件-1"><a href="#显示侧滑按钮的事件-1" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;hide&quot;</span>);</span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>Mui</category>
-        <category>前端</category>
-        <category>移动应用</category>
-      </categories>
-      <tags>
-        <tag>Mui</tag>
-        <tag>移动应用</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows安装alist并美化</title>
     <url>/posts/67ef0433/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文安装部分教程只针对 <code>Windows</code> 系统毕竟 Linux 系统可以一键部署，不需要教了。</p>
@@ -716,59 +697,21 @@
       </tags>
   </entry>
   <entry>
-    <title>免费安装杜比全景声</title>
-    <url>/posts/1dfc6ea9/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>工具地址：<a href="https://fpsplay.github.io/">酸奶会发光</a><br>作者的视频教程</p>
-<iframe src="//player.bilibili.com/player.html?aid=602908112&bvid=BV11B4y137cf&cid=1143612800&p=1" frameborder="no" scrolling="no" width="95%" height="600"> </iframe>
-
-<h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><ol>
-<li>打开音效安装器</li>
-<li>进入第一个 <strong>音效驱动</strong></li>
-<li>点击 <strong>Next</strong></li>
-<li>点击 <code>Add or Remove Features</code></li>
-<li>勾选如下驱动（不需要 DTS 可以不勾选）<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/1.webp" alt="1"></li>
-<li>点击 <strong>Next</strong></li>
-<li>点击 <strong>Install</strong> 安装</li>
-</ol>
-<h2 id="配置音效"><a href="#配置音效" class="headerlink" title="配置音效"></a>配置音效</h2><ol>
-<li>进入第二个 <strong>音效配置</strong></li>
-<li>点击顶部的 <strong>Endpoints</strong> 选择自己要安装的扬声器，如只是给扬声器安装，找到带有 <strong>[Active]</strong> 字样的即可<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/2.webp" alt="2"></li>
-<li>先点击 <strong>Backup</strong> 备份<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/3.webp" alt="3"></li>
-<li>点击 <strong>Product Config Tool</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/4.webp" alt="4"></li>
-<li>点击 <strong>Products</strong> 选择 <strong>Dolby DAX3 UWP (DAPv251-VLLDP120)</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/5.webp" alt="5"></li>
-<li>最后点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
-</ol>
-<h2 id="安装杜比全景声软件"><a href="#安装杜比全景声软件" class="headerlink" title="安装杜比全景声软件"></a>安装杜比全景声软件</h2><ol>
-<li>点击 <strong>杜比全景声</strong> 会自动安装</li>
-<li>安装成功后点击 <strong>重启服务</strong></li>
-<li>打开任务管理器，等待出现两个 <strong>DAX API</strong> 进程</li>
-</ol>
-<h2 id="切换杜比"><a href="#切换杜比" class="headerlink" title="切换杜比"></a>切换杜比</h2><ol>
-<li>点击想要切换的杜比</li>
-<li>等待安装完成后重启服务</li>
-</ol>
-<h2 id="安装-DTS"><a href="#安装-DTS" class="headerlink" title="安装 DTS"></a>安装 DTS</h2><ol>
-<li>重复上述操作，直到配置音效</li>
-<li><strong>Products</strong> 换成 <strong>DTS APO3x UWP</strong></li>
-<li>点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
-<li>点击安装 <strong>DTS 音效</strong></li>
-<li>重启服务</li>
-</ol>
-<h2 id="完全卸载"><a href="#完全卸载" class="headerlink" title="完全卸载"></a>完全卸载</h2><ol>
-<li>卸载音效软件</li>
-<li>进入 <strong>音效配置</strong></li>
-<li>点击 <strong>Restore</strong></li>
-<li>找到备份文件，恢复备份</li>
-<li>点击 <strong>音效驱动</strong></li>
-<li>点击 <strong>Remove</strong> 卸载驱动</li>
-</ol>
+    <title>使用Python下载图片</title>
+    <url>/posts/1abe6423/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
+<p>安装 <code>requests</code></p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
+<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
+<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
 </div>]]></content>
       <categories>
-        <category>软件</category>
+        <category>笔记</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>软件</tag>
-        <tag>音效</tag>
+        <tag>笔记</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -861,24 +804,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用Python下载图片</title>
-    <url>/posts/1abe6423/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
-<p>安装 <code>requests</code></p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
-<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
-<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用Xd画一个文章封面</title>
     <url>/posts/9bfa1cc/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
@@ -952,6 +877,81 @@
       <tags>
         <tag>博客</tag>
         <tag>Xd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>侧滑菜单Div模式</title>
+    <url>/posts/e6052156/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于 Mui 官网写的文档不详细，所以在此记录一下 Div 模式的侧滑菜单</p>
+<h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello MUI<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span></span></span><br><span class="line"><span class="tag">      <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">      <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no&quot;</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/mui.min.css&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-wrap mui-draggable&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--侧滑菜单部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">aside</span> <span class="attr">id</span>=<span class="string">&quot;offCanvasSide&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-left&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;boxx&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tx&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">img</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">&quot;menuList&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view mui-table-view-chevron&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;zhuYe&quot;</span>&gt;</span> 首页 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;xinDe&quot;</span>&gt;</span> 心得 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gyhd&quot;</span>&gt;</span> 公益活动 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sjfx&quot;</span>&gt;</span> 数据分析 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sheZhi&quot;</span>&gt;</span> 设置 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--主界面部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-inner-wrap&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">header</span> <span class="attr">class</span>=<span class="string">&quot;mui-bar mui-bar-nav&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">            <span class="attr">href</span>=<span class="string">&quot;#offCanvasSide&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">class</span>=<span class="string">&quot;mui-icon mui-action-menu mui-icon-bars mui-pull-left&quot;</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;mui-title&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-content mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-content&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 关闭遮罩，点击可关闭 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-backdrop&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/mui.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      mui.<span class="title function_">init</span>();</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#box&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#boxx&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="显示侧滑按钮的事件"><a href="#显示侧滑按钮的事件" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;show&quot;</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="显示侧滑按钮的事件-1"><a href="#显示侧滑按钮的事件-1" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;hide&quot;</span>);</span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>Mui</category>
+        <category>前端</category>
+        <category>移动应用</category>
+      </categories>
+      <tags>
+        <tag>Mui</tag>
+        <tag>移动应用</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费安装杜比全景声</title>
+    <url>/posts/1dfc6ea9/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>工具地址：<a href="https://fpsplay.github.io/">酸奶会发光</a><br>作者的视频教程</p>
+<iframe src="//player.bilibili.com/player.html?aid=602908112&bvid=BV11B4y137cf&cid=1143612800&p=1" frameborder="no" scrolling="no" width="95%" height="600"> </iframe>
+
+<h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><ol>
+<li>打开音效安装器</li>
+<li>进入第一个 <strong>音效驱动</strong></li>
+<li>点击 <strong>Next</strong></li>
+<li>点击 <code>Add or Remove Features</code></li>
+<li>勾选如下驱动（不需要 DTS 可以不勾选）<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/1.webp" alt="1"></li>
+<li>点击 <strong>Next</strong></li>
+<li>点击 <strong>Install</strong> 安装</li>
+</ol>
+<h2 id="配置音效"><a href="#配置音效" class="headerlink" title="配置音效"></a>配置音效</h2><ol>
+<li>进入第二个 <strong>音效配置</strong></li>
+<li>点击顶部的 <strong>Endpoints</strong> 选择自己要安装的扬声器，如只是给扬声器安装，找到带有 <strong>[Active]</strong> 字样的即可<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/2.webp" alt="2"></li>
+<li>先点击 <strong>Backup</strong> 备份<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/3.webp" alt="3"></li>
+<li>点击 <strong>Product Config Tool</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/4.webp" alt="4"></li>
+<li>点击 <strong>Products</strong> 选择 <strong>Dolby DAX3 UWP (DAPv251-VLLDP120)</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/5.webp" alt="5"></li>
+<li>最后点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
+</ol>
+<h2 id="安装杜比全景声软件"><a href="#安装杜比全景声软件" class="headerlink" title="安装杜比全景声软件"></a>安装杜比全景声软件</h2><ol>
+<li>点击 <strong>杜比全景声</strong> 会自动安装</li>
+<li>安装成功后点击 <strong>重启服务</strong></li>
+<li>打开任务管理器，等待出现两个 <strong>DAX API</strong> 进程</li>
+</ol>
+<h2 id="切换杜比"><a href="#切换杜比" class="headerlink" title="切换杜比"></a>切换杜比</h2><ol>
+<li>点击想要切换的杜比</li>
+<li>等待安装完成后重启服务</li>
+</ol>
+<h2 id="安装-DTS"><a href="#安装-DTS" class="headerlink" title="安装 DTS"></a>安装 DTS</h2><ol>
+<li>重复上述操作，直到配置音效</li>
+<li><strong>Products</strong> 换成 <strong>DTS APO3x UWP</strong></li>
+<li>点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
+<li>点击安装 <strong>DTS 音效</strong></li>
+<li>重启服务</li>
+</ol>
+<h2 id="完全卸载"><a href="#完全卸载" class="headerlink" title="完全卸载"></a>完全卸载</h2><ol>
+<li>卸载音效软件</li>
+<li>进入 <strong>音效配置</strong></li>
+<li>点击 <strong>Restore</strong></li>
+<li>找到备份文件，恢复备份</li>
+<li>点击 <strong>音效驱动</strong></li>
+<li>点击 <strong>Remove</strong> 卸载驱动</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+        <tag>音效</tag>
       </tags>
   </entry>
   <entry>
