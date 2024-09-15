@@ -1,1 +1,63 @@
-function tonav(){function e(){document.querySelector("#name-container").style.transform="translate(-50%, 60px)",document.querySelector("#nav .menus_items").style.transform="translateY(0)",document.querySelector("#menuTitleBox").style.zIndex="-1"}e();let t=window.scrollY;window.addEventListener("scroll",(function(){const n=window.scrollY,o=document.querySelector("#page-header");n>t?(document.querySelector("#name-container").style.transform="translate(-50%, 0)",document.querySelector("#nav .menus_items").style.transform="translateY(-60px)",document.querySelector("#menuTitleBox").style.zIndex="1"):e(),n>60?o.classList.add("nav-fixed"):o.classList.remove("nav-fixed"),t=n})),document.querySelector("#name-container").addEventListener("click",(function(){btf.scrollToDest(0,500)})),function(){const e=document.getElementById("page-name");if(e)e.innerText=document.title.split(" | 鹊楠の小窝")[0];else{const e=new MutationObserver(((e,t)=>{const n=document.getElementById("page-name");n&&(n.innerText=document.title.split(" | 鹊楠の小窝")[0],t.disconnect())}));e.observe(document.body,{childList:!0,subtree:!0})}}()}document.addEventListener("pjax:complete",tonav),document.addEventListener("DOMContentLoaded",tonav);
+document.addEventListener('pjax:complete', tonav);
+document.addEventListener('DOMContentLoaded', tonav);
+
+function tonav() {
+
+    function up() {
+        document.querySelector("#name-container").style.transform = "translate(-50%, 60px)";
+        document.querySelector("#nav .menus_items").style.transform = "translateY(0)";
+        document.querySelector("#menuTitleBox").style.zIndex = "-1";
+    }
+
+    function scrollToTop() {
+        btf.scrollToDest(0, 500);
+    }
+
+    function updatePageName() {
+        const pageNameElement = document.getElementById("page-name");
+        if (pageNameElement) {
+            pageNameElement.innerText = document.title.split(" | 鹊楠の小窝")[0];
+        } else {
+            const observer = new MutationObserver((mutations, observer) => {
+                const pageNameElement = document.getElementById("page-name");
+                if (pageNameElement) {
+                    pageNameElement.innerText = document.title.split(" | 鹊楠の小窝")[0];
+                    observer.disconnect();
+                }
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+        }
+    }
+
+    up();
+
+    let position = window.scrollY;
+
+    window.addEventListener('scroll', function () {
+        const scroll = window.scrollY;
+        const nav = document.querySelector("#page-header");
+
+        if (scroll > position) {
+            document.querySelector("#name-container").style.transform = "translate(-50%, 0)";
+            document.querySelector("#nav .menus_items").style.transform = "translateY(-60px)";
+            document.querySelector("#menuTitleBox").style.zIndex = "1";
+        } else {
+            up();
+        }
+
+        // 检测下滑超过60px
+        if (scroll > 60) {
+            nav.classList.add('nav-fixed');
+        } else {
+            nav.classList.remove('nav-fixed');
+        }
+
+        position = scroll;
+    });
+
+    document.querySelector("#name-container").addEventListener("click", function () {
+        scrollToTop();
+    });
+
+    updatePageName();
+}

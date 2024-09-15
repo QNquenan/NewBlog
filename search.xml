@@ -623,6 +623,40 @@
       </tags>
   </entry>
   <entry>
+    <title>Jsdelivr与渺软CDN使用笔记</title>
+    <url>/posts/171ff1e4/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
+<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
+</blockquote>
+<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
+<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
+<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
+<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
+<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
+<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
+</ul>
+<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
+<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
+<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>CDN</tag>
+        <tag>渺软</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows安装alist并美化</title>
     <url>/posts/67ef0433/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文安装部分教程只针对 <code>Windows</code> 系统毕竟 Linux 系统可以一键部署，不需要教了。</p>
@@ -663,40 +697,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Jsdelivr与渺软CDN使用笔记</title>
-    <url>/posts/171ff1e4/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
-<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
-</blockquote>
-<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
-<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
-<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
-<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
-<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
-<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
-<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
-</ul>
-<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
-<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
-<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>CDN</tag>
-        <tag>渺软</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>使用Python下载图片</title>
     <url>/posts/1abe6423/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
@@ -731,62 +731,6 @@
         <tag>Mui</tag>
         <tag>移动应用</tag>
         <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免费安装杜比全景声</title>
-    <url>/posts/1dfc6ea9/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>工具地址：<a href="https://fpsplay.github.io/">酸奶会发光</a><br>作者的视频教程</p>
-<iframe src="//player.bilibili.com/player.html?aid=602908112&bvid=BV11B4y137cf&cid=1143612800&p=1" frameborder="no" scrolling="no" width="95%" height="600"> </iframe>
-
-<h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><ol>
-<li>打开音效安装器</li>
-<li>进入第一个 <strong>音效驱动</strong></li>
-<li>点击 <strong>Next</strong></li>
-<li>点击 <code>Add or Remove Features</code></li>
-<li>勾选如下驱动（不需要 DTS 可以不勾选）<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/1.webp" alt="1"></li>
-<li>点击 <strong>Next</strong></li>
-<li>点击 <strong>Install</strong> 安装</li>
-</ol>
-<h2 id="配置音效"><a href="#配置音效" class="headerlink" title="配置音效"></a>配置音效</h2><ol>
-<li>进入第二个 <strong>音效配置</strong></li>
-<li>点击顶部的 <strong>Endpoints</strong> 选择自己要安装的扬声器，如只是给扬声器安装，找到带有 <strong>[Active]</strong> 字样的即可<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/2.webp" alt="2"></li>
-<li>先点击 <strong>Backup</strong> 备份<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/3.webp" alt="3"></li>
-<li>点击 <strong>Product Config Tool</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/4.webp" alt="4"></li>
-<li>点击 <strong>Products</strong> 选择 <strong>Dolby DAX3 UWP (DAPv251-VLLDP120)</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/5.webp" alt="5"></li>
-<li>最后点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
-</ol>
-<h2 id="安装杜比全景声软件"><a href="#安装杜比全景声软件" class="headerlink" title="安装杜比全景声软件"></a>安装杜比全景声软件</h2><ol>
-<li>点击 <strong>杜比全景声</strong> 会自动安装</li>
-<li>安装成功后点击 <strong>重启服务</strong></li>
-<li>打开任务管理器，等待出现两个 <strong>DAX API</strong> 进程</li>
-</ol>
-<h2 id="切换杜比"><a href="#切换杜比" class="headerlink" title="切换杜比"></a>切换杜比</h2><ol>
-<li>点击想要切换的杜比</li>
-<li>等待安装完成后重启服务</li>
-</ol>
-<h2 id="安装-DTS"><a href="#安装-DTS" class="headerlink" title="安装 DTS"></a>安装 DTS</h2><ol>
-<li>重复上述操作，直到配置音效</li>
-<li><strong>Products</strong> 换成 <strong>DTS APO3x UWP</strong></li>
-<li>点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
-<li>点击安装 <strong>DTS 音效</strong></li>
-<li>重启服务</li>
-</ol>
-<h2 id="完全卸载"><a href="#完全卸载" class="headerlink" title="完全卸载"></a>完全卸载</h2><ol>
-<li>卸载音效软件</li>
-<li>进入 <strong>音效配置</strong></li>
-<li>点击 <strong>Restore</strong></li>
-<li>找到备份文件，恢复备份</li>
-<li>点击 <strong>音效驱动</strong></li>
-<li>点击 <strong>Remove</strong> 卸载驱动</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-        <tag>音效</tag>
       </tags>
   </entry>
   <entry>
@@ -876,6 +820,62 @@
         <tag>Artitalk</tag>
         <tag>Butterfly</tag>
         <tag>说说</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费安装杜比全景声</title>
+    <url>/posts/1dfc6ea9/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>工具地址：<a href="https://fpsplay.github.io/">酸奶会发光</a><br>作者的视频教程</p>
+<iframe src="//player.bilibili.com/player.html?aid=602908112&bvid=BV11B4y137cf&cid=1143612800&p=1" frameborder="no" scrolling="no" width="95%" height="600"> </iframe>
+
+<h2 id="安装驱动"><a href="#安装驱动" class="headerlink" title="安装驱动"></a>安装驱动</h2><ol>
+<li>打开音效安装器</li>
+<li>进入第一个 <strong>音效驱动</strong></li>
+<li>点击 <strong>Next</strong></li>
+<li>点击 <code>Add or Remove Features</code></li>
+<li>勾选如下驱动（不需要 DTS 可以不勾选）<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/1.webp" alt="1"></li>
+<li>点击 <strong>Next</strong></li>
+<li>点击 <strong>Install</strong> 安装</li>
+</ol>
+<h2 id="配置音效"><a href="#配置音效" class="headerlink" title="配置音效"></a>配置音效</h2><ol>
+<li>进入第二个 <strong>音效配置</strong></li>
+<li>点击顶部的 <strong>Endpoints</strong> 选择自己要安装的扬声器，如只是给扬声器安装，找到带有 <strong>[Active]</strong> 字样的即可<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/2.webp" alt="2"></li>
+<li>先点击 <strong>Backup</strong> 备份<br><img src="https://tuchuang.voooe.cn/images/2024/04/03/3.webp" alt="3"></li>
+<li>点击 <strong>Product Config Tool</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/4.webp" alt="4"></li>
+<li>点击 <strong>Products</strong> 选择 <strong>Dolby DAX3 UWP (DAPv251-VLLDP120)</strong><br><img src="https://tuchuang.voooe.cn/images/2024/04/03/5.webp" alt="5"></li>
+<li>最后点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
+</ol>
+<h2 id="安装杜比全景声软件"><a href="#安装杜比全景声软件" class="headerlink" title="安装杜比全景声软件"></a>安装杜比全景声软件</h2><ol>
+<li>点击 <strong>杜比全景声</strong> 会自动安装</li>
+<li>安装成功后点击 <strong>重启服务</strong></li>
+<li>打开任务管理器，等待出现两个 <strong>DAX API</strong> 进程</li>
+</ol>
+<h2 id="切换杜比"><a href="#切换杜比" class="headerlink" title="切换杜比"></a>切换杜比</h2><ol>
+<li>点击想要切换的杜比</li>
+<li>等待安装完成后重启服务</li>
+</ol>
+<h2 id="安装-DTS"><a href="#安装-DTS" class="headerlink" title="安装 DTS"></a>安装 DTS</h2><ol>
+<li>重复上述操作，直到配置音效</li>
+<li><strong>Products</strong> 换成 <strong>DTS APO3x UWP</strong></li>
+<li>点击 <strong>Apply Product Settings to Selected Endpoints</strong> 应用</li>
+<li>点击安装 <strong>DTS 音效</strong></li>
+<li>重启服务</li>
+</ol>
+<h2 id="完全卸载"><a href="#完全卸载" class="headerlink" title="完全卸载"></a>完全卸载</h2><ol>
+<li>卸载音效软件</li>
+<li>进入 <strong>音效配置</strong></li>
+<li>点击 <strong>Restore</strong></li>
+<li>找到备份文件，恢复备份</li>
+<li>点击 <strong>音效驱动</strong></li>
+<li>点击 <strong>Remove</strong> 卸载驱动</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+        <tag>音效</tag>
       </tags>
   </entry>
   <entry>

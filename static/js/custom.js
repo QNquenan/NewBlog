@@ -1,1 +1,36 @@
-function todo(){var e=document.querySelector(".blog-slider");if(e){var t=new Swiper(e,{passiveListeners:!0,spaceBetween:30,effect:"fade",loop:!0,autoplay:{disableOnInteraction:!1,delay:3e3},mousewheel:!0,pagination:{el:".blog-slider__pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});t.el.onmouseenter=function(){t.autoplay.stop()},t.el.onmouseleave=function(){t.autoplay.start()}}}document.addEventListener("pjax:complete",todo),document.addEventListener("DOMContentLoaded",todo);
+document.addEventListener('pjax:complete', todo);
+document.addEventListener('DOMContentLoaded', todo);
+
+function todo() {
+    var sliderElement = document.querySelector('.blog-slider');
+
+    if (sliderElement) {
+        var swiper = new Swiper(sliderElement, {
+            passiveListeners: true,
+            spaceBetween: 30,
+            effect: 'fade',
+            loop: true,
+            autoplay: {
+                disableOnInteraction: false,
+                delay: 3000
+            },
+            mousewheel: true,
+            pagination: {
+                el: '.blog-slider__pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+
+        swiper.el.onmouseenter = function () {
+            swiper.autoplay.stop();
+        };
+
+        swiper.el.onmouseleave = function () {
+            swiper.autoplay.start();
+        };
+    }
+}
