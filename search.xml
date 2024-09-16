@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>IDM激活，理论永久</title>
+    <url>/posts/a1ef6e91/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>本教程所用工具来源于 Github 项目 <code>IDM-Activation-Script</code></p>
+<p>项目地址：<a href="https://github.com/WindowsAddict/IDM-Activation-Script">传送门</a></p>
+<p>激活完毕可正常更新，如果失效，重新激活即可</p>
+</blockquote>
+<div class="details" >
+              <div class="collapsible"> 免责声明 </div>
+              <div class="content">
+              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
+              </div>
+            </div>
+<div class="details" open>
+              <div class="collapsible"> 更新日志 </div>
+              <div class="content">
+              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-3-18</p></div></div><div class='timeline-item-content'><ol><li>激活失效，改用冻结使用期</li></ol></div></div></div>
+              </div>
+            </div>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>作者提供了两种办法安装，本教程仅介绍第一种</p>
+<ol>
+<li><p>复制以下代码到 <code>powershell</code> 终端( 不是 <code>cmd</code> )，回车</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">irm</span> https://massgrave.dev/ias | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>等待片刻，会跳出个窗口</p>
+<p><img src="https://pub.quenan.love/img/2024-02-27/1.webp" alt="1"></p>
+</li>
+<li><p>意思如下</p>
+<ul>
+<li>[1] 冻结试用</li>
+<li>[2] 激活（失效）</li>
+<li>[3] 重置试用期</li>
+<li>[4] 下载 IDM</li>
+<li>[5] 帮助</li>
+<li>[6] 关闭</li>
+</ul>
+<p>输入 <code>1</code></p>
+</li>
+<li><p>等待出现绿色字样即成功</p>
+</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>如果遇到失败的情况，这边收集了一些解决方法，或查看作者 GitHub</p>
+<ul>
+<li>更改 DNS,推荐 8.8.8.8 或 119.29.29.29</li>
+<li>检查是否输入到了 <code>cmd</code> 中</li>
+</ul>
+</div>]]></content>
+      <categories>
+        <category>软件</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>IDM</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Mui学习资料总结</title>
     <url>/posts/40230011/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于学习 <code>Mui</code> 框架的一些资料总结</p>
@@ -77,106 +134,109 @@
       </tags>
   </entry>
   <entry>
-    <title>IDM激活，理论永久</title>
-    <url>/posts/a1ef6e91/</url>
+    <title>SpringBootのGet请求新闻列表</title>
+    <url>/posts/82eb68b/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>本教程所用工具来源于 Github 项目 <code>IDM-Activation-Script</code></p>
-<p>项目地址：<a href="https://github.com/WindowsAddict/IDM-Activation-Script">传送门</a></p>
-<p>激活完毕可正常更新，如果失效，重新激活即可</p>
+<p>可以和上期教程放在同意文件夹，或者按照上期教程新建一个项目</p>
+<p>上期教程传送门：<a href="https://www.quenan.love/posts/51385.html">SpringBoot の Post 登录注册案例</a></p>
 </blockquote>
-<div class="details" >
-              <div class="collapsible"> 免责声明 </div>
-              <div class="content">
-              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
-              </div>
-            </div>
-<div class="details" open>
-              <div class="collapsible"> 更新日志 </div>
-              <div class="content">
-              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-3-18</p></div></div><div class='timeline-item-content'><ol><li>激活失效，改用冻结使用期</li></ol></div></div></div>
-              </div>
-            </div>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>作者提供了两种办法安装，本教程仅介绍第一种</p>
-<ol>
-<li><p>复制以下代码到 <code>powershell</code> 终端( 不是 <code>cmd</code> )，回车</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">irm</span> https://massgrave.dev/ias | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>等待片刻，会跳出个窗口</p>
-<p><img src="https://pub.quenan.love/img/2024-02-27/1.webp" alt="1"></p>
-</li>
-<li><p>意思如下</p>
+<h2 id="新建数据库表"><a href="#新建数据库表" class="headerlink" title="新建数据库表"></a>新建数据库表</h2><p>数据表代码参考，解释：</p>
 <ul>
-<li>[1] 冻结试用</li>
-<li>[2] 激活（失效）</li>
-<li>[3] 重置试用期</li>
-<li>[4] 下载 IDM</li>
-<li>[5] 帮助</li>
-<li>[6] 关闭</li>
+<li><code>xinwen</code> ： <strong>数据表名</strong></li>
+<li><code>id</code> ：<strong>键值，自增</strong></li>
+<li><code>title</code> ：<strong>标题</strong></li>
+<li><code>content</code> ：<strong>内容</strong></li>
 </ul>
-<p>输入 <code>1</code></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> xinwen (</span><br><span class="line">    id <span class="type">INT</span>(<span class="number">10</span>) <span class="keyword">PRIMARY</span> KEY AUTO_INCREMENT,</span><br><span class="line">    title <span class="type">VARCHAR</span>(<span class="number">30</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    content <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    <span class="keyword">UNIQUE</span> (title)</span><br><span class="line">) ENGINE<span class="operator">=</span>InnoDB <span class="keyword">DEFAULT</span> CHARSET<span class="operator">=</span>utf8mb4;</span><br></pre></td></tr></table></figure>
+<div class="tip error"><p>如出现表不能插入中文数据时，记得转换为 utf8</p>
+</div>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SET</span> NAMES utf8mb4;</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> your_table <span class="keyword">CONVERT</span> <span class="keyword">TO</span> <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_unicode_ci;</span><br></pre></td></tr></table></figure>
+<h2 id="项目实现"><a href="#项目实现" class="headerlink" title="项目实现"></a>项目实现</h2><h3 id="实现-XinWen-实体类"><a href="#实现-XinWen-实体类" class="headerlink" title="实现 XinWen 实体类"></a>实现 XinWen 实体类</h3><ol>
+<li><p>在 <code>domain</code> 目录下新建名为 <code>XinWen</code> 的类</p>
 </li>
-<li><p>等待出现绿色字样即成功</p>
+<li><p>在 <code>public</code> 前添加 <code>@Table</code> 和 <code>@Entity</code> 注解</p>
+<ul>
+<li><code>@Table(name = &quot;xinwen&quot;)</code> 注解表示对应数据库 xinwen 表</li>
+<li><code>@Entity</code> 表示这是个实体类</li>
+</ul>
+</li>
+<li><p>主键 <code>id</code> 前添加 <code>@Id</code> 和 <code>@GeneratedValue(strategy = GenerationType.IDENTITY)</code> 注解</p>
+<ul>
+<li><p>目前代码如下</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>在下方空白处使用 <strong>快捷生成 get、set 方法</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0User%E5%AE%9E%E4%BD%93%E7%B1%BB">此处</a></p>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getTitle</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setTitle</span><span class="params">(String title)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.title = title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getContent</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> content;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setContent</span><span class="params">(String content)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.content = content;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>如果遇到失败的情况，这边收集了一些解决方法，或查看作者 GitHub</p>
+<h3 id="实现-XinWenDao"><a href="#实现-XinWenDao" class="headerlink" title="实现 XinWenDao"></a>实现 XinWenDao</h3><ol>
+<li><p>在 <code>repository</code> 目录下新建名为 <code>XinWenDao</code> 接口</p>
+</li>
+<li><p>由于只需要获取全部新闻列表，仅需添加少许代码</p>
 <ul>
-<li>更改 DNS,推荐 8.8.8.8 或 119.29.29.29</li>
-<li>检查是否输入到了 <code>cmd</code> 中</li>
+<li><p>添加 <code>@Repository</code> 注解，用于标识数据访问层（DAO）组件</p>
+</li>
+<li><p>继承 <code>JpaRepository</code></p>
+</li>
+</ul>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.repository;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> org.springframework.data.jpa.repository.JpaRepository;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Repository;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Repository</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenDao</span> <span class="keyword">extends</span> <span class="title class_">JpaRepository</span>&lt;XinWen, Long&gt; &#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="实现-XinWenService"><a href="#实现-XinWenService" class="headerlink" title="实现 XinWenService"></a>实现 XinWenService</h3><ol>
+<li><p>在 <code>service</code> 目录下新建名为 <code>XinWenService</code> 接口</p>
+</li>
+<li><p>添加获取全部列表逻辑</p>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="实现-XinWenServiceImpl"><a href="#实现-XinWenServiceImpl" class="headerlink" title="实现 XinWenServiceImpl"></a>实现 XinWenServiceImpl</h3><ol>
+<li><p>在 <code>service/serviceImpl</code> 目录下新建名为 <code>XinWenServiceImpl</code> 类</p>
+</li>
+<li><p>添加要实现的方法</p>
+<ul>
+<li>在 <code>public class UserServiceImpl</code> 后添加 <code>implements UserService</code> （此时会报错，原因是方法没实现）</li>
+<li>在报错处使用 <strong>快速修复</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0UserServiceImpl">此处</a></li>
+</ul>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service.serviceImpl;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.repository.XinWenDao;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenDao xinWenDao;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenDao.findAll();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="实现-XinWenController"><a href="#实现-XinWenController" class="headerlink" title="实现 XinWenController"></a>实现 XinWenController</h3><ol>
+<li><p>在 <code>controller</code> 目录下创建 <code>XinWenController</code> 类</p>
+</li>
+<li><p>添加 <code>@RestController</code> 和 <code>@RequestMapping(&quot;/get&quot;)</code> 注解，分别表示标注这是个控制器和基路由</p>
+</li>
+<li><p>注入 <code>XinWenService</code></p>
+</li>
+<li><p>完整代码</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.controller;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/get&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenController</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenService xinWenService;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/xinwen&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenService.getAllXinWen();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="测试项目"><a href="#测试项目" class="headerlink" title="测试项目"></a>测试项目</h2><p>使用 <code>postman</code> 测试</p>
+<ul>
+<li><p>向路由 <code>http://localhost:8080/user/register</code> 发送 <code>Get</code> 请求，无需添加参数和请求体</p>
+</li>
+<li><p>成功返回</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">1</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;111&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">2</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;neir&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">3</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻内容&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
+</li>
 </ul>
 </div>]]></content>
       <categories>
-        <category>软件</category>
-        <category>笔记</category>
+        <category>Java</category>
+        <category>SpringBoot</category>
       </categories>
       <tags>
-        <tag>IDM</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VM虚拟机进入Pe系统</title>
-    <url>/posts/19b64ef3/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
-<li><p>插入 Pe 盘</p>
-</li>
-<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
-<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
-</li>
-<li><p>记住 Pe 磁盘的序号</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
-</li>
-<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
-</li>
-<li><p>硬盘类型选择 <strong>SCSI</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
-</li>
-<li><p>选择 <strong>使用物理磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
-</li>
-<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
-</li>
-<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
-</li>
-<li><p>选择 <strong>打开电源时进入固件</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
-</li>
-<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
-</li>
-<li><p>回车确定即可进入 Pe 系统</p>
-</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>VM</category>
-      </categories>
-      <tags>
-        <tag>VM</tag>
-        <tag>Pe</tag>
+        <tag>SpringBoot</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -517,146 +577,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringBootのGet请求新闻列表</title>
-    <url>/posts/82eb68b/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>可以和上期教程放在同意文件夹，或者按照上期教程新建一个项目</p>
-<p>上期教程传送门：<a href="https://www.quenan.love/posts/51385.html">SpringBoot の Post 登录注册案例</a></p>
-</blockquote>
-<h2 id="新建数据库表"><a href="#新建数据库表" class="headerlink" title="新建数据库表"></a>新建数据库表</h2><p>数据表代码参考，解释：</p>
-<ul>
-<li><code>xinwen</code> ： <strong>数据表名</strong></li>
-<li><code>id</code> ：<strong>键值，自增</strong></li>
-<li><code>title</code> ：<strong>标题</strong></li>
-<li><code>content</code> ：<strong>内容</strong></li>
-</ul>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> xinwen (</span><br><span class="line">    id <span class="type">INT</span>(<span class="number">10</span>) <span class="keyword">PRIMARY</span> KEY AUTO_INCREMENT,</span><br><span class="line">    title <span class="type">VARCHAR</span>(<span class="number">30</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    content <span class="type">VARCHAR</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    <span class="keyword">UNIQUE</span> (title)</span><br><span class="line">) ENGINE<span class="operator">=</span>InnoDB <span class="keyword">DEFAULT</span> CHARSET<span class="operator">=</span>utf8mb4;</span><br></pre></td></tr></table></figure>
-<div class="tip error"><p>如出现表不能插入中文数据时，记得转换为 utf8</p>
-</div>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SET</span> NAMES utf8mb4;</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> your_table <span class="keyword">CONVERT</span> <span class="keyword">TO</span> <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_unicode_ci;</span><br></pre></td></tr></table></figure>
-<h2 id="项目实现"><a href="#项目实现" class="headerlink" title="项目实现"></a>项目实现</h2><h3 id="实现-XinWen-实体类"><a href="#实现-XinWen-实体类" class="headerlink" title="实现 XinWen 实体类"></a>实现 XinWen 实体类</h3><ol>
-<li><p>在 <code>domain</code> 目录下新建名为 <code>XinWen</code> 的类</p>
-</li>
-<li><p>在 <code>public</code> 前添加 <code>@Table</code> 和 <code>@Entity</code> 注解</p>
-<ul>
-<li><code>@Table(name = &quot;xinwen&quot;)</code> 注解表示对应数据库 xinwen 表</li>
-<li><code>@Entity</code> 表示这是个实体类</li>
-</ul>
-</li>
-<li><p>主键 <code>id</code> 前添加 <code>@Id</code> 和 <code>@GeneratedValue(strategy = GenerationType.IDENTITY)</code> 注解</p>
-<ul>
-<li><p>目前代码如下</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-<li><p>在下方空白处使用 <strong>快捷生成 get、set 方法</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0User%E5%AE%9E%E4%BD%93%E7%B1%BB">此处</a></p>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.domain;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> jakarta.persistence.*;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Table(name = &quot;xinwen&quot;)</span></span><br><span class="line"><span class="meta">@Entity</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWen</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Id</span></span><br><span class="line">    <span class="meta">@GeneratedValue(strategy = GenerationType.IDENTITY)</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> String content;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getTitle</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setTitle</span><span class="params">(String title)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.title = title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getContent</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> content;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setContent</span><span class="params">(String content)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.content = content;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenDao"><a href="#实现-XinWenDao" class="headerlink" title="实现 XinWenDao"></a>实现 XinWenDao</h3><ol>
-<li><p>在 <code>repository</code> 目录下新建名为 <code>XinWenDao</code> 接口</p>
-</li>
-<li><p>由于只需要获取全部新闻列表，仅需添加少许代码</p>
-<ul>
-<li><p>添加 <code>@Repository</code> 注解，用于标识数据访问层（DAO）组件</p>
-</li>
-<li><p>继承 <code>JpaRepository</code></p>
-</li>
-</ul>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.repository;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> org.springframework.data.jpa.repository.JpaRepository;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Repository;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Repository</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenDao</span> <span class="keyword">extends</span> <span class="title class_">JpaRepository</span>&lt;XinWen, Long&gt; &#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenService"><a href="#实现-XinWenService" class="headerlink" title="实现 XinWenService"></a>实现 XinWenService</h3><ol>
-<li><p>在 <code>service</code> 目录下新建名为 <code>XinWenService</code> 接口</p>
-</li>
-<li><p>添加获取全部列表逻辑</p>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenServiceImpl"><a href="#实现-XinWenServiceImpl" class="headerlink" title="实现 XinWenServiceImpl"></a>实现 XinWenServiceImpl</h3><ol>
-<li><p>在 <code>service/serviceImpl</code> 目录下新建名为 <code>XinWenServiceImpl</code> 类</p>
-</li>
-<li><p>添加要实现的方法</p>
-<ul>
-<li>在 <code>public class UserServiceImpl</code> 后添加 <code>implements UserService</code> （此时会报错，原因是方法没实现）</li>
-<li>在报错处使用 <strong>快速修复</strong> ，详见 <a href="https://www.quenan.love/posts/51385.html#%E5%AE%9E%E7%8E%B0UserServiceImpl">此处</a></li>
-</ul>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.service.serviceImpl;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.repository.XinWenDao;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.stereotype.Service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenServiceImpl</span> <span class="keyword">implements</span> <span class="title class_">XinWenService</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenDao xinWenDao;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenDao.findAll();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="实现-XinWenController"><a href="#实现-XinWenController" class="headerlink" title="实现 XinWenController"></a>实现 XinWenController</h3><ol>
-<li><p>在 <code>controller</code> 目录下创建 <code>XinWenController</code> 类</p>
-</li>
-<li><p>添加 <code>@RestController</code> 和 <code>@RequestMapping(&quot;/get&quot;)</code> 注解，分别表示标注这是个控制器和基路由</p>
-</li>
-<li><p>注入 <code>XinWenService</code></p>
-</li>
-<li><p>完整代码</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.postdemo.controller;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.domain.XinWen;</span><br><span class="line"><span class="keyword">import</span> com.example.postdemo.service.XinWenService;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="meta">@RequestMapping(&quot;/get&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">XinWenController</span> &#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> XinWenService xinWenService;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/xinwen&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;XinWen&gt; <span class="title function_">getAllXinWen</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> xinWenService.getAllXinWen();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="测试项目"><a href="#测试项目" class="headerlink" title="测试项目"></a>测试项目</h2><p>使用 <code>postman</code> 测试</p>
-<ul>
-<li><p>向路由 <code>http://localhost:8080/user/register</code> 发送 <code>Get</code> 请求，无需添加参数和请求体</p>
-</li>
-<li><p>成功返回</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">1</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;111&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">2</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;neir&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="number">3</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻1&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;content&quot;</span><span class="punctuation">:</span> <span class="string">&quot;新闻内容&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</div>]]></content>
-      <categories>
-        <category>Java</category>
-        <category>SpringBoot</category>
-      </categories>
-      <tags>
-        <tag>SpringBoot</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jsdelivr与渺软CDN使用笔记</title>
-    <url>/posts/171ff1e4/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
-<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
-</blockquote>
-<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
-<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
-<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
-<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
-<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
-<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
-<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
-</ul>
-<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
-<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
-<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>CDN</tag>
-        <tag>渺软</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows安装alist并美化</title>
     <url>/posts/67ef0433/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文安装部分教程只针对 <code>Windows</code> 系统毕竟 Linux 系统可以一键部署，不需要教了。</p>
@@ -697,24 +617,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用Python下载图片</title>
-    <url>/posts/1abe6423/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
-<p>安装 <code>requests</code></p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
-<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
-<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>侧滑菜单Div模式</title>
     <url>/posts/e6052156/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于 Mui 官网写的文档不详细，所以在此记录一下 Div 模式的侧滑菜单</p>
@@ -731,6 +633,104 @@
         <tag>Mui</tag>
         <tag>移动应用</tag>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VM虚拟机进入Pe系统</title>
+    <url>/posts/19b64ef3/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
+<li><p>插入 Pe 盘</p>
+</li>
+<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
+<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
+</li>
+<li><p>记住 Pe 磁盘的序号</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
+</li>
+<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
+</li>
+<li><p>硬盘类型选择 <strong>SCSI</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
+</li>
+<li><p>选择 <strong>使用物理磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
+</li>
+<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
+</li>
+<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
+</li>
+<li><p>选择 <strong>打开电源时进入固件</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
+</li>
+<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
+</li>
+<li><p>回车确定即可进入 Pe 系统</p>
+</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>VM</category>
+      </categories>
+      <tags>
+        <tag>VM</tag>
+        <tag>Pe</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jsdelivr与渺软CDN使用笔记</title>
+    <url>/posts/171ff1e4/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
+<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
+</blockquote>
+<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
+<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
+<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
+<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
+<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
+<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
+</ul>
+<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
+<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
+<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>CDN</tag>
+        <tag>渺软</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用Python下载图片</title>
+    <url>/posts/1abe6423/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
+<p>安装 <code>requests</code></p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
+<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
+<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -787,6 +787,150 @@
       <tags>
         <tag>软件</tag>
         <tag>音效</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用Xd画一个文章封面</title>
+    <url>/posts/9bfa1cc/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
+<h2 id="确定主题，选择背景"><a href="#确定主题，选择背景" class="headerlink" title="确定主题，选择背景"></a>确定主题，选择背景</h2><p>想要画个封面，首先要确定自己的主题。比如我们的标题是 <strong>Python 下载图片</strong> 那么我们的主题就可以选 <strong>Python</strong> 、 <strong>编程</strong> 等</p>
+<p>然后去搜索引擎搜索确定好的主题，点击图片，选择自己满意的图片。</p>
+<p>选择图片不用看：</p>
+<ul>
+<li>清晰度</li>
+<li>好不好看</li>
+</ul>
+<p>因为背景都是用来模糊处理的</p>
+<h2 id="导入-XD，开始制作"><a href="#导入-XD，开始制作" class="headerlink" title="导入 XD，开始制作"></a>导入 XD，开始制作</h2><ol>
+<li><p>打开 xd，选择 <strong>Web 1920</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/1.webp" alt="1"></p>
+</li>
+<li><p>拖动图片至 xd 中，点击右边小锁解锁大小限制</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/2.webp" alt="2"></p>
+</li>
+<li><p>调整图片大小直至填满屏幕</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/3.webp" alt="3"></p>
+</li>
+<li><p>右侧下滑找到 <strong>背景模糊</strong> ，将其改为 <strong>对象模糊</strong>，并将进度条拉满</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/4.webp" alt="4"></p>
+</li>
+<li><p>添加图标，我这边选择使用 <strong>阿里巴巴图标库</strong></p>
+<a class="tag-Link" target="_blank" href=" https://www.iconfont.cn/">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.iconfont.cn/.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">阿里巴巴图标库</div>
+            <div class="tag-link-sitename">iconfont</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<p>选择图标，搜索自己需要的图标</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/5.webp" alt="5"></p>
+</li>
+<li><p>找到自己满意的图标后将鼠标放上去，点击下载图标；</p>
+<p>在这页面可以配置颜色大小，我们保持默认，点击 <strong>复制 SVG 代码</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/6.webp" alt="6"></p>
+</li>
+<li><p>回到 xd，按下 <kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴 SVG 代码。</p>
+</li>
+<li><p>按住 <kbd>Shift</kbd> 拖动图标四个角缩放图标，点击右侧顶部的垂直居中按钮</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/7.webp" alt="7"></p>
+</li>
+<li><p>输入标题，点击左侧工具栏的 <strong>T</strong> 或者 按下 <kbd>T</kbd> 输入。输入完成点击别处取消焦点。</p>
+</li>
+<li><p>拉动文本框下小白点缩放文字，在右侧选择文字字体，我比较喜欢用 <strong>方正超粗黑简体</strong></p>
+</li>
+<li><p>点击填充更改字体颜色</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/8.webp" alt="8"></p>
+</li>
+<li><p>与第 8 步一样，使标题垂直居中</p>
+</li>
+<li><p>按住 <kbd>Shift</kbd> 选中图标和标题，按下 <kbd>G</kbd> 合并</p>
+</li>
+<li><p>点击右侧的水平，垂直居中按钮</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/9.webp" alt="9"></p>
+</li>
+<li><p>点击顶部 <strong>文件</strong> -&gt; <strong>导出</strong> -&gt; <strong>所有画板</strong> -&gt; <strong>导出所有画板</strong></p>
+</li>
+</ol>
+<p>这样，你就获得了个文章封面</p>
+</div>]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>Xd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我的个人主页！</title>
+    <url>/posts/ea4b0760/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="仓库地址和预览"><a href="#仓库地址和预览" class="headerlink" title="仓库地址和预览"></a>仓库地址和预览</h2><a class="tag-Link" target="_blank" href="https://github.com/QNquenan/homepage-for-vue3">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/github.com/QNquenan/homepage-for-vue3.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">homepage-for-vue3</div>
+            <div class="tag-link-sitename">鹊楠吖</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<a class="tag-Link" target="_blank" href="https://quenan.love">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/quenan.love.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">鹊楠の个人主页</div>
+            <div class="tag-link-sitename">鹊楠吖</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<p><img src="https://i.p-i.vip/43/20240917-66e86759d3795.webp" alt="主页预览图"></p>
+<h2 id="为什么想写一个主页"><a href="#为什么想写一个主页" class="headerlink" title="为什么想写一个主页"></a>为什么想写一个主页</h2><p>因为闲着无聊，同时根域名也空着，就打算写一个个人主页放在根域名，也可以当一张赛博名片））</p>
+<psw>而且最近还在学Vue，正好拿主页来练手</psw>
+<h2 id="编写路程"><a href="#编写路程" class="headerlink" title="编写路程"></a>编写路程</h2><p>我用的是 <code>Vue3</code> + <code>Vuesax-alpha</code> 组件库搭建，一开始用的是 <code>vue2</code> 结果在编译的时候一直报 <strong>webpack（应该是这个）</strong> 错</p>
+<p>询问群里的大佬后都推荐我使用更新的 <code>Vue3</code> ，于是就使用 <code>Vite</code> 来构建我的 <code>Vue</code> 项目</p>
+<h3 id="Vue2-和-Vue3-的区别"><a href="#Vue2-和-Vue3-的区别" class="headerlink" title="Vue2 和 Vue3 的区别"></a>Vue2 和 Vue3 的区别</h3><p>我感觉到的区别其实没多少 <psw>学艺不精，刚入门</psw> ，感知明显比较大的有这几点：</p>
+<ul>
+<li><p><strong>本地运行的速度</strong></p>
+<p>我使用 <code>Vue2</code> 写主页的时候，重新使用 <code>npm run serve</code> 运行项目的时候，要等好一会时间，而 <code>Vue3</code> 的运行速度可以说是秒开 <del>不知道是不是 <code>Vite</code> 的原因</del></p>
+</li>
+<li><p><strong>main.js 的引入</strong></p>
+<p>这个差别也是有的，<code>Vue2</code> 是</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title class_">Vue</span>.<span class="property">config</span>.<span class="property">productionTip</span> = <span class="literal">false</span>;</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">VueTypedJs</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span><br><span class="line">  <span class="attr">render</span>: <span class="function">(<span class="params">h</span>) =&gt;</span> <span class="title function_">h</span>(<span class="title class_">App</span>),</span><br><span class="line">&#125;).$mount(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>这样写的，而 <code>Vue3</code> 是</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">VueTyped</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">MotionPlugin</span>);</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>让不仔细看文档的我踩了个坑 😭</p>
+</li>
+</ul>
+<h3 id="Vuesax-alpha"><a href="#Vuesax-alpha" class="headerlink" title="Vuesax-alpha"></a>Vuesax-alpha</h3><p>在开始写主页之前，我精挑细选的找了好一会组件库，终于在一篇博客园的文章中找到了 <code>Vuesax</code> 这个组件库。</p>
+<p>但是它的文档是纯英文的，所以只能依靠 <code>沉浸式翻译</code> 的机翻勉强使用。</p>
+<p>当我切换到 <code>Vue3</code> 的时候，发现用不了，排查一番发现 <code>Vuesax</code> 不支持 <code>Vue3</code> ，当时感觉天都塌了！幸好在 <strong>浮杨</strong> 大佬的帮助下找到了 <code>Vuesax</code> 的测试版本，支持 <code>Vue3</code> 。</p>
+<p>但是又出现了个问题，<code>Vuesax-alpha</code> 的文档是部署在 <code>vercel</code> 上面的，而 <code>vercel</code> 的域名在大陆无法访问，所以就要反复开梯子，并翻译英文文档 <del>（其实有一些名词是能大概了解什么意思的）</del></p>
+<p>在使用 <code>Vuesax-alpha</code> 的途中，遇到了一些小问题，应该是官方还没写完罢，自己修修补补将就着用）</p>
+<h3 id="开工项目"><a href="#开工项目" class="headerlink" title="开工项目"></a>开工项目</h3><p>解决了组件库的问题，就开始编写主页了。先后安装了</p>
+<ul>
+<li><strong>vue3-typed-js</strong> : 打字机组件</li>
+<li><strong>@vueuse/motion</strong> : 动画库</li>
+</ul>
+<p>编写的时候苦于没有灵感，就去借鉴了一下 <a href="https://pzj.us.kg/">pzjawa</a> 和 <a href="https://www.liushen.fun/sites/">清羽飞扬</a> 两位大佬的主页 <strong>灵感是没有的，只会借鉴人家的了</strong></p>
+<p>中间出现了不少 bug，如 <strong>按钮无法跳转</strong> 、<strong>打字机定位错误</strong> 、<strong>动画失效</strong> 、<strong>没有深色模式导致界面颜色错误</strong> 等问题，幸好都不难，都是我这三脚猫功夫能解决的问题，最后也是成功写好了</p>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>有啥建议可以提一下！现在处于能用阶段了</p>
+<h3 id="目前存在的问题"><a href="#目前存在的问题" class="headerlink" title="目前存在的问题"></a>目前存在的问题</h3><p>部署在 <code>vercel</code> ，套 <code>初七云</code> cdn 的时候，会显示 <strong>域名解析错误</strong> 但是我根域名是绑定的 cdn 给的 dns 地址，cdn 源站也配置正确，也能正常通过根域名访问主页，就是管理后台显示解析错误，搞不懂）</p>
+</div>]]></content>
+      <categories>
+        <category>前端</category>
+        <category>Vue</category>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>个人主页</tag>
+        <tag>Vue3</tag>
       </tags>
   </entry>
   <entry>
@@ -876,82 +1020,6 @@
         <tag>Artitalk</tag>
         <tag>Butterfly</tag>
         <tag>说说</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用Xd画一个文章封面</title>
-    <url>/posts/9bfa1cc/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
-<h2 id="确定主题，选择背景"><a href="#确定主题，选择背景" class="headerlink" title="确定主题，选择背景"></a>确定主题，选择背景</h2><p>想要画个封面，首先要确定自己的主题。比如我们的标题是 <strong>Python 下载图片</strong> 那么我们的主题就可以选 <strong>Python</strong> 、 <strong>编程</strong> 等</p>
-<p>然后去搜索引擎搜索确定好的主题，点击图片，选择自己满意的图片。</p>
-<p>选择图片不用看：</p>
-<ul>
-<li>清晰度</li>
-<li>好不好看</li>
-</ul>
-<p>因为背景都是用来模糊处理的</p>
-<h2 id="导入-XD，开始制作"><a href="#导入-XD，开始制作" class="headerlink" title="导入 XD，开始制作"></a>导入 XD，开始制作</h2><ol>
-<li><p>打开 xd，选择 <strong>Web 1920</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/1.webp" alt="1"></p>
-</li>
-<li><p>拖动图片至 xd 中，点击右边小锁解锁大小限制</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/2.webp" alt="2"></p>
-</li>
-<li><p>调整图片大小直至填满屏幕</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/3.webp" alt="3"></p>
-</li>
-<li><p>右侧下滑找到 <strong>背景模糊</strong> ，将其改为 <strong>对象模糊</strong>，并将进度条拉满</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/4.webp" alt="4"></p>
-</li>
-<li><p>添加图标，我这边选择使用 <strong>阿里巴巴图标库</strong></p>
-<a class="tag-Link" target="_blank" href=" https://www.iconfont.cn/">
-    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/ https://www.iconfont.cn/.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">阿里巴巴图标库</div>
-            <div class="tag-link-sitename">iconfont</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<p>选择图标，搜索自己需要的图标</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/5.webp" alt="5"></p>
-</li>
-<li><p>找到自己满意的图标后将鼠标放上去，点击下载图标；</p>
-<p>在这页面可以配置颜色大小，我们保持默认，点击 <strong>复制 SVG 代码</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/6.webp" alt="6"></p>
-</li>
-<li><p>回到 xd，按下 <kbd>Ctrl</kbd> + <kbd>V</kbd> 粘贴 SVG 代码。</p>
-</li>
-<li><p>按住 <kbd>Shift</kbd> 拖动图标四个角缩放图标，点击右侧顶部的垂直居中按钮</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/7.webp" alt="7"></p>
-</li>
-<li><p>输入标题，点击左侧工具栏的 <strong>T</strong> 或者 按下 <kbd>T</kbd> 输入。输入完成点击别处取消焦点。</p>
-</li>
-<li><p>拉动文本框下小白点缩放文字，在右侧选择文字字体，我比较喜欢用 <strong>方正超粗黑简体</strong></p>
-</li>
-<li><p>点击填充更改字体颜色</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/8.webp" alt="8"></p>
-</li>
-<li><p>与第 8 步一样，使标题垂直居中</p>
-</li>
-<li><p>按住 <kbd>Shift</kbd> 选中图标和标题，按下 <kbd>G</kbd> 合并</p>
-</li>
-<li><p>点击右侧的水平，垂直居中按钮</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/03/27/9.webp" alt="9"></p>
-</li>
-<li><p>点击顶部 <strong>文件</strong> -&gt; <strong>导出</strong> -&gt; <strong>所有画板</strong> -&gt; <strong>导出所有画板</strong></p>
-</li>
-</ol>
-<p>这样，你就获得了个文章封面</p>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>Xd</tag>
       </tags>
   </entry>
   <entry>
@@ -1094,9 +1162,9 @@
         <category>说说</category>
       </categories>
       <tags>
+        <tag>博客</tag>
         <tag>Butterfly</tag>
         <tag>说说</tag>
-        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -1726,8 +1794,8 @@
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 评论 */</span></span><br><span class="line"></span><br><span class="line"><span class="selector-id">#twikoo</span> <span class="selector-class">.tk-admin</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: fixed <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">999</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#twikoo</span> <span class="selector-class">.tk-admin</span>.__show &#123;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">100%</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">100%</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-input</span><span class="selector-class">.el-textarea</span> <span class="selector-tag">textarea</span> &#123;</span><br><span class="line">    <span class="attribute">min-height</span>: <span class="number">120px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-content</span> &#123;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">2px</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">10px</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#e5e5e5</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">20px</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-content-expand</span> &#123;</span><br><span class="line">    <span class="attribute">max-width</span>: <span class="number">90%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-comment</span> <span class="selector-class">.tk-submit</span> <span class="selector-class">.tk-avatar</span>,</span><br><span class="line"><span class="selector-class">.tk-replies</span> <span class="selector-class">.tk-avatar</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">2.5rem</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">2.5rem</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-comment</span><span class="selector-class">.tk-master</span> <span class="selector-class">.tk-avatar</span><span class="selector-class">.tk-clickable</span><span class="selector-class">.tk-has-avatar</span> &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">1rem</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-comment</span> <span class="selector-class">.tk-submit</span> <span class="selector-class">.tk-avatar</span> <span class="selector-class">.tk-avatar-img</span>,</span><br><span class="line"><span class="selector-class">.tk-replies</span> <span class="selector-class">.tk-avatar</span> <span class="selector-class">.tk-avatar-img</span> &#123;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">2.5rem</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-comment</span><span class="selector-class">.tk-master</span> <span class="selector-class">.tk-content</span> &#123;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span> <span class="number">2px</span> <span class="number">10px</span> <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-comment</span><span class="selector-class">.tk-master</span>,</span><br><span class="line"><span class="selector-class">.tk-comment</span><span class="selector-class">.tk-master</span> <span class="selector-class">.tk-row</span>,</span><br><span class="line"><span class="selector-class">.tk-comment</span><span class="selector-class">.tk-master</span> <span class="selector-class">.tk-extras</span> &#123;</span><br><span class="line">    <span class="attribute">flex-direction</span>: row-reverse;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-comment</span><span class="selector-class">.tk-master</span> <span class="selector-class">.tk-main</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">    <span class="attribute">flex-direction</span>: column;</span><br><span class="line">    <span class="attribute">align-items</span>: flex-end;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.twikoo</span> <span class="selector-class">.el-button--primary</span><span class="selector-class">.is-disabled</span>,</span><br><span class="line"><span class="selector-class">.twikoo</span> <span class="selector-class">.el-button--primary</span><span class="selector-class">.is-disabled</span><span class="selector-pseudo">:active</span>,</span><br><span class="line"><span class="selector-class">.twikoo</span> <span class="selector-class">.el-button--primary</span><span class="selector-class">.is-disabled</span><span class="selector-pseudo">:focus</span>,</span><br><span class="line"><span class="selector-class">.twikoo</span> <span class="selector-class">.el-button--primary</span><span class="selector-class">.is-disabled</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#fb85999e</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.el-button--primary</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">var</span>(--theme-color) <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">border-color</span>: <span class="built_in">var</span>(--theme-color) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.el-button--primary</span><span class="selector-pseudo">:focus</span>,</span><br><span class="line"><span class="selector-class">.el-button--primary</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#fb8599d9</span> <span class="meta">!important</span>;</span><br><span class="line">    <span class="attribute">border-color</span>: <span class="number">#fb8599d9</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.twikoo</span> <span class="selector-class">.el-input__inner</span><span class="selector-pseudo">:focus</span>,</span><br><span class="line"><span class="selector-class">.twikoo</span> <span class="selector-class">.el-textarea__inner</span><span class="selector-pseudo">:focus</span>,</span><br><span class="line"><span class="selector-class">.el-button--primary</span><span class="selector-pseudo">:focus</span>,</span><br><span class="line"><span class="selector-class">.el-button--primary</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">border-color</span>: <span class="number">#fb8599d9</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-icon</span>.__comments,</span><br><span class="line"><span class="selector-class">.tk-action-icon</span><span class="selector-class">.tk-action-icon-solid</span>,</span><br><span class="line"><span class="selector-class">.tk-action-icon</span>,</span><br><span class="line"><span class="selector-class">.tk-action-count</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">var</span>(--theme-color) <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-tag-green</span><span class="selector-class">.tk-tag-green</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">var</span>(--theme-color);</span><br><span class="line">    <span class="attribute">border</span>: none;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#article-container</span> <span class="selector-tag">strong</span><span class="selector-pseudo">:not</span>(<span class="selector-tag">strong</span><span class="selector-pseudo">:has</span>(<span class="selector-tag">code</span>)) &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(<span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">51</span>, <span class="number">184</span>, .<span class="number">15</span>), <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">51</span>, <span class="number">184</span>, .<span class="number">15</span>)) no-repeat bottom / <span class="number">100%</span> <span class="number">30%</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-class">.tk-ruser</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">font-weight</span>: <span class="number">900</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-collapse-wrap</span>,</span><br><span class="line"><span class="selector-class">.tk-expand-wrap</span> &#123;</span><br><span class="line">    <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span>;</span><br><span class="line">    <span class="attribute">margin-top</span>: <span class="number">10px</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">    <span class="attribute">overflow</span>: hidden;</span><br><span class="line">    <span class="attribute">transition</span>: .<span class="number">3s</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-collapse-wrap</span><span class="selector-pseudo">:hover</span>,</span><br><span class="line"><span class="selector-class">.tk-expand-wrap</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">border-color</span>: <span class="built_in">var</span>(--theme-color);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-expand</span> &#123;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">12px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.tk-expand-wrap</span> <span class="selector-class">.tk-expand</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="built_in">var</span>(--theme-color);</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 设置文字内容 :nth-child(1)的作用是选择第几个 */</span></span><br><span class="line"><span class="selector-class">.el-input</span><span class="selector-class">.el-input--small</span><span class="selector-class">.el-input-group</span><span class="selector-class">.el-input-group--prepend</span><span class="selector-pseudo">:nth-child</span>(<span class="number">1</span>)<span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&#x27;输入您的昵称🍟&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.el-input</span><span class="selector-class">.el-input--small</span><span class="selector-class">.el-input-group</span><span class="selector-class">.el-input-group--prepend</span><span class="selector-pseudo">:nth-child</span>(<span class="number">2</span>)<span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&#x27;收到回复将会发送到您的邮箱，使用QQ邮箱自动获取头像📧&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.el-input</span><span class="selector-class">.el-input--small</span><span class="selector-class">.el-input-group</span><span class="selector-class">.el-input-group--prepend</span><span class="selector-pseudo">:nth-child</span>(<span class="number">3</span>)<span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&#x27;可以通过昵称访问您的网站🔗&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 当用户点击输入框时显示 */</span></span><br><span class="line"><span class="selector-class">.el-input</span><span class="selector-class">.el-input--small</span><span class="selector-class">.el-input-group</span><span class="selector-class">.el-input-group--prepend</span><span class="selector-pseudo">:focus-within</span><span class="selector-pseudo">::before</span>,</span><br><span class="line"><span class="selector-class">.el-input</span><span class="selector-class">.el-input--small</span><span class="selector-class">.el-input-group</span><span class="selector-class">.el-input-group--prepend</span><span class="selector-pseudo">:focus-within</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: block;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 主内容区 */</span></span><br><span class="line"><span class="selector-class">.el-input</span><span class="selector-class">.el-input--small</span><span class="selector-class">.el-input-group</span><span class="selector-class">.el-input-group--prepend</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">    <span class="comment">/* 先隐藏起来 */</span></span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">    <span class="comment">/* 绝对定位 */</span></span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="comment">/* 向上移动60像素 */</span></span><br><span class="line">    <span class="attribute">top</span>: -<span class="number">60px</span>;</span><br><span class="line">    <span class="comment">/* 文字强制不换行，防止left:50%导致的文字换行 */</span></span><br><span class="line">    <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">    <span class="comment">/* 圆角 */</span></span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">    <span class="comment">/* 距离左边50% */</span></span><br><span class="line">    <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="comment">/* 然后再向左边挪动自身的一半，即可实现居中 */</span></span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>);</span><br><span class="line">    <span class="comment">/* 填充 */</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">14px</span> <span class="number">18px</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#444</span>;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 小角标 */</span></span><br><span class="line"><span class="selector-class">.el-input</span><span class="selector-class">.el-input--small</span><span class="selector-class">.el-input-group</span><span class="selector-class">.el-input-group--prepend</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="comment">/* 内容大小（宽高）为0且边框大小不为0的情况下，每一条边（4个边）都是一个三角形，组成一个正方形。</span></span><br><span class="line"><span class="comment">    我们先将所有边框透明，再给其中的一条边添加颜色就可以实现小三角图标 */</span></span><br><span class="line">    <span class="attribute">border</span>: <span class="number">12px</span> solid transparent;</span><br><span class="line">    <span class="attribute">border-top-color</span>: <span class="number">#444</span>;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translate</span>(-<span class="number">50%</span>, -<span class="number">48px</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 评论 end */</span></span><br></pre></td></tr></table></figure>
 </div>]]></content>
       <categories>
-        <category>博客</category>
         <category>笔记</category>
+        <category>博客</category>
         <category>Python</category>
       </categories>
       <tags>
