@@ -240,6 +240,52 @@
       </tags>
   </entry>
   <entry>
+    <title>VM虚拟机进入Pe系统</title>
+    <url>/posts/19b64ef3/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
+<li><p>插入 Pe 盘</p>
+</li>
+<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
+<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
+</li>
+<li><p>记住 Pe 磁盘的序号</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
+</li>
+<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
+</li>
+<li><p>硬盘类型选择 <strong>SCSI</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
+</li>
+<li><p>选择 <strong>使用物理磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
+</li>
+<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
+</li>
+<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
+</li>
+<li><p>选择 <strong>打开电源时进入固件</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
+</li>
+<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
+<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
+</li>
+<li><p>回车确定即可进入 Pe 系统</p>
+</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>VM</category>
+      </categories>
+      <tags>
+        <tag>VM</tag>
+        <tag>Pe</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SpringBootのPost登录注册</title>
     <url>/posts/a28f30b4/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -617,52 +663,6 @@
       </tags>
   </entry>
   <entry>
-    <title>VM虚拟机进入Pe系统</title>
-    <url>/posts/19b64ef3/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
-<li><p>插入 Pe 盘</p>
-</li>
-<li><p>打开磁盘管理查看 Pe 的磁盘序号</p>
-<p>打开方式：右键 <strong>此电脑</strong> 选择 <strong>管理</strong> 在侧边选择 <strong>磁盘管理</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/1.webp" alt="1"></p>
-</li>
-<li><p>记住 Pe 磁盘的序号</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/5.webp" alt="10"></p>
-</li>
-<li><p>编辑虚拟机配置，选择 <strong>添加</strong> ，添加个硬盘</p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/2.webp" alt="2"></p>
-</li>
-<li><p>硬盘类型选择 <strong>SCSI</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/3.webp" alt="3"></p>
-</li>
-<li><p>选择 <strong>使用物理磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/4.webp" alt="4"></p>
-</li>
-<li><p>设备选择 <strong>第二步查看的序号对应的磁盘</strong> ，使用情况选择 <strong>使用整个磁盘</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/6.webp" alt="6"></p>
-</li>
-<li><p>保存后点击上方 <strong>绿色箭头边上的向下小箭头</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/7.webp" alt="7"></p>
-</li>
-<li><p>选择 <strong>打开电源时进入固件</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/8.webp" alt="8"></p>
-</li>
-<li><p>使用上下左右方向键选择 <strong>带有 SCSI 字样的选项</strong></p>
-<p><img src="https://tuchuang.voooe.cn/images/2024/02/21/9.webp" alt="9"></p>
-</li>
-<li><p>回车确定即可进入 Pe 系统</p>
-</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>VM</category>
-      </categories>
-      <tags>
-        <tag>VM</tag>
-        <tag>Pe</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Jsdelivr与渺软CDN使用笔记</title>
     <url>/posts/171ff1e4/</url>
     <content><![CDATA[<div id="postchat_postcontent"><blockquote>
@@ -712,6 +712,25 @@
       <tags>
         <tag>笔记</tag>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>侧滑菜单Div模式</title>
+    <url>/posts/e6052156/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于 Mui 官网写的文档不详细，所以在此记录一下 Div 模式的侧滑菜单</p>
+<h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello MUI<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span></span></span><br><span class="line"><span class="tag">      <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">      <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no&quot;</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/mui.min.css&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-wrap mui-draggable&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--侧滑菜单部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">aside</span> <span class="attr">id</span>=<span class="string">&quot;offCanvasSide&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-left&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;boxx&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tx&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">img</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">&quot;menuList&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view mui-table-view-chevron&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;zhuYe&quot;</span>&gt;</span> 首页 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;xinDe&quot;</span>&gt;</span> 心得 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gyhd&quot;</span>&gt;</span> 公益活动 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sjfx&quot;</span>&gt;</span> 数据分析 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sheZhi&quot;</span>&gt;</span> 设置 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--主界面部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-inner-wrap&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">header</span> <span class="attr">class</span>=<span class="string">&quot;mui-bar mui-bar-nav&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">            <span class="attr">href</span>=<span class="string">&quot;#offCanvasSide&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">class</span>=<span class="string">&quot;mui-icon mui-action-menu mui-icon-bars mui-pull-left&quot;</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;mui-title&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-content mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-content&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 关闭遮罩，点击可关闭 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-backdrop&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/mui.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      mui.<span class="title function_">init</span>();</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#box&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#boxx&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="显示侧滑按钮的事件"><a href="#显示侧滑按钮的事件" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;show&quot;</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="显示侧滑按钮的事件-1"><a href="#显示侧滑按钮的事件-1" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;hide&quot;</span>);</span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>Mui</category>
+        <category>前端</category>
+        <category>移动应用</category>
+      </categories>
+      <tags>
+        <tag>Mui</tag>
+        <tag>移动应用</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -768,93 +787,6 @@
       <tags>
         <tag>软件</tag>
         <tag>音效</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我的个人主页！</title>
-    <url>/posts/ea4b0760/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="仓库地址和预览"><a href="#仓库地址和预览" class="headerlink" title="仓库地址和预览"></a>仓库地址和预览</h2><a class="tag-Link" target="_blank" href="https://github.com/QNquenan/homepage-for-vue3">
-    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/github.com/QNquenan/homepage-for-vue3.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">homepage-for-vue3</div>
-            <div class="tag-link-sitename">鹊楠吖</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<a class="tag-Link" target="_blank" href="https://quenan.love">
-    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/quenan.love.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">鹊楠の个人主页</div>
-            <div class="tag-link-sitename">鹊楠吖</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<p><img src="https://i.p-i.vip/43/20240917-66e86759d3795.webp" alt="主页预览图"></p>
-<h2 id="为什么想写一个主页"><a href="#为什么想写一个主页" class="headerlink" title="为什么想写一个主页"></a>为什么想写一个主页</h2><p>因为闲着无聊，同时根域名也空着，就打算写一个个人主页放在根域名，也可以当一张赛博名片））</p>
-<psw>而且最近还在学Vue，正好拿主页来练手</psw>
-<h2 id="编写路程"><a href="#编写路程" class="headerlink" title="编写路程"></a>编写路程</h2><p>我用的是 <code>Vue3</code> + <code>Vuesax-alpha</code> 组件库搭建，一开始用的是 <code>vue2</code> 结果在编译的时候一直报 <strong>webpack（应该是这个）</strong> 错</p>
-<p>询问群里的大佬后都推荐我使用更新的 <code>Vue3</code> ，于是就使用 <code>Vite</code> 来构建我的 <code>Vue</code> 项目</p>
-<h3 id="Vue2-和-Vue3-的区别"><a href="#Vue2-和-Vue3-的区别" class="headerlink" title="Vue2 和 Vue3 的区别"></a>Vue2 和 Vue3 的区别</h3><p>我感觉到的区别其实没多少 <psw>学艺不精，刚入门</psw> ，感知明显比较大的有这几点：</p>
-<ul>
-<li><p><strong>本地运行的速度</strong></p>
-<p>我使用 <code>Vue2</code> 写主页的时候，重新使用 <code>npm run serve</code> 运行项目的时候，要等好一会时间，而 <code>Vue3</code> 的运行速度可以说是秒开 <del>不知道是不是 <code>Vite</code> 的原因</del></p>
-</li>
-<li><p><strong>main.js 的引入</strong></p>
-<p>这个差别也是有的，<code>Vue2</code> 是</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title class_">Vue</span>.<span class="property">config</span>.<span class="property">productionTip</span> = <span class="literal">false</span>;</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">VueTypedJs</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span><br><span class="line">  <span class="attr">render</span>: <span class="function">(<span class="params">h</span>) =&gt;</span> <span class="title function_">h</span>(<span class="title class_">App</span>),</span><br><span class="line">&#125;).$mount(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
-<p>这样写的，而 <code>Vue3</code> 是</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">VueTyped</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">MotionPlugin</span>);</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
-<p>让不仔细看文档的我踩了个坑 😭</p>
-</li>
-</ul>
-<h3 id="Vuesax-alpha"><a href="#Vuesax-alpha" class="headerlink" title="Vuesax-alpha"></a>Vuesax-alpha</h3><p>在开始写主页之前，我精挑细选的找了好一会组件库，终于在一篇博客园的文章中找到了 <code>Vuesax</code> 这个组件库。</p>
-<p>但是它的文档是纯英文的，所以只能依靠 <code>沉浸式翻译</code> 的机翻勉强使用。</p>
-<p>当我切换到 <code>Vue3</code> 的时候，发现用不了，排查一番发现 <code>Vuesax</code> 不支持 <code>Vue3</code> ，当时感觉天都塌了！幸好在 <strong>浮杨</strong> 大佬的帮助下找到了 <code>Vuesax</code> 的测试版本，支持 <code>Vue3</code> 。</p>
-<p>但是又出现了个问题，<code>Vuesax-alpha</code> 的文档是部署在 <code>vercel</code> 上面的，而 <code>vercel</code> 的域名在大陆无法访问，所以就要反复开梯子，并翻译英文文档 <del>（其实有一些名词是能大概了解什么意思的）</del></p>
-<p>在使用 <code>Vuesax-alpha</code> 的途中，遇到了一些小问题，应该是官方还没写完罢，自己修修补补将就着用）</p>
-<h3 id="开工项目"><a href="#开工项目" class="headerlink" title="开工项目"></a>开工项目</h3><p>解决了组件库的问题，就开始编写主页了。先后安装了</p>
-<ul>
-<li><strong>vue3-typed-js</strong> : 打字机组件</li>
-<li><strong>@vueuse/motion</strong> : 动画库</li>
-</ul>
-<p>编写的时候苦于没有灵感，就去借鉴了一下 <a href="https://pzj.us.kg/">pzjawa</a> 和 <a href="https://www.liushen.fun/sites/">清羽飞扬</a> 两位大佬的主页 <strong>灵感是没有的，只会借鉴人家的了</strong></p>
-<p>中间出现了不少 bug，如 <strong>按钮无法跳转</strong> 、<strong>打字机定位错误</strong> 、<strong>动画失效</strong> 、<strong>没有深色模式导致界面颜色错误</strong> 等问题，幸好都不难，都是我这三脚猫功夫能解决的问题，最后也是成功写好了</p>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>有啥建议可以提一下！现在处于能用阶段了</p>
-<h3 id="目前存在的问题"><a href="#目前存在的问题" class="headerlink" title="目前存在的问题"></a>目前存在的问题</h3><p>部署在 <code>vercel</code> ，套 <code>初七云</code> cdn 的时候，会显示 <strong>域名解析错误</strong> 但是我根域名是绑定的 cdn 给的 dns 地址，cdn 源站也配置正确，也能正常通过根域名访问主页，就是管理后台显示解析错误，搞不懂）</p>
-</div>]]></content>
-      <categories>
-        <category>前端</category>
-        <category>项目</category>
-        <category>Vue</category>
-      </categories>
-      <tags>
-        <tag>个人主页</tag>
-        <tag>Vue3</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>侧滑菜单Div模式</title>
-    <url>/posts/e6052156/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于 Mui 官网写的文档不详细，所以在此记录一下 Div 模式的侧滑菜单</p>
-<h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Hello MUI<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span></span></span><br><span class="line"><span class="tag">      <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">      <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no&quot;</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-capable&quot;</span> <span class="attr">content</span>=<span class="string">&quot;yes&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="attr">content</span>=<span class="string">&quot;black&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;css/mui.min.css&quot;</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-wrap mui-draggable&quot;</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--侧滑菜单部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">aside</span> <span class="attr">id</span>=<span class="string">&quot;offCanvasSide&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-left&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;boxx&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tx&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">img</span> /&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>张三<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">&quot;menuList&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view mui-table-view-chevron&quot;</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;zhuYe&quot;</span>&gt;</span> 首页 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;xinDe&quot;</span>&gt;</span> 心得 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;gyhd&quot;</span>&gt;</span> 公益活动 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sjfx&quot;</span>&gt;</span> 数据分析 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">&quot;mui-table-view-cell mui-media&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:;&quot;</span> <span class="attr">id</span>=<span class="string">&quot;sheZhi&quot;</span>&gt;</span> 设置 <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">aside</span>&gt;</span></span><br><span class="line">      <span class="comment">&lt;!--主界面部分--&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-inner-wrap&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">header</span> <span class="attr">class</span>=<span class="string">&quot;mui-bar mui-bar-nav&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">            <span class="attr">href</span>=<span class="string">&quot;#offCanvasSide&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">class</span>=<span class="string">&quot;mui-icon mui-action-menu mui-icon-bars mui-pull-left&quot;</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;mui-title&quot;</span>&gt;</span>首页<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;box&quot;</span> <span class="attr">class</span>=<span class="string">&quot;mui-content mui-scroll-wrapper&quot;</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-scroll&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-content&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 关闭遮罩，点击可关闭 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;mui-off-canvas-backdrop&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;js/mui.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      mui.<span class="title function_">init</span>();</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#box&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">      <span class="title function_">mui</span>(<span class="string">&quot;#boxx&quot;</span>).<span class="title function_">scroll</span>();</span></span><br><span class="line"><span class="language-javascript">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="显示侧滑按钮的事件"><a href="#显示侧滑按钮的事件" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;show&quot;</span>);</span><br></pre></td></tr></table></figure>
-<h3 id="显示侧滑按钮的事件-1"><a href="#显示侧滑按钮的事件-1" class="headerlink" title="显示侧滑按钮的事件"></a>显示侧滑按钮的事件</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">offCanvasWrapper.<span class="title function_">offCanvas</span>(<span class="string">&quot;hide&quot;</span>);</span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>Mui</category>
-        <category>前端</category>
-        <category>移动应用</category>
-      </categories>
-      <tags>
-        <tag>Mui</tag>
-        <tag>移动应用</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -944,6 +876,39 @@
         <tag>Artitalk</tag>
         <tag>Butterfly</tag>
         <tag>说说</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>外挂标签之聊天记录</title>
+    <url>/posts/829283e6/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前几个星期看见 <strong>纸鹿</strong> 佬的聊天记录标签很好看，故有了自己写一个的念头。奈何事情有点多，拖到昨天才有时间来搞这个外挂标签</p>
+<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><div class="details" open>
+              <div class="collapsible"> 示例源码 </div>
+              <div class="content">
+              <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% chatBox %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% chat test,content %&#125;</span><br><span class="line">&#123;% chat me,content %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endchatBox %&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </div>
+<div class="details" open>
+              <div class="collapsible"> 渲染效果 </div>
+              <div class="content">
+              <div class="chatBox"><div class="chatItem "><b class="chatName">test</b><div class="chatContent">content</div></div><div class="chatItem me"><b class="chatName">我</b><div class="chatContent">content</div></div></div>
+              </div>
+            </div>
+<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>其实实现起来和 <strong>纸鹿</strong> 佬说的一样，很简单，仅需添加两个文件即可</p>
+<p>在 <code>[themes]\butterfly\scripts\tag</code> 目录下新建 <code>chat.js</code> ，写入：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成聊天框的整体结构</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChatBox</span>(<span class="params">args, content</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`&lt;div class=&quot;chatBox&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChat</span>(<span class="params">args</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (!args || args.<span class="property">length</span> === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;&quot;</span>; <span class="comment">// 如果参数为空，返回空字符串</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 合并并拆分参数</span></span><br><span class="line">  args = args.<span class="title function_">join</span>(<span class="string">&quot; &quot;</span>).<span class="title function_">split</span>(<span class="string">&quot;,&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 确保 args[0] 存在并进行 trim</span></span><br><span class="line">  <span class="keyword">let</span> name = args[<span class="number">0</span>] ? args[<span class="number">0</span>].<span class="title function_">trim</span>() : <span class="string">&quot;未知&quot;</span>;</span><br><span class="line">  <span class="keyword">let</span> content = args[<span class="number">1</span>] ? args[<span class="number">1</span>].<span class="title function_">trim</span>() : <span class="string">&quot;无内容&quot;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 判断是否是“我”的消息</span></span><br><span class="line">  <span class="keyword">const</span> isMe = name.<span class="title function_">toLowerCase</span>() === <span class="string">&quot;me&quot;</span>; <span class="comment">// 根据传入的名字判断</span></span><br><span class="line">  <span class="keyword">const</span> chatName = isMe ? <span class="string">&quot;我&quot;</span> : name; <span class="comment">// 显示“我”或对方名字</span></span><br><span class="line">  <span class="keyword">const</span> chatClass = isMe ? <span class="string">&quot;me&quot;</span> : <span class="string">&quot;&quot;</span>; <span class="comment">// 自己的消息加上 &#x27;me&#x27; 类</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// 生成 HTML 布局</span></span><br><span class="line">  <span class="keyword">let</span> result = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatItem <span class="subst">$&#123;chatClass&#125;</span>&quot;&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;b class=&quot;chatName&quot;&gt;<span class="subst">$&#123;chatName&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatContent&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;/div&gt;`</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 注册自定义标签</span></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chat&quot;</span>, postChat);</span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chatBox&quot;</span>, postChatBox, &#123; <span class="attr">ends</span>: <span class="literal">true</span> &#125;);</span><br></pre></td></tr></table></figure>
+<p>在 <code>[themes]\butterfly\source\css\_tags</code> 目录下新建 <code>chat.styl</code> ，写入：</p>
+<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.chatBox</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.chatItem</span></span><br><span class="line">    <span class="attribute">display</span>: flex</span><br><span class="line">    <span class="attribute">flex-direction</span>: column</span><br><span class="line">    <span class="attribute">justify-content</span>: center</span><br><span class="line">    <span class="attribute">align-items</span>: flex-start</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="selector-class">.chatContent</span></span><br><span class="line">        <span class="attribute">background</span>: <span class="number">#e5e5e5</span></span><br><span class="line">        <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">        <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">        <span class="attribute">max-width</span>: <span class="number">50%</span></span><br><span class="line">        <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span></span><br><span class="line">        <span class="attribute">word-wrap</span>: break-word</span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.me</span></span><br><span class="line">        <span class="attribute">align-items</span>: flex-end</span><br><span class="line"></span><br><span class="line">        <span class="selector-class">.chatContent</span></span><br><span class="line">            <span class="attribute">border-radius</span>: <span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">            <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>执行三件套重启即可</p>
+</div>]]></content>
+      <categories>
+        <category>博客</category>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>外挂标签</tag>
+        <tag>魔改</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -1092,6 +1057,74 @@
       </tags>
   </entry>
   <entry>
+    <title>关于我的个人主页！</title>
+    <url>/posts/ea4b0760/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="仓库地址和预览"><a href="#仓库地址和预览" class="headerlink" title="仓库地址和预览"></a>仓库地址和预览</h2><a class="tag-Link" target="_blank" href="https://github.com/QNquenan/homepage-for-vue3">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/github.com/QNquenan/homepage-for-vue3.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">homepage-for-vue3</div>
+            <div class="tag-link-sitename">鹊楠吖</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<a class="tag-Link" target="_blank" href="https://quenan.love">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/quenan.love.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">鹊楠の个人主页</div>
+            <div class="tag-link-sitename">鹊楠吖</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<p><img src="https://i.p-i.vip/43/20240917-66e86759d3795.webp" alt="主页预览图"></p>
+<h2 id="为什么想写一个主页"><a href="#为什么想写一个主页" class="headerlink" title="为什么想写一个主页"></a>为什么想写一个主页</h2><p>因为闲着无聊，同时根域名也空着，就打算写一个个人主页放在根域名，也可以当一张赛博名片））</p>
+<psw>而且最近还在学Vue，正好拿主页来练手</psw>
+<h2 id="编写路程"><a href="#编写路程" class="headerlink" title="编写路程"></a>编写路程</h2><p>我用的是 <code>Vue3</code> + <code>Vuesax-alpha</code> 组件库搭建，一开始用的是 <code>vue2</code> 结果在编译的时候一直报 <strong>webpack（应该是这个）</strong> 错</p>
+<p>询问群里的大佬后都推荐我使用更新的 <code>Vue3</code> ，于是就使用 <code>Vite</code> 来构建我的 <code>Vue</code> 项目</p>
+<h3 id="Vue2-和-Vue3-的区别"><a href="#Vue2-和-Vue3-的区别" class="headerlink" title="Vue2 和 Vue3 的区别"></a>Vue2 和 Vue3 的区别</h3><p>我感觉到的区别其实没多少 <psw>学艺不精，刚入门</psw> ，感知明显比较大的有这几点：</p>
+<ul>
+<li><p><strong>本地运行的速度</strong></p>
+<p>我使用 <code>Vue2</code> 写主页的时候，重新使用 <code>npm run serve</code> 运行项目的时候，要等好一会时间，而 <code>Vue3</code> 的运行速度可以说是秒开 <del>不知道是不是 <code>Vite</code> 的原因</del></p>
+</li>
+<li><p><strong>main.js 的引入</strong></p>
+<p>这个差别也是有的，<code>Vue2</code> 是</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title class_">Vue</span>.<span class="property">config</span>.<span class="property">productionTip</span> = <span class="literal">false</span>;</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">VueTypedJs</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span><br><span class="line">  <span class="attr">render</span>: <span class="function">(<span class="params">h</span>) =&gt;</span> <span class="title function_">h</span>(<span class="title class_">App</span>),</span><br><span class="line">&#125;).$mount(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>这样写的，而 <code>Vue3</code> 是</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">VueTyped</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">MotionPlugin</span>);</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>让不仔细看文档的我踩了个坑 😭</p>
+</li>
+</ul>
+<h3 id="Vuesax-alpha"><a href="#Vuesax-alpha" class="headerlink" title="Vuesax-alpha"></a>Vuesax-alpha</h3><p>在开始写主页之前，我精挑细选的找了好一会组件库，终于在一篇博客园的文章中找到了 <code>Vuesax</code> 这个组件库。</p>
+<p>但是它的文档是纯英文的，所以只能依靠 <code>沉浸式翻译</code> 的机翻勉强使用。</p>
+<p>当我切换到 <code>Vue3</code> 的时候，发现用不了，排查一番发现 <code>Vuesax</code> 不支持 <code>Vue3</code> ，当时感觉天都塌了！幸好在 <strong>浮杨</strong> 大佬的帮助下找到了 <code>Vuesax</code> 的测试版本，支持 <code>Vue3</code> 。</p>
+<p>但是又出现了个问题，<code>Vuesax-alpha</code> 的文档是部署在 <code>vercel</code> 上面的，而 <code>vercel</code> 的域名在大陆无法访问，所以就要反复开梯子，并翻译英文文档 <del>（其实有一些名词是能大概了解什么意思的）</del></p>
+<p>在使用 <code>Vuesax-alpha</code> 的途中，遇到了一些小问题，应该是官方还没写完罢，自己修修补补将就着用）</p>
+<h3 id="开工项目"><a href="#开工项目" class="headerlink" title="开工项目"></a>开工项目</h3><p>解决了组件库的问题，就开始编写主页了。先后安装了</p>
+<ul>
+<li><strong>vue3-typed-js</strong> : 打字机组件</li>
+<li><strong>@vueuse/motion</strong> : 动画库</li>
+</ul>
+<p>编写的时候苦于没有灵感，就去借鉴了一下 <a href="https://pzj.us.kg/">pzjawa</a> 和 <a href="https://www.liushen.fun/sites/">清羽飞扬</a> 两位大佬的主页 <strong>灵感是没有的，只会借鉴人家的了</strong></p>
+<p>中间出现了不少 bug，如 <strong>按钮无法跳转</strong> 、<strong>打字机定位错误</strong> 、<strong>动画失效</strong> 、<strong>没有深色模式导致界面颜色错误</strong> 等问题，幸好都不难，都是我这三脚猫功夫能解决的问题，最后也是成功写好了</p>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>有啥建议可以提一下！现在处于能用阶段了</p>
+<h3 id="目前存在的问题"><a href="#目前存在的问题" class="headerlink" title="目前存在的问题"></a>目前存在的问题</h3><p>部署在 <code>vercel</code> ，套 <code>初七云</code> cdn 的时候，会显示 <strong>域名解析错误</strong> 但是我根域名是绑定的 cdn 给的 dns 地址，cdn 源站也配置正确，也能正常通过根域名访问主页，就是管理后台显示解析错误，搞不懂）</p>
+</div>]]></content>
+      <categories>
+        <category>前端</category>
+        <category>项目</category>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>个人主页</tag>
+        <tag>Vue3</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>用Xd画一个文章封面</title>
     <url>/posts/9bfa1cc/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
@@ -1191,39 +1224,6 @@
       <tags>
         <tag>前端</tag>
         <tag>Css</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>外挂标签之聊天记录</title>
-    <url>/posts/829283e6/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前几个星期看见 <strong>纸鹿</strong> 佬的聊天记录标签很好看，故有了自己写一个的念头。奈何事情有点多，拖到昨天才有时间来搞这个外挂标签</p>
-<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><div class="details" open>
-              <div class="collapsible"> 示例源码 </div>
-              <div class="content">
-              <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% chatBox %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% chat test,content %&#125;</span><br><span class="line">&#123;% chat me,content %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endchatBox %&#125;</span><br></pre></td></tr></table></figure>
-              </div>
-            </div>
-<div class="details" open>
-              <div class="collapsible"> 渲染效果 </div>
-              <div class="content">
-              <div class="chatBox"><div class="chatItem "><b class="chatName">test</b><div class="chatContent">content</div></div><div class="chatItem me"><b class="chatName">我</b><div class="chatContent">content</div></div></div>
-              </div>
-            </div>
-<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>其实实现起来和 <strong>纸鹿</strong> 佬说的一样，很简单，仅需添加两个文件即可</p>
-<p>在 <code>[themes]\butterfly\scripts\tag</code> 目录下新建 <code>chat.js</code> ，写入：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成聊天框的整体结构</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChatBox</span>(<span class="params">args, content</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`&lt;div class=&quot;chatBox&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChat</span>(<span class="params">args</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (!args || args.<span class="property">length</span> === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;&quot;</span>; <span class="comment">// 如果参数为空，返回空字符串</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 合并并拆分参数</span></span><br><span class="line">  args = args.<span class="title function_">join</span>(<span class="string">&quot; &quot;</span>).<span class="title function_">split</span>(<span class="string">&quot;,&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 确保 args[0] 存在并进行 trim</span></span><br><span class="line">  <span class="keyword">let</span> name = args[<span class="number">0</span>] ? args[<span class="number">0</span>].<span class="title function_">trim</span>() : <span class="string">&quot;未知&quot;</span>;</span><br><span class="line">  <span class="keyword">let</span> content = args[<span class="number">1</span>] ? args[<span class="number">1</span>].<span class="title function_">trim</span>() : <span class="string">&quot;无内容&quot;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 判断是否是“我”的消息</span></span><br><span class="line">  <span class="keyword">const</span> isMe = name.<span class="title function_">toLowerCase</span>() === <span class="string">&quot;me&quot;</span>; <span class="comment">// 根据传入的名字判断</span></span><br><span class="line">  <span class="keyword">const</span> chatName = isMe ? <span class="string">&quot;我&quot;</span> : name; <span class="comment">// 显示“我”或对方名字</span></span><br><span class="line">  <span class="keyword">const</span> chatClass = isMe ? <span class="string">&quot;me&quot;</span> : <span class="string">&quot;&quot;</span>; <span class="comment">// 自己的消息加上 &#x27;me&#x27; 类</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// 生成 HTML 布局</span></span><br><span class="line">  <span class="keyword">let</span> result = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatItem <span class="subst">$&#123;chatClass&#125;</span>&quot;&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;b class=&quot;chatName&quot;&gt;<span class="subst">$&#123;chatName&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatContent&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;/div&gt;`</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 注册自定义标签</span></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chat&quot;</span>, postChat);</span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chatBox&quot;</span>, postChatBox, &#123; <span class="attr">ends</span>: <span class="literal">true</span> &#125;);</span><br></pre></td></tr></table></figure>
-<p>在 <code>[themes]\butterfly\source\css\_tags</code> 目录下新建 <code>chat.styl</code> ，写入：</p>
-<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.chatBox</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.chatItem</span></span><br><span class="line">    <span class="attribute">display</span>: flex</span><br><span class="line">    <span class="attribute">flex-direction</span>: column</span><br><span class="line">    <span class="attribute">justify-content</span>: center</span><br><span class="line">    <span class="attribute">align-items</span>: flex-start</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="selector-class">.chatContent</span></span><br><span class="line">        <span class="attribute">background</span>: <span class="number">#e5e5e5</span></span><br><span class="line">        <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">        <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">        <span class="attribute">max-width</span>: <span class="number">50%</span></span><br><span class="line">        <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span></span><br><span class="line">        <span class="attribute">word-wrap</span>: break-word</span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.me</span></span><br><span class="line">        <span class="attribute">align-items</span>: flex-end</span><br><span class="line"></span><br><span class="line">        <span class="selector-class">.chatContent</span></span><br><span class="line">            <span class="attribute">border-radius</span>: <span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">            <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>执行三件套重启即可</p>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-        <category>项目</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>外挂标签</tag>
-        <tag>魔改</tag>
       </tags>
   </entry>
   <entry>
