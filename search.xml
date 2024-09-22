@@ -623,40 +623,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Jsdelivr与渺软CDN使用笔记</title>
-    <url>/posts/171ff1e4/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
-<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
-</blockquote>
-<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
-<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
-<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
-<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
-<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
-<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
-<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
-</ul>
-<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
-<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
-<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>CDN</tag>
-        <tag>渺软</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows安装alist并美化</title>
     <url>/posts/67ef0433/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文安装部分教程只针对 <code>Windows</code> 系统毕竟 Linux 系统可以一键部署，不需要教了。</p>
@@ -694,6 +660,40 @@
         <tag>alist</tag>
         <tag>windows</tag>
         <tag>美化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jsdelivr与渺软CDN使用笔记</title>
+    <url>/posts/171ff1e4/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
+<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
+</blockquote>
+<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
+<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
+<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
+<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
+<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
+<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
+</ul>
+<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
+<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
+<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>CDN</tag>
+        <tag>渺软</tag>
       </tags>
   </entry>
   <entry>
@@ -769,24 +769,6 @@
       <tags>
         <tag>软件</tag>
         <tag>音效</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用Python下载图片</title>
-    <url>/posts/1abe6423/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
-<p>安装 <code>requests</code></p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
-<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
-<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>笔记</category>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -947,6 +929,24 @@
       </tags>
   </entry>
   <entry>
+    <title>使用Python下载图片</title>
+    <url>/posts/1abe6423/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p><del>安装 <code>Python</code> （应该不用说吧</del></p>
+<p>安装 <code>requests</code></p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure>
+<h2 id="编写代码"><a href="#编写代码" class="headerlink" title="编写代码"></a>编写代码</h2><h3 id="简单应用"><a href="#简单应用" class="headerlink" title="简单应用"></a>简单应用</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 导入 requests 库，用于发送 HTTP 请求</span></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">url = <span class="string">&#x27;要下载的图片路径&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义要保存的图片名字</span></span><br><span class="line">name = <span class="string">&#x27;图片名字&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">res = requests.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file: <span class="comment"># file 可以自定义，例如 a，aa之类的</span></span><br><span class="line">    <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">    file.write(res.content)</span><br></pre></td></tr></table></figure>
+<h3 id="批量下载"><a href="#批量下载" class="headerlink" title="批量下载"></a>批量下载</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">downloadImg</span>(<span class="params">url, name</span>):</span><br><span class="line">    <span class="comment"># 定义要下载的图片路径</span></span><br><span class="line">    url = url</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 发送 HTTP GET 请求，获取图片的响应对象</span></span><br><span class="line">    res = requests.get(url)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用 with 语句打开文件，并以二进制写入模式写入内容</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">        <span class="comment"># 将获取的二进制数据写入文件</span></span><br><span class="line">        file.write(res.content)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义图片路径列表</span></span><br><span class="line">imgUrlList = [</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/1.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/2.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/3.webp&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;https://tuchuang.voooe.cn/images/2024/02/23/4.webp&#x27;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化计数器</span></span><br><span class="line">nub = <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 遍历图片路径列表并下载图片</span></span><br><span class="line"><span class="keyword">for</span> imgUrl <span class="keyword">in</span> imgUrlList:</span><br><span class="line">    <span class="comment"># 调用下载函数，传入图片路径和保存的文件名</span></span><br><span class="line">    downloadImg(imgUrl, <span class="built_in">str</span>(nub) + <span class="string">&#x27;.webp&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计数器自增</span></span><br><span class="line">    nub += <span class="number">1</span></span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>基于Tg的说说</title>
     <url>/posts/988fc150/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
@@ -1092,6 +1092,39 @@
       </tags>
   </entry>
   <entry>
+    <title>外挂标签之聊天记录</title>
+    <url>/posts/829283e6/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前几个星期看见 <strong>纸鹿</strong> 佬的聊天记录标签很好看，故有了自己写一个的念头。奈何事情有点多，拖到昨天才有时间来搞这个外挂标签</p>
+<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><div class="details" open>
+              <div class="collapsible"> 示例源码 </div>
+              <div class="content">
+              <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% chatBox %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% chat test,content %&#125;</span><br><span class="line">&#123;% chat me,content %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endchatBox %&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </div>
+<div class="details" open>
+              <div class="collapsible"> 渲染效果 </div>
+              <div class="content">
+              <div class="chatBox"><div class="chatItem "><b class="chatName">test</b><div class="chatContent">content</div></div><div class="chatItem me"><b class="chatName">我</b><div class="chatContent">content</div></div></div>
+              </div>
+            </div>
+<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>其实实现起来和 <strong>纸鹿</strong> 佬说的一样，很简单，仅需添加两个文件即可</p>
+<p>在 <code>[themes]\butterfly\scripts\tag</code> 目录下新建 <code>chat.js</code> ，写入：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成聊天框的整体结构</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChatBox</span>(<span class="params">args, content</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`&lt;div class=&quot;chatBox&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChat</span>(<span class="params">args</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (!args || args.<span class="property">length</span> === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;&quot;</span>; <span class="comment">// 如果参数为空，返回空字符串</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 合并并拆分参数</span></span><br><span class="line">  args = args.<span class="title function_">join</span>(<span class="string">&quot; &quot;</span>).<span class="title function_">split</span>(<span class="string">&quot;,&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 确保 args[0] 存在并进行 trim</span></span><br><span class="line">  <span class="keyword">let</span> name = args[<span class="number">0</span>] ? args[<span class="number">0</span>].<span class="title function_">trim</span>() : <span class="string">&quot;未知&quot;</span>;</span><br><span class="line">  <span class="keyword">let</span> content = args[<span class="number">1</span>] ? args[<span class="number">1</span>].<span class="title function_">trim</span>() : <span class="string">&quot;无内容&quot;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 判断是否是“我”的消息</span></span><br><span class="line">  <span class="keyword">const</span> isMe = name.<span class="title function_">toLowerCase</span>() === <span class="string">&quot;me&quot;</span>; <span class="comment">// 根据传入的名字判断</span></span><br><span class="line">  <span class="keyword">const</span> chatName = isMe ? <span class="string">&quot;我&quot;</span> : name; <span class="comment">// 显示“我”或对方名字</span></span><br><span class="line">  <span class="keyword">const</span> chatClass = isMe ? <span class="string">&quot;me&quot;</span> : <span class="string">&quot;&quot;</span>; <span class="comment">// 自己的消息加上 &#x27;me&#x27; 类</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// 生成 HTML 布局</span></span><br><span class="line">  <span class="keyword">let</span> result = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatItem <span class="subst">$&#123;chatClass&#125;</span>&quot;&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;b class=&quot;chatName&quot;&gt;<span class="subst">$&#123;chatName&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatContent&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;/div&gt;`</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 注册自定义标签</span></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chat&quot;</span>, postChat);</span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chatBox&quot;</span>, postChatBox, &#123; <span class="attr">ends</span>: <span class="literal">true</span> &#125;);</span><br></pre></td></tr></table></figure>
+<p>在 <code>[themes]\butterfly\source\css\_tags</code> 目录下新建 <code>chat.styl</code> ，写入：</p>
+<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.chatBox</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.chatItem</span></span><br><span class="line">    <span class="attribute">display</span>: flex</span><br><span class="line">    <span class="attribute">flex-direction</span>: column</span><br><span class="line">    <span class="attribute">justify-content</span>: center</span><br><span class="line">    <span class="attribute">align-items</span>: flex-start</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="selector-class">.chatContent</span></span><br><span class="line">        <span class="attribute">background</span>: <span class="number">#e5e5e5</span></span><br><span class="line">        <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">        <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">        <span class="attribute">max-width</span>: <span class="number">50%</span></span><br><span class="line">        <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span></span><br><span class="line">        <span class="attribute">word-wrap</span>: break-word</span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.me</span></span><br><span class="line">        <span class="attribute">align-items</span>: flex-end</span><br><span class="line"></span><br><span class="line">        <span class="selector-class">.chatContent</span></span><br><span class="line">            <span class="attribute">border-radius</span>: <span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">            <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>执行三件套重启即可</p>
+</div>]]></content>
+      <categories>
+        <category>博客</category>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>外挂标签</tag>
+        <tag>魔改</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>用Xd画一个文章封面</title>
     <url>/posts/9bfa1cc/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
@@ -1165,39 +1198,6 @@
       <tags>
         <tag>博客</tag>
         <tag>Xd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>外挂标签之聊天记录</title>
-    <url>/posts/829283e6/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前几个星期看见 <strong>纸鹿</strong> 佬的聊天记录标签很好看，故有了自己写一个的念头。奈何事情有点多，拖到昨天才有时间来搞这个外挂标签</p>
-<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><div class="details" open>
-              <div class="collapsible"> 示例源码 </div>
-              <div class="content">
-              <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% chatBox %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% chat test,content %&#125;</span><br><span class="line">&#123;% chat me,content %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endchatBox %&#125;</span><br></pre></td></tr></table></figure>
-              </div>
-            </div>
-<div class="details" open>
-              <div class="collapsible"> 渲染效果 </div>
-              <div class="content">
-              <div class="chatBox"><div class="chatItem "><b class="chatName">test</b><div class="chatContent">content</div></div><div class="chatItem me"><b class="chatName">我</b><div class="chatContent">content</div></div></div>
-              </div>
-            </div>
-<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>其实实现起来和 <strong>纸鹿</strong> 佬说的一样，很简单，仅需添加两个文件即可</p>
-<p>在 <code>[themes]\butterfly\scripts\tag</code> 目录下新建 <code>chat.js</code> ，写入：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成聊天框的整体结构</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChatBox</span>(<span class="params">args, content</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`&lt;div class=&quot;chatBox&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChat</span>(<span class="params">args</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (!args || args.<span class="property">length</span> === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;&quot;</span>; <span class="comment">// 如果参数为空，返回空字符串</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 合并并拆分参数</span></span><br><span class="line">  args = args.<span class="title function_">join</span>(<span class="string">&quot; &quot;</span>).<span class="title function_">split</span>(<span class="string">&quot;,&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 确保 args[0] 存在并进行 trim</span></span><br><span class="line">  <span class="keyword">let</span> name = args[<span class="number">0</span>] ? args[<span class="number">0</span>].<span class="title function_">trim</span>() : <span class="string">&quot;未知&quot;</span>;</span><br><span class="line">  <span class="keyword">let</span> content = args[<span class="number">1</span>] ? args[<span class="number">1</span>].<span class="title function_">trim</span>() : <span class="string">&quot;无内容&quot;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 判断是否是“我”的消息</span></span><br><span class="line">  <span class="keyword">const</span> isMe = name.<span class="title function_">toLowerCase</span>() === <span class="string">&quot;me&quot;</span>; <span class="comment">// 根据传入的名字判断</span></span><br><span class="line">  <span class="keyword">const</span> chatName = isMe ? <span class="string">&quot;我&quot;</span> : name; <span class="comment">// 显示“我”或对方名字</span></span><br><span class="line">  <span class="keyword">const</span> chatClass = isMe ? <span class="string">&quot;me&quot;</span> : <span class="string">&quot;&quot;</span>; <span class="comment">// 自己的消息加上 &#x27;me&#x27; 类</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// 生成 HTML 布局</span></span><br><span class="line">  <span class="keyword">let</span> result = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatItem <span class="subst">$&#123;chatClass&#125;</span>&quot;&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;b class=&quot;chatName&quot;&gt;<span class="subst">$&#123;chatName&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatContent&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;/div&gt;`</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 注册自定义标签</span></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chat&quot;</span>, postChat);</span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chatBox&quot;</span>, postChatBox, &#123; <span class="attr">ends</span>: <span class="literal">true</span> &#125;);</span><br></pre></td></tr></table></figure>
-<p>在 <code>[themes]\butterfly\source\css\_tags</code> 目录下新建 <code>chat.styl</code> ，写入：</p>
-<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.chatBox</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.chatItem</span></span><br><span class="line">    <span class="attribute">display</span>: flex</span><br><span class="line">    <span class="attribute">flex-direction</span>: column</span><br><span class="line">    <span class="attribute">justify-content</span>: center</span><br><span class="line">    <span class="attribute">align-items</span>: flex-start</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="selector-class">.chatContent</span></span><br><span class="line">        <span class="attribute">background</span>: <span class="number">#e5e5e5</span></span><br><span class="line">        <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">        <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">        <span class="attribute">max-width</span>: <span class="number">50%</span></span><br><span class="line">        <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span></span><br><span class="line">        <span class="attribute">word-wrap</span>: break-word</span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.me</span></span><br><span class="line">        <span class="attribute">align-items</span>: flex-end</span><br><span class="line"></span><br><span class="line">        <span class="selector-class">.chatContent</span></span><br><span class="line">            <span class="attribute">border-radius</span>: <span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">            <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>执行三件套重启即可</p>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-        <category>项目</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>外挂标签</tag>
-        <tag>魔改</tag>
       </tags>
   </entry>
   <entry>
