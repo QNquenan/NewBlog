@@ -6,7 +6,7 @@
   <link href="http://blog.quenan.love/atom.xml" rel="self"/>
   
   <link href="http://blog.quenan.love/"/>
-  <updated>2024-09-23T11:48:44.833Z</updated>
+  <updated>2024-10-16T14:49:44.170Z</updated>
   <id>http://blog.quenan.love/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FastAPI学习日记（1）</title>
+    <link href="http://blog.quenan.love/posts/3c84aa18/"/>
+    <id>http://blog.quenan.love/posts/3c84aa18/</id>
+    <published>2024-10-16T14:36:46.000Z</published>
+    <updated>2024-10-16T14:49:44.170Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;div id=&quot;postchat_postcontent&quot;&gt;&lt;h3 id=&quot;学</summary>
+      
+    
+    
+    
+    <category term="后端" scheme="http://blog.quenan.love/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://blog.quenan.love/tags/Python/"/>
+    
+    <category term="学习" scheme="http://blog.quenan.love/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="FastAPI" scheme="http://blog.quenan.love/tags/FastAPI/"/>
+    
+    <category term="后端" scheme="http://blog.quenan.love/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>QQ音乐加密格式解密</title>
@@ -110,11 +140,11 @@
     
     
     
+    <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
+    
     <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
     
     <category term="博客" scheme="http://blog.quenan.love/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
     
     
     <category term="IDM" scheme="http://blog.quenan.love/tags/IDM/"/>
@@ -199,11 +229,11 @@
     <category term="移动应用" scheme="http://blog.quenan.love/categories/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8/"/>
     
     
+    <category term="学习" scheme="http://blog.quenan.love/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
     <category term="Mui" scheme="http://blog.quenan.love/tags/Mui/"/>
     
     <category term="移动应用" scheme="http://blog.quenan.love/tags/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8/"/>
-    
-    <category term="学习" scheme="http://blog.quenan.love/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -394,14 +424,14 @@
     
     
     
-    <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
     
+    <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="笔记" scheme="http://blog.quenan.love/tags/%E7%AC%94%E8%AE%B0/"/>
     
     <category term="Python" scheme="http://blog.quenan.love/tags/Python/"/>
+    
+    <category term="笔记" scheme="http://blog.quenan.love/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
