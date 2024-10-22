@@ -140,9 +140,9 @@
     
     
     
-    <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
     
     <category term="博客" scheme="http://blog.quenan.love/categories/%E5%8D%9A%E5%AE%A2/"/>
     
@@ -424,14 +424,14 @@
     
     
     
-    <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
     
-    <category term="Python" scheme="http://blog.quenan.love/tags/Python/"/>
     
     <category term="笔记" scheme="http://blog.quenan.love/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Python" scheme="http://blog.quenan.love/tags/Python/"/>
     
   </entry>
   
