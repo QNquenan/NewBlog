@@ -6,7 +6,7 @@
   <link href="http://blog.quenan.love/atom.xml" rel="self"/>
   
   <link href="http://blog.quenan.love/"/>
-  <updated>2024-10-17T00:05:55.430Z</updated>
+  <updated>2025-01-18T05:59:53.452Z</updated>
   <id>http://blog.quenan.love/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue学习25-01-18</title>
+    <link href="http://blog.quenan.love/posts/8e24963/"/>
+    <id>http://blog.quenan.love/posts/8e24963/</id>
+    <published>2025-01-18T05:42:50.000Z</published>
+    <updated>2025-01-18T05:59:53.452Z</updated>
+    
+    
+    <summary type="html">Vue3的安装以及安装组件库</summary>
+    
+    
+    
+    <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="前端" scheme="http://blog.quenan.love/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="http://blog.quenan.love/categories/Vue/"/>
+    
+    
+    <category term="学习" scheme="http://blog.quenan.love/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="笔记" scheme="http://blog.quenan.love/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Vue3" scheme="http://blog.quenan.love/tags/Vue3/"/>
+    
+  </entry>
   
   <entry>
     <title>FastAPI学习日记（1）</title>
@@ -122,9 +149,9 @@
     <category term="Vue" scheme="http://blog.quenan.love/categories/Vue/"/>
     
     
-    <category term="个人主页" scheme="http://blog.quenan.love/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
-    
     <category term="Vue3" scheme="http://blog.quenan.love/tags/Vue3/"/>
+    
+    <category term="个人主页" scheme="http://blog.quenan.love/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
     
   </entry>
   
