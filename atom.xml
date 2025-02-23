@@ -119,11 +119,11 @@
     <category term="项目" scheme="http://blog.quenan.love/categories/%E9%A1%B9%E7%9B%AE/"/>
     
     
-    <category term="博客" scheme="http://blog.quenan.love/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="外挂标签" scheme="http://blog.quenan.love/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
     <category term="魔改" scheme="http://blog.quenan.love/tags/%E9%AD%94%E6%94%B9/"/>
+    
+    <category term="博客" scheme="http://blog.quenan.love/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -169,9 +169,9 @@
     
     <category term="Python" scheme="http://blog.quenan.love/categories/Python/"/>
     
-    <category term="博客" scheme="http://blog.quenan.love/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="博客" scheme="http://blog.quenan.love/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="IDM" scheme="http://blog.quenan.love/tags/IDM/"/>
@@ -284,11 +284,11 @@
     <category term="说说" scheme="http://blog.quenan.love/categories/%E8%AF%B4%E8%AF%B4/"/>
     
     
-    <category term="博客" scheme="http://blog.quenan.love/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Butterfly" scheme="http://blog.quenan.love/tags/Butterfly/"/>
     
     <category term="说说" scheme="http://blog.quenan.love/tags/%E8%AF%B4%E8%AF%B4/"/>
+    
+    <category term="博客" scheme="http://blog.quenan.love/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -545,9 +545,9 @@
     
     
     
-    <category term="博客" scheme="http://blog.quenan.love/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.love/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="博客" scheme="http://blog.quenan.love/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="笔记" scheme="http://blog.quenan.love/tags/%E7%AC%94%E8%AE%B0/"/>
