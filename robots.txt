@@ -15,4 +15,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /fancybox/
 
-Sitemap: https://blog.quenan.love/sitemap.xml
+Sitemap: https://blog.quenan.cn/sitemap.xml
