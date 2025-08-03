@@ -63,9 +63,9 @@
     <category term="Vue" scheme="http://blog.quenan.cn/categories/Vue/"/>
     
     
-    <category term="学习" scheme="http://blog.quenan.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="http://blog.quenan.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="Vue3" scheme="http://blog.quenan.cn/tags/Vue3/"/>
     
@@ -91,9 +91,9 @@
     <category term="Python" scheme="http://blog.quenan.cn/categories/Python/"/>
     
     
-    <category term="Python" scheme="http://blog.quenan.cn/tags/Python/"/>
-    
     <category term="学习" scheme="http://blog.quenan.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Python" scheme="http://blog.quenan.cn/tags/Python/"/>
     
     <category term="FastAPI" scheme="http://blog.quenan.cn/tags/FastAPI/"/>
     
@@ -195,9 +195,9 @@
     
     
     
-    <category term="Python" scheme="http://blog.quenan.cn/categories/Python/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.cn/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Python" scheme="http://blog.quenan.cn/categories/Python/"/>
     
     <category term="博客" scheme="http://blog.quenan.cn/categories/%E5%8D%9A%E5%AE%A2/"/>
     
@@ -284,11 +284,11 @@
     <category term="移动应用" scheme="http://blog.quenan.cn/categories/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8/"/>
     
     
-    <category term="学习" scheme="http://blog.quenan.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
     <category term="Mui" scheme="http://blog.quenan.cn/tags/Mui/"/>
     
     <category term="移动应用" scheme="http://blog.quenan.cn/tags/%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8/"/>
+    
+    <category term="学习" scheme="http://blog.quenan.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -390,9 +390,9 @@
     
     <category term="Butterfly" scheme="http://blog.quenan.cn/tags/Butterfly/"/>
     
-    <category term="Artitalk" scheme="http://blog.quenan.cn/tags/Artitalk/"/>
-    
     <category term="说说" scheme="http://blog.quenan.cn/tags/%E8%AF%B4%E8%AF%B4/"/>
+    
+    <category term="Artitalk" scheme="http://blog.quenan.cn/tags/Artitalk/"/>
     
   </entry>
   
@@ -479,14 +479,14 @@
     
     
     
-    <category term="Python" scheme="http://blog.quenan.cn/categories/Python/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.cn/categories/%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="Python" scheme="http://blog.quenan.cn/categories/Python/"/>
     
-    <category term="Python" scheme="http://blog.quenan.cn/tags/Python/"/>
     
     <category term="笔记" scheme="http://blog.quenan.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Python" scheme="http://blog.quenan.cn/tags/Python/"/>
     
   </entry>
   
