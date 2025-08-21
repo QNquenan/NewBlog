@@ -56,9 +56,9 @@
     
     
     
-    <category term="前端" scheme="http://blog.quenan.cn/categories/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="笔记" scheme="http://blog.quenan.cn/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="前端" scheme="http://blog.quenan.cn/categories/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="Vue" scheme="http://blog.quenan.cn/categories/Vue/"/>
     
@@ -390,9 +390,9 @@
     
     <category term="Butterfly" scheme="http://blog.quenan.cn/tags/Butterfly/"/>
     
-    <category term="说说" scheme="http://blog.quenan.cn/tags/%E8%AF%B4%E8%AF%B4/"/>
-    
     <category term="Artitalk" scheme="http://blog.quenan.cn/tags/Artitalk/"/>
+    
+    <category term="说说" scheme="http://blog.quenan.cn/tags/%E8%AF%B4%E8%AF%B4/"/>
     
   </entry>
   
