@@ -52,6 +52,63 @@
       </tags>
   </entry>
   <entry>
+    <title>IDM激活，理论永久</title>
+    <url>/posts/a1ef6e91/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>本教程所用工具来源于 Github 项目 <code>IDM-Activation-Script</code></p>
+<p>项目地址：<a href="https://github.com/WindowsAddict/IDM-Activation-Script">传送门</a></p>
+<p>激活完毕可正常更新，如果失效，重新激活即可</p>
+</blockquote>
+<div class="details" >
+              <div class="collapsible"> 免责声明 </div>
+              <div class="content">
+              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
+              </div>
+            </div>
+<div class="details" open>
+              <div class="collapsible"> 更新日志 </div>
+              <div class="content">
+              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-3-18</p></div></div><div class='timeline-item-content'><ol><li>激活失效，改用冻结使用期</li></ol></div></div></div>
+              </div>
+            </div>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>作者提供了两种办法安装，本教程仅介绍第一种</p>
+<ol>
+<li><p>复制以下代码到 <code>powershell</code> 终端( 不是 <code>cmd</code> )，回车</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">irm</span> https://massgrave.dev/ias | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>等待片刻，会跳出个窗口</p>
+<p><img src="https://i.p-i.vip/43/20240923-66f17175b9633.png" alt="1"></p>
+</li>
+<li><p>意思如下</p>
+<ul>
+<li>[1] 冻结试用</li>
+<li>[2] 激活（失效）</li>
+<li>[3] 重置试用期</li>
+<li>[4] 下载 IDM</li>
+<li>[5] 帮助</li>
+<li>[6] 关闭</li>
+</ul>
+<p>输入 <code>1</code></p>
+</li>
+<li><p>等待出现绿色字样即成功</p>
+</li>
+</ol>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>如果遇到失败的情况，这边收集了一些解决方法，或查看作者 GitHub</p>
+<ul>
+<li>更改 DNS,推荐 8.8.8.8 或 119.29.29.29</li>
+<li>检查是否输入到了 <code>cmd</code> 中</li>
+</ul>
+</div>]]></content>
+      <categories>
+        <category>分享</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>IDM</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Mui学习资料总结</title>
     <url>/posts/40230011/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>关于学习 <code>Mui</code> 框架的一些资料总结</p>
@@ -125,112 +182,6 @@
         <tag>学习</tag>
         <tag>Mui</tag>
         <tag>移动应用</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IDM激活，理论永久</title>
-    <url>/posts/a1ef6e91/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>本教程所用工具来源于 Github 项目 <code>IDM-Activation-Script</code></p>
-<p>项目地址：<a href="https://github.com/WindowsAddict/IDM-Activation-Script">传送门</a></p>
-<p>激活完毕可正常更新，如果失效，重新激活即可</p>
-</blockquote>
-<div class="details" >
-              <div class="collapsible"> 免责声明 </div>
-              <div class="content">
-              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
-              </div>
-            </div>
-<div class="details" open>
-              <div class="collapsible"> 更新日志 </div>
-              <div class="content">
-              <div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2024-3-18</p></div></div><div class='timeline-item-content'><ol><li>激活失效，改用冻结使用期</li></ol></div></div></div>
-              </div>
-            </div>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>作者提供了两种办法安装，本教程仅介绍第一种</p>
-<ol>
-<li><p>复制以下代码到 <code>powershell</code> 终端( 不是 <code>cmd</code> )，回车</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">irm</span> https://massgrave.dev/ias | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>等待片刻，会跳出个窗口</p>
-<p><img src="https://i.p-i.vip/43/20240923-66f17175b9633.png" alt="1"></p>
-</li>
-<li><p>意思如下</p>
-<ul>
-<li>[1] 冻结试用</li>
-<li>[2] 激活（失效）</li>
-<li>[3] 重置试用期</li>
-<li>[4] 下载 IDM</li>
-<li>[5] 帮助</li>
-<li>[6] 关闭</li>
-</ul>
-<p>输入 <code>1</code></p>
-</li>
-<li><p>等待出现绿色字样即成功</p>
-</li>
-</ol>
-<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>如果遇到失败的情况，这边收集了一些解决方法，或查看作者 GitHub</p>
-<ul>
-<li>更改 DNS,推荐 8.8.8.8 或 119.29.29.29</li>
-<li>检查是否输入到了 <code>cmd</code> 中</li>
-</ul>
-</div>]]></content>
-      <categories>
-        <category>分享</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>IDM</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>QQ音乐加密格式解密</title>
-    <url>/posts/cf1fb2ee/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><div class="details" >
-              <div class="collapsible"> 免责声明 </div>
-              <div class="content">
-              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
-              </div>
-            </div>
-<h3 id="使用的文件"><a href="#使用的文件" class="headerlink" title="使用的文件"></a>使用的文件</h3><a class="tag-Link" target="_blank" href="https://www.123pan.com/s/iXN7Vv-Go4Jv.html">
-    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.123pan.com/s/iXN7Vv-Go4Jv.html.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">转换.zip</div>
-            <div class="tag-link-sitename">123网盘</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<h2 id="下载加密文件"><a href="#下载加密文件" class="headerlink" title="下载加密文件"></a>下载加密文件</h2><p>首先，安装压缩包内的 <strong>老版本 QQ 音乐</strong></p>
-<p><img src="https://i.p-i.vip/43/20240923-66f15134eea85.png" alt="老版本QQ音乐"></p>
-<p>登陆上自己的 <strong>QQ 音乐会员账号</strong> 下载加密音频</p>
-<h2 id="解密音乐文件"><a href="#解密音乐文件" class="headerlink" title="解密音乐文件"></a>解密音乐文件</h2><p>解压文件夹中的 <code>um-web.extension.v1.10.6</code> 文件夹到合适位置</p>
-<div class="note warning flat"><p>路径内尽量补药有中文！</p>
-</div>
-<p><img src="https://i.p-i.vip/43/20240923-66f15134ae799.png" alt="um-web.extension.v1.10.6 文件夹"></p>
-<p>打开解压出来的 <code>um-web.extension.v1.10.6</code> 文件夹下的 <code>index.html</code></p>
-<p><img src="https://i.p-i.vip/43/20240923-66f15135b4389.png" alt="index.html"></p>
-<p>将加密的音乐文件拖入网站提示位置</p>
-<p><img src="https://i.p-i.vip/43/20240923-66f15135ea9c2.png" alt="提示位置"></p>
-<p>根据提示操作即可</p>
-<h2 id="转-MP3"><a href="#转-MP3" class="headerlink" title="转 MP3"></a>转 MP3</h2><p>网站解密出来的一般是高品质格式 <code>.flac</code> 要转成 <code>.MP3</code> 的话要再过一遍格式工厂</p>
-<p>安装压缩包内的 <strong>格式工厂</strong></p>
-<p><img src="https://i.p-i.vip/43/20240923-66f151354c1e9.png" alt="格式工厂安装包"></p>
-<p>安装完成后打开</p>
-<div class="note warning flat"><p>小心格式工厂自带的捆绑软件，记得取消勾选</p>
-</div>
-<p>找到 <strong>音频</strong> &gt; <strong>转 MP3</strong> ，根据提示操作即可导出 <code>.MP3</code> 格式了</p>
-</div>]]></content>
-      <categories>
-        <category>分享</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>QQ音乐</tag>
-        <tag>分享</tag>
       </tags>
   </entry>
   <entry>
@@ -337,6 +288,55 @@
       <tags>
         <tag>SpringBoot</tag>
         <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>QQ音乐加密格式解密</title>
+    <url>/posts/cf1fb2ee/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><div class="details" >
+              <div class="collapsible"> 免责声明 </div>
+              <div class="content">
+              <p><strong>使用目的</strong> ：该文件夹及其子目录下的所有资源仅供学习和研究使用。其旨在为学术和研究人员提供参考和资料，任何其他目的均不适用。</p><p><strong>非商业与非法用途</strong> ：严禁将此文件夹及其内容用于任何商业或非法用途。对于因违反此规定而产生的任何法律后果，用户需自行承担全部责任。</p><p><strong>来源与版权</strong> ：该文件夹目录下的所有资源信息均来源于网络。如有关于版权的争议或问题，请联系原作者或权利人。本声明者与版权问题无关且不承担任何相关责任。</p><p><strong>下载后的处理</strong> ：请注意，您在下载任何资源后，必须在 24 小时内从您的电脑或存储设备中彻底删除上述资源，无论这些资源是软件、文档还是其他形式的数据。</p><p><strong>支持正版</strong> ：如果您发现某个程序或资源对您有帮助或您喜欢它，请积极支持正版。购买和注册正版软件不仅可以获取官方的支持和更新，而且可以享受更多的功能和服务，如正版的人工智能服务。</p><p><strong>最终解释权</strong> ：本免责声明的最终解释权归声明者所有。</p><p><strong>解释权说明</strong> ：本声明中的“最终解释权”条款并非意在单方面施加权利或霸王条款，而是为了在可能出现的模糊或争议情况下提供清晰的指导和解释。其目的是确保本声明的内容和意图得到恰当和公正的实施，同时为用户提供更明确的方向和帮助。</p><p>在使用该文件夹及其内容前，请确保已仔细阅读并完全理解上述声明和法律参考。您的使用行为将被视为对上述内容的完全接受。</p>
+              </div>
+            </div>
+<h3 id="使用的文件"><a href="#使用的文件" class="headerlink" title="使用的文件"></a>使用的文件</h3><a class="tag-Link" target="_blank" href="https://www.123pan.com/s/iXN7Vv-Go4Jv.html">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.123pan.com/s/iXN7Vv-Go4Jv.html.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">转换.zip</div>
+            <div class="tag-link-sitename">123网盘</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<h2 id="下载加密文件"><a href="#下载加密文件" class="headerlink" title="下载加密文件"></a>下载加密文件</h2><p>首先，安装压缩包内的 <strong>老版本 QQ 音乐</strong></p>
+<p><img src="https://i.p-i.vip/43/20240923-66f15134eea85.png" alt="老版本QQ音乐"></p>
+<p>登陆上自己的 <strong>QQ 音乐会员账号</strong> 下载加密音频</p>
+<h2 id="解密音乐文件"><a href="#解密音乐文件" class="headerlink" title="解密音乐文件"></a>解密音乐文件</h2><p>解压文件夹中的 <code>um-web.extension.v1.10.6</code> 文件夹到合适位置</p>
+<div class="note warning flat"><p>路径内尽量补药有中文！</p>
+</div>
+<p><img src="https://i.p-i.vip/43/20240923-66f15134ae799.png" alt="um-web.extension.v1.10.6 文件夹"></p>
+<p>打开解压出来的 <code>um-web.extension.v1.10.6</code> 文件夹下的 <code>index.html</code></p>
+<p><img src="https://i.p-i.vip/43/20240923-66f15135b4389.png" alt="index.html"></p>
+<p>将加密的音乐文件拖入网站提示位置</p>
+<p><img src="https://i.p-i.vip/43/20240923-66f15135ea9c2.png" alt="提示位置"></p>
+<p>根据提示操作即可</p>
+<h2 id="转-MP3"><a href="#转-MP3" class="headerlink" title="转 MP3"></a>转 MP3</h2><p>网站解密出来的一般是高品质格式 <code>.flac</code> 要转成 <code>.MP3</code> 的话要再过一遍格式工厂</p>
+<p>安装压缩包内的 <strong>格式工厂</strong></p>
+<p><img src="https://i.p-i.vip/43/20240923-66f151354c1e9.png" alt="格式工厂安装包"></p>
+<p>安装完成后打开</p>
+<div class="note warning flat"><p>小心格式工厂自带的捆绑软件，记得取消勾选</p>
+</div>
+<p>找到 <strong>音频</strong> &gt; <strong>转 MP3</strong> ，根据提示操作即可导出 <code>.MP3</code> 格式了</p>
+</div>]]></content>
+      <categories>
+        <category>分享</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>QQ音乐</tag>
+        <tag>分享</tag>
       </tags>
   </entry>
   <entry>
@@ -677,80 +677,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Jsdelivr与渺软CDN使用笔记</title>
-    <url>/posts/171ff1e4/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
-<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
-</blockquote>
-<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
-<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
-<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
-<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
-<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
-<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
-<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
-<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
-</ul>
-<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
-<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
-<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
-</ol>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>CDN</tag>
-        <tag>渺软</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows安装alist并美化</title>
-    <url>/posts/67ef0433/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文安装部分教程只针对 <code>Windows</code> 系统毕竟 Linux 系统可以一键部署，不需要教了。</p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
-<li><p>前往 <a href="https://github.com/alist-org/alist/releases">Releases · alist-org/alist (github.com)</a> 根据自身情况下载对应的压缩包，我的是 <code>alist-windows-amd64.zip</code></p>
-</li>
-<li><p>解压到任意文件夹内</p>
-</li>
-<li><p>在当前文件夹下打开 <code>cmd</code></p>
-</li>
-<li><p>输入</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">.\alist.exe server # 运行程序</span><br><span class="line"></span><br><span class="line">.\alist.exe admin # 获取管理员信息 （默认是admin）</span><br><span class="line"></span><br><span class="line">.\alist admin <span class="built_in">set</span> [password] # 修改自己的管理员密码</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>默认访问地址是 <a href="127.0.0.1:5244">127.0.0.1:5244</a></p>
-</li>
-</ol>
-<div class="details" >
-              <div class="collapsible"> 配置开机自启 </div>
-              <div class="content">
-              <blockquote><p>此处使用知乎大佬 <a href="https://zhuanlan.zhihu.com/p/586155507">遮羽</a> 的 vbs 代码</p><p>在 AList.exe 所在的目录下，创建一个 txt 文件，将后缀名改.vbs 输入代码</p></blockquote><figure class="highlight vbs"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;cmd /c .\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
-              </div>
-            </div>
-<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><p>添加的不多</p>
-<p>头部</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span></span></span><br><span class="line"><span class="tag">  <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span></span></span><br><span class="line"><span class="tag">  <span class="attr">href</span>=<span class="string">&quot;https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaigbscreen.min.css&quot;</span></span></span><br><span class="line"><span class="tag">/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  * &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-family</span>: LXGW WenKai Screen;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css">  <span class="comment">/* 背景 */</span></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-ui-light</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-size</span>: <span class="number">20rem</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">https://img2.imgtp.com/2024/03/19/fhMevDWK.svg</span>) <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-repeat</span>: initial;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="number">#fcfcfc</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-attachment</span>: local;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-position</span>: center;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-c-PJLV-idaeksS-css</span>,</span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-c-PJLV-ikaMhsQ-css</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: none <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-pseudo">::selection</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="number">#fbc2eb</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  * &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">letter-spacing</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.footer</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: none <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-c-PJLV-ikSuVsl-css</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: none <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.markdown-body</span> <span class="selector-tag">a</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-ui-dark</span> <span class="selector-class">.markdown-body</span> <span class="selector-tag">a</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span>,</span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.by</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">text-decoration</span>: none;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.by</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-top</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">position</span>: relative;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: <span class="number">0.5s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.xhx</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: pink;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: <span class="number">0.5s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: pink;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> <span class="selector-class">.xhx</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.run_item</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.link</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">8px</span> <span class="number">8px</span> <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.name</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">8px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#000</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">50px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.runtime</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">box-sizing</span>: border-box;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.about</span>,</span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.state</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="built_in">min</span>(<span class="number">99%</span>, <span class="number">980px</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">text-align</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding-inline</span>: <span class="number">2%</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.state</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-top</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>内容</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;copyright&quot;</span> <span class="attr">align</span>=<span class="string">&quot;center&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;about&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;runtime&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;run_item&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>AList<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;link&quot;</span>&gt;</span>UI<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;run_item&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>中国移动云盘<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;link&quot;</span>&gt;</span>挂载<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;run_item&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;runtime_span&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">function</span> <span class="title function_">show_runtime</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">          <span class="variable language_">window</span>.<span class="built_in">setTimeout</span>(<span class="string">&quot;show_runtime()&quot;</span>, <span class="number">1000</span>);</span></span><br><span class="line"><span class="language-javascript">          X = <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;12/3/2023 00:00:00&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">          Y = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">          T = Y.<span class="title function_">getTime</span>() - X.<span class="title function_">getTime</span>();</span></span><br><span class="line"><span class="language-javascript">          M = <span class="number">24</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span>;</span></span><br><span class="line"><span class="language-javascript">          a = T / M;</span></span><br><span class="line"><span class="language-javascript">          A = <span class="title class_">Math</span>.<span class="title function_">floor</span>(a);</span></span><br><span class="line"><span class="language-javascript">          b = (a - A) * <span class="number">24</span>;</span></span><br><span class="line"><span class="language-javascript">          B = <span class="title class_">Math</span>.<span class="title function_">floor</span>(b);</span></span><br><span class="line"><span class="language-javascript">          c = (b - B) * <span class="number">60</span>;</span></span><br><span class="line"><span class="language-javascript">          C = <span class="title class_">Math</span>.<span class="title function_">floor</span>((b - B) * <span class="number">60</span>);</span></span><br><span class="line"><span class="language-javascript">          D = <span class="title class_">Math</span>.<span class="title function_">floor</span>((c - C) * <span class="number">60</span>);</span></span><br><span class="line"><span class="language-javascript">          runtime_span.<span class="property">innerHTML</span> =</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;&lt;span class=&quot;name&quot;&gt;稳定运行&#x27;</span> +</span></span><br><span class="line"><span class="language-javascript">            A +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;天&lt;/span&gt;&lt;span class=&quot;link&quot;&gt;&#x27;</span> +</span></span><br><span class="line"><span class="language-javascript">            B +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&quot;时&quot;</span> +</span></span><br><span class="line"><span class="language-javascript">            C +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&quot;分&quot;</span> +</span></span><br><span class="line"><span class="language-javascript">            D +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&quot;秒&lt;/span&gt;&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">show_runtime</span>();</span></span><br><span class="line"><span class="language-javascript">      </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;state&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">      免责声明：本站为个人网盘，网盘所发布的一切影视、源代码、注册信息及软件等资源仅限用于学习和研究目的</span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;by&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span>&gt;</span>Powered By<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://quenan.cn&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>Quenan<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;xhx&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span>&gt;</span>| ©2023<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>前端</category>
-        <category>软件</category>
-        <category>美化</category>
-      </categories>
-      <tags>
-        <tag>alist</tag>
-        <tag>windows</tag>
-        <tag>美化</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue学习25-01-18</title>
     <url>/posts/8e24963/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="安装-Vue3"><a href="#安装-Vue3" class="headerlink" title="安装 Vue3"></a>安装 Vue3</h2><ol>
@@ -823,6 +749,46 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows安装alist并美化</title>
+    <url>/posts/67ef0433/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本文安装部分教程只针对 <code>Windows</code> 系统毕竟 Linux 系统可以一键部署，不需要教了。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
+<li><p>前往 <a href="https://github.com/alist-org/alist/releases">Releases · alist-org/alist (github.com)</a> 根据自身情况下载对应的压缩包，我的是 <code>alist-windows-amd64.zip</code></p>
+</li>
+<li><p>解压到任意文件夹内</p>
+</li>
+<li><p>在当前文件夹下打开 <code>cmd</code></p>
+</li>
+<li><p>输入</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">.\alist.exe server # 运行程序</span><br><span class="line"></span><br><span class="line">.\alist.exe admin # 获取管理员信息 （默认是admin）</span><br><span class="line"></span><br><span class="line">.\alist admin <span class="built_in">set</span> [password] # 修改自己的管理员密码</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>默认访问地址是 <a href="127.0.0.1:5244">127.0.0.1:5244</a></p>
+</li>
+</ol>
+<div class="details" >
+              <div class="collapsible"> 配置开机自启 </div>
+              <div class="content">
+              <blockquote><p>此处使用知乎大佬 <a href="https://zhuanlan.zhihu.com/p/586155507">遮羽</a> 的 vbs 代码</p><p>在 AList.exe 所在的目录下，创建一个 txt 文件，将后缀名改.vbs 输入代码</p></blockquote><figure class="highlight vbs"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Set</span> ws = <span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;cmd /c .\alist.exe server&quot;</span>,vbhide</span><br></pre></td></tr></table></figure>
+              </div>
+            </div>
+<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><p>添加的不多</p>
+<p>头部</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span></span></span><br><span class="line"><span class="tag">  <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span></span></span><br><span class="line"><span class="tag">  <span class="attr">href</span>=<span class="string">&quot;https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaigbscreen.min.css&quot;</span></span></span><br><span class="line"><span class="tag">/&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  * &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-family</span>: LXGW WenKai Screen;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css">  <span class="comment">/* 背景 */</span></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-ui-light</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-size</span>: <span class="number">20rem</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">https://img2.imgtp.com/2024/03/19/fhMevDWK.svg</span>) <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-repeat</span>: initial;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="number">#fcfcfc</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-attachment</span>: local;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-position</span>: center;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-c-PJLV-idaeksS-css</span>,</span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-c-PJLV-ikaMhsQ-css</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: none <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-pseudo">::selection</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="number">#fbc2eb</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  * &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">letter-spacing</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.footer</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: none <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-c-PJLV-ikSuVsl-css</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: none <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.markdown-body</span> <span class="selector-tag">a</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.hope-ui-dark</span> <span class="selector-class">.markdown-body</span> <span class="selector-tag">a</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#fff</span> <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span>,</span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.by</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">text-decoration</span>: none;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.by</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-top</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">position</span>: relative;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: <span class="number">0.5s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.xhx</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: pink;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">position</span>: absolute;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: <span class="number">0.5s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: pink;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> <span class="selector-class">.xhx</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.run_item</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.link</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">8px</span> <span class="number">8px</span> <span class="number">0</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> <span class="selector-class">.name</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">4px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background</span>: <span class="number">#fff</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">8px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#000</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.copyright</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">50px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="number">#000</span> <span class="meta">!important</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.runtime</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">100%</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">box-sizing</span>: border-box;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">display</span>: flex;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">justify-content</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">align-items</span>: center;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.about</span>,</span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.state</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="built_in">min</span>(<span class="number">99%</span>, <span class="number">980px</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">text-align</span>: center;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">padding-inline</span>: <span class="number">2%</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.state</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-top</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>内容</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;copyright&quot;</span> <span class="attr">align</span>=<span class="string">&quot;center&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;about&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;runtime&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;run_item&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>AList<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;link&quot;</span>&gt;</span>UI<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;run_item&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;name&quot;</span>&gt;</span>中国移动云盘<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;link&quot;</span>&gt;</span>挂载<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;run_item&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;runtime_span&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">function</span> <span class="title function_">show_runtime</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">          <span class="variable language_">window</span>.<span class="built_in">setTimeout</span>(<span class="string">&quot;show_runtime()&quot;</span>, <span class="number">1000</span>);</span></span><br><span class="line"><span class="language-javascript">          X = <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;12/3/2023 00:00:00&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">          Y = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">          T = Y.<span class="title function_">getTime</span>() - X.<span class="title function_">getTime</span>();</span></span><br><span class="line"><span class="language-javascript">          M = <span class="number">24</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span>;</span></span><br><span class="line"><span class="language-javascript">          a = T / M;</span></span><br><span class="line"><span class="language-javascript">          A = <span class="title class_">Math</span>.<span class="title function_">floor</span>(a);</span></span><br><span class="line"><span class="language-javascript">          b = (a - A) * <span class="number">24</span>;</span></span><br><span class="line"><span class="language-javascript">          B = <span class="title class_">Math</span>.<span class="title function_">floor</span>(b);</span></span><br><span class="line"><span class="language-javascript">          c = (b - B) * <span class="number">60</span>;</span></span><br><span class="line"><span class="language-javascript">          C = <span class="title class_">Math</span>.<span class="title function_">floor</span>((b - B) * <span class="number">60</span>);</span></span><br><span class="line"><span class="language-javascript">          D = <span class="title class_">Math</span>.<span class="title function_">floor</span>((c - C) * <span class="number">60</span>);</span></span><br><span class="line"><span class="language-javascript">          runtime_span.<span class="property">innerHTML</span> =</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;&lt;span class=&quot;name&quot;&gt;稳定运行&#x27;</span> +</span></span><br><span class="line"><span class="language-javascript">            A +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&#x27;天&lt;/span&gt;&lt;span class=&quot;link&quot;&gt;&#x27;</span> +</span></span><br><span class="line"><span class="language-javascript">            B +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&quot;时&quot;</span> +</span></span><br><span class="line"><span class="language-javascript">            C +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&quot;分&quot;</span> +</span></span><br><span class="line"><span class="language-javascript">            D +</span></span><br><span class="line"><span class="language-javascript">            <span class="string">&quot;秒&lt;/span&gt;&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">show_runtime</span>();</span></span><br><span class="line"><span class="language-javascript">      </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;state&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">      免责声明：本站为个人网盘，网盘所发布的一切影视、源代码、注册信息及软件等资源仅限用于学习和研究目的</span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;by&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span>&gt;</span>Powered By<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://quenan.cn&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>Quenan<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;xhx&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span>&gt;</span>| ©2023<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>前端</category>
+        <category>软件</category>
+        <category>美化</category>
+      </categories>
+      <tags>
+        <tag>alist</tag>
+        <tag>windows</tag>
+        <tag>美化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>VM虚拟机进入Pe系统</title>
     <url>/posts/19b64ef3/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="简易流程"><a href="#简易流程" class="headerlink" title="简易流程"></a>简易流程</h2><ol>
@@ -869,6 +835,40 @@
       </tags>
   </entry>
   <entry>
+    <title>Jsdelivr与渺软CDN使用笔记</title>
+    <url>/posts/171ff1e4/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><blockquote>
+<p>因为 <code>Jsdelivr</code> 国内备案无了，所以使用渺软 CDN 来回源 Jsdelivr</p>
+</blockquote>
+<h2 id="Jsdelivr-使用"><a href="#Jsdelivr-使用" class="headerlink" title="Jsdelivr 使用"></a>Jsdelivr 使用</h2><p>官网：<a href="https://www.jsdelivr.com/">https://www.jsdelivr.com/</a></p>
+<h3 id="GitHub-仓库链接转-CDN"><a href="#GitHub-仓库链接转-CDN" class="headerlink" title="GitHub 仓库链接转 CDN"></a>GitHub 仓库链接转 CDN</h3><p>在线转换地址：<a href="https://www.jsdelivr.com/github">https://www.jsdelivr.com/github</a></p>
+<p>Jsdelivr 链接：<code>https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径</code></p>
+<p>在 <code>js</code> <code>css</code> 等文件名后添加 <code>min</code> 可以压缩文件，如 <code>xxx.min.js</code></p>
+<h3 id="刷新-CDN-缓存"><a href="#刷新-CDN-缓存" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://purge.jsdelivr.net/gh/...</code> 刷新，再次访问 <code>https://cdn.jsdelivr.net/gh/...</code> 就可以看见刷新后的文件了</li>
+<li>成功返回<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;dRZnfzmLXGb78nsa&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;status&quot;</span><span class="punctuation">:</span> <span class="string">&quot;finished&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2024-02-05T17:12:03.738Z&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;paths&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;/gh/GitHub用户名/仓库名@分支(一般为main)/文件路径&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;throttled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;providers&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;CF&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;FY&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="渺软-CDN"><a href="#渺软-CDN" class="headerlink" title="渺软 CDN"></a>渺软 CDN</h2><p>官网：<a href="https://cdn.onmicrosoft.cn/">https://cdn.onmicrosoft.cn/</a></p>
+<h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3><ul>
+<li>将 <code>https://cdn.jsdelivr.net/gh/...</code> 更换为 <code>https://jsd.onmicrosoft.cn/gh/...</code></li>
+</ul>
+<h3 id="刷新-CDN-缓存-1"><a href="#刷新-CDN-缓存-1" class="headerlink" title="刷新 CDN 缓存"></a>刷新 CDN 缓存</h3><ol>
+<li>在 <a href="https://afdian.net/a/icodeq">爱发电</a> 赞助 <code>@Zkeq</code> 获取刷新 <code>token</code></li>
+<li>在官网的 <code>Pure Cache</code> 处刷新即可</li>
+</ol>
+</div>]]></content>
+      <categories>
+        <category>笔记</category>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>CDN</tag>
+        <tag>渺软</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>代码块展开关闭动画</title>
     <url>/posts/d6e47f4c/</url>
     <content><![CDATA[<div id="postchat_postcontent"><p>咕咕了很久啊，终于找到时间把这个小功能搓出来了</p>
@@ -893,74 +893,6 @@
         <tag>博客</tag>
         <tag>代码块</tag>
         <tag>Butterfly</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我的个人主页！</title>
-    <url>/posts/ea4b0760/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="仓库地址和预览"><a href="#仓库地址和预览" class="headerlink" title="仓库地址和预览"></a>仓库地址和预览</h2><a class="tag-Link" target="_blank" href="https://github.com/QNquenan/homepage-for-vue3">
-    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/github.com/QNquenan/homepage-for-vue3.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">homepage-for-vue3</div>
-            <div class="tag-link-sitename">鹊楠吖</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<a class="tag-Link" target="_blank" href="https://quenan.cn">
-    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
-    <div class="tag-link-bottom">
-        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/quenan.cn.png);"></div>
-        <div class="tag-link-right">
-            <div class="tag-link-title">鹊楠の个人主页</div>
-            <div class="tag-link-sitename">鹊楠吖</div>
-        </div>
-        <i class="fa-solid fa-angle-right"></i>
-    </div>
-    </a>
-<p><img src="https://i.p-i.vip/43/20240917-66e86759d3795.webp" alt="主页预览图"></p>
-<h2 id="为什么想写一个主页"><a href="#为什么想写一个主页" class="headerlink" title="为什么想写一个主页"></a>为什么想写一个主页</h2><p>因为闲着无聊，同时根域名也空着，就打算写一个个人主页放在根域名，也可以当一张赛博名片））</p>
-<psw>而且最近还在学Vue，正好拿主页来练手</psw>
-<h2 id="编写路程"><a href="#编写路程" class="headerlink" title="编写路程"></a>编写路程</h2><p>我用的是 <code>Vue3</code> + <code>Vuesax-alpha</code> 组件库搭建，一开始用的是 <code>vue2</code> 结果在编译的时候一直报 <strong>webpack（应该是这个）</strong> 错</p>
-<p>询问群里的大佬后都推荐我使用更新的 <code>Vue3</code> ，于是就使用 <code>Vite</code> 来构建我的 <code>Vue</code> 项目</p>
-<h3 id="Vue2-和-Vue3-的区别"><a href="#Vue2-和-Vue3-的区别" class="headerlink" title="Vue2 和 Vue3 的区别"></a>Vue2 和 Vue3 的区别</h3><p>我感觉到的区别其实没多少 <psw>学艺不精，刚入门</psw> ，感知明显比较大的有这几点：</p>
-<ul>
-<li><p><strong>本地运行的速度</strong></p>
-<p>我使用 <code>Vue2</code> 写主页的时候，重新使用 <code>npm run serve</code> 运行项目的时候，要等好一会时间，而 <code>Vue3</code> 的运行速度可以说是秒开 <del>不知道是不是 <code>Vite</code> 的原因</del></p>
-</li>
-<li><p><strong>main.js 的引入</strong></p>
-<p>这个差别也是有的，<code>Vue2</code> 是</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title class_">Vue</span>.<span class="property">config</span>.<span class="property">productionTip</span> = <span class="literal">false</span>;</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">VueTypedJs</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span><br><span class="line">  <span class="attr">render</span>: <span class="function">(<span class="params">h</span>) =&gt;</span> <span class="title function_">h</span>(<span class="title class_">App</span>),</span><br><span class="line">&#125;).$mount(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
-<p>这样写的，而 <code>Vue3</code> 是</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">VueTyped</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">MotionPlugin</span>);</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
-<p>让不仔细看文档的我踩了个坑 😭</p>
-</li>
-</ul>
-<h3 id="Vuesax-alpha"><a href="#Vuesax-alpha" class="headerlink" title="Vuesax-alpha"></a>Vuesax-alpha</h3><p>在开始写主页之前，我精挑细选的找了好一会组件库，终于在一篇博客园的文章中找到了 <code>Vuesax</code> 这个组件库。</p>
-<p>但是它的文档是纯英文的，所以只能依靠 <code>沉浸式翻译</code> 的机翻勉强使用。</p>
-<p>当我切换到 <code>Vue3</code> 的时候，发现用不了，排查一番发现 <code>Vuesax</code> 不支持 <code>Vue3</code> ，当时感觉天都塌了！幸好在 <strong>浮杨</strong> 大佬的帮助下找到了 <code>Vuesax</code> 的测试版本，支持 <code>Vue3</code> 。</p>
-<p>但是又出现了个问题，<code>Vuesax-alpha</code> 的文档是部署在 <code>vercel</code> 上面的，而 <code>vercel</code> 的域名在大陆无法访问，所以就要反复开梯子，并翻译英文文档 <del>（其实有一些名词是能大概了解什么意思的）</del></p>
-<p>在使用 <code>Vuesax-alpha</code> 的途中，遇到了一些小问题，应该是官方还没写完罢，自己修修补补将就着用）</p>
-<h3 id="开工项目"><a href="#开工项目" class="headerlink" title="开工项目"></a>开工项目</h3><p>解决了组件库的问题，就开始编写主页了。先后安装了</p>
-<ul>
-<li><strong>vue3-typed-js</strong> : 打字机组件</li>
-<li><strong>@vueuse/motion</strong> : 动画库</li>
-</ul>
-<p>编写的时候苦于没有灵感，就去借鉴了一下 <a href="https://pzj.us.kg/">pzjawa</a> 和 <a href="https://www.liushen.fun/sites/">清羽飞扬</a> 两位大佬的主页 <strong>灵感是没有的，只会借鉴人家的了</strong></p>
-<p>中间出现了不少 bug，如 <strong>按钮无法跳转</strong> 、<strong>打字机定位错误</strong> 、<strong>动画失效</strong> 、<strong>没有深色模式导致界面颜色错误</strong> 等问题，幸好都不难，都是我这三脚猫功夫能解决的问题，最后也是成功写好了</p>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>有啥建议可以提一下！现在处于能用阶段了</p>
-<h3 id="目前存在的问题"><a href="#目前存在的问题" class="headerlink" title="目前存在的问题"></a>目前存在的问题</h3><p>部署在 <code>vercel</code> ，套 <code>初七云</code> cdn 的时候，会显示 <strong>域名解析错误</strong> 但是我根域名是绑定的 cdn 给的 dns 地址，cdn 源站也配置正确，也能正常通过根域名访问主页，就是管理后台显示解析错误，搞不懂）</p>
-</div>]]></content>
-      <categories>
-        <category>前端</category>
-        <category>项目</category>
-        <category>Vue</category>
-      </categories>
-      <tags>
-        <tag>Vue3</tag>
-        <tag>个人主页</tag>
       </tags>
   </entry>
   <entry>
@@ -1054,6 +986,74 @@
       <tags>
         <tag>软件</tag>
         <tag>音效</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我的个人主页！</title>
+    <url>/posts/ea4b0760/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="仓库地址和预览"><a href="#仓库地址和预览" class="headerlink" title="仓库地址和预览"></a>仓库地址和预览</h2><a class="tag-Link" target="_blank" href="https://github.com/QNquenan/homepage-for-vue3">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/github.com/QNquenan/homepage-for-vue3.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">homepage-for-vue3</div>
+            <div class="tag-link-sitename">鹊楠吖</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<a class="tag-Link" target="_blank" href="https://quenan.cn">
+    <div class="tag-link-tips">❗这是个站外网站呢，不保证站点的可用性和安全性哟~</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/quenan.cn.png);"></div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">鹊楠の个人主页</div>
+            <div class="tag-link-sitename">鹊楠吖</div>
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+    </a>
+<p><img src="https://i.p-i.vip/43/20240917-66e86759d3795.webp" alt="主页预览图"></p>
+<h2 id="为什么想写一个主页"><a href="#为什么想写一个主页" class="headerlink" title="为什么想写一个主页"></a>为什么想写一个主页</h2><p>因为闲着无聊，同时根域名也空着，就打算写一个个人主页放在根域名，也可以当一张赛博名片））</p>
+<psw>而且最近还在学Vue，正好拿主页来练手</psw>
+<h2 id="编写路程"><a href="#编写路程" class="headerlink" title="编写路程"></a>编写路程</h2><p>我用的是 <code>Vue3</code> + <code>Vuesax-alpha</code> 组件库搭建，一开始用的是 <code>vue2</code> 结果在编译的时候一直报 <strong>webpack（应该是这个）</strong> 错</p>
+<p>询问群里的大佬后都推荐我使用更新的 <code>Vue3</code> ，于是就使用 <code>Vite</code> 来构建我的 <code>Vue</code> 项目</p>
+<h3 id="Vue2-和-Vue3-的区别"><a href="#Vue2-和-Vue3-的区别" class="headerlink" title="Vue2 和 Vue3 的区别"></a>Vue2 和 Vue3 的区别</h3><p>我感觉到的区别其实没多少 <psw>学艺不精，刚入门</psw> ，感知明显比较大的有这几点：</p>
+<ul>
+<li><p><strong>本地运行的速度</strong></p>
+<p>我使用 <code>Vue2</code> 写主页的时候，重新使用 <code>npm run serve</code> 运行项目的时候，要等好一会时间，而 <code>Vue3</code> 的运行速度可以说是秒开 <del>不知道是不是 <code>Vite</code> 的原因</del></p>
+</li>
+<li><p><strong>main.js 的引入</strong></p>
+<p>这个差别也是有的，<code>Vue2</code> 是</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="title class_">Vue</span>.<span class="property">config</span>.<span class="property">productionTip</span> = <span class="literal">false</span>;</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line"><span class="title class_">Vue</span>.<span class="title function_">use</span>(<span class="title class_">VueTypedJs</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> <span class="title class_">Vue</span>(&#123;</span><br><span class="line">  <span class="attr">render</span>: <span class="function">(<span class="params">h</span>) =&gt;</span> <span class="title function_">h</span>(<span class="title class_">App</span>),</span><br><span class="line">&#125;).$mount(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>这样写的，而 <code>Vue3</code> 是</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> app = <span class="title function_">createApp</span>(<span class="title class_">App</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">Vuesax</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">VueTyped</span>);</span><br><span class="line">app.<span class="title function_">use</span>(<span class="title class_">MotionPlugin</span>);</span><br><span class="line">app.<span class="title function_">mount</span>(<span class="string">&quot;#app&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p>让不仔细看文档的我踩了个坑 😭</p>
+</li>
+</ul>
+<h3 id="Vuesax-alpha"><a href="#Vuesax-alpha" class="headerlink" title="Vuesax-alpha"></a>Vuesax-alpha</h3><p>在开始写主页之前，我精挑细选的找了好一会组件库，终于在一篇博客园的文章中找到了 <code>Vuesax</code> 这个组件库。</p>
+<p>但是它的文档是纯英文的，所以只能依靠 <code>沉浸式翻译</code> 的机翻勉强使用。</p>
+<p>当我切换到 <code>Vue3</code> 的时候，发现用不了，排查一番发现 <code>Vuesax</code> 不支持 <code>Vue3</code> ，当时感觉天都塌了！幸好在 <strong>浮杨</strong> 大佬的帮助下找到了 <code>Vuesax</code> 的测试版本，支持 <code>Vue3</code> 。</p>
+<p>但是又出现了个问题，<code>Vuesax-alpha</code> 的文档是部署在 <code>vercel</code> 上面的，而 <code>vercel</code> 的域名在大陆无法访问，所以就要反复开梯子，并翻译英文文档 <del>（其实有一些名词是能大概了解什么意思的）</del></p>
+<p>在使用 <code>Vuesax-alpha</code> 的途中，遇到了一些小问题，应该是官方还没写完罢，自己修修补补将就着用）</p>
+<h3 id="开工项目"><a href="#开工项目" class="headerlink" title="开工项目"></a>开工项目</h3><p>解决了组件库的问题，就开始编写主页了。先后安装了</p>
+<ul>
+<li><strong>vue3-typed-js</strong> : 打字机组件</li>
+<li><strong>@vueuse/motion</strong> : 动画库</li>
+</ul>
+<p>编写的时候苦于没有灵感，就去借鉴了一下 <a href="https://pzj.us.kg/">pzjawa</a> 和 <a href="https://www.liushen.fun/sites/">清羽飞扬</a> 两位大佬的主页 <strong>灵感是没有的，只会借鉴人家的了</strong></p>
+<p>中间出现了不少 bug，如 <strong>按钮无法跳转</strong> 、<strong>打字机定位错误</strong> 、<strong>动画失效</strong> 、<strong>没有深色模式导致界面颜色错误</strong> 等问题，幸好都不难，都是我这三脚猫功夫能解决的问题，最后也是成功写好了</p>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>有啥建议可以提一下！现在处于能用阶段了</p>
+<h3 id="目前存在的问题"><a href="#目前存在的问题" class="headerlink" title="目前存在的问题"></a>目前存在的问题</h3><p>部署在 <code>vercel</code> ，套 <code>初七云</code> cdn 的时候，会显示 <strong>域名解析错误</strong> 但是我根域名是绑定的 cdn 给的 dns 地址，cdn 源站也配置正确，也能正常通过根域名访问主页，就是管理后台显示解析错误，搞不懂）</p>
+</div>]]></content>
+      <categories>
+        <category>前端</category>
+        <category>项目</category>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>Vue3</tag>
+        <tag>个人主页</tag>
       </tags>
   </entry>
   <entry>
@@ -1317,39 +1317,6 @@
       </tags>
   </entry>
   <entry>
-    <title>外挂标签之聊天记录</title>
-    <url>/posts/829283e6/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前几个星期看见 <strong>纸鹿</strong> 佬的聊天记录标签很好看，故有了自己写一个的念头。奈何事情有点多，拖到昨天才有时间来搞这个外挂标签</p>
-<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><div class="details" open>
-              <div class="collapsible"> 示例源码 </div>
-              <div class="content">
-              <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% chatBox %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% chat test,content %&#125;</span><br><span class="line">&#123;% chat me,content %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endchatBox %&#125;</span><br></pre></td></tr></table></figure>
-              </div>
-            </div>
-<div class="details" open>
-              <div class="collapsible"> 渲染效果 </div>
-              <div class="content">
-              <div class="chatBox"><div class="chatItem "><b class="chatName">test</b><div class="chatContent">content</div></div><div class="chatItem me"><b class="chatName">我</b><div class="chatContent">content</div></div></div>
-              </div>
-            </div>
-<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>其实实现起来和 <strong>纸鹿</strong> 佬说的一样，很简单，仅需添加两个文件即可</p>
-<p>在 <code>[themes]\butterfly\scripts\tag</code> 目录下新建 <code>chat.js</code> ，写入：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成聊天框的整体结构</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChatBox</span>(<span class="params">args, content</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`&lt;div class=&quot;chatBox&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChat</span>(<span class="params">args</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (!args || args.<span class="property">length</span> === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;&quot;</span>; <span class="comment">// 如果参数为空，返回空字符串</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 合并并拆分参数</span></span><br><span class="line">  args = args.<span class="title function_">join</span>(<span class="string">&quot; &quot;</span>).<span class="title function_">split</span>(<span class="string">&quot;,&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 确保 args[0] 存在并进行 trim</span></span><br><span class="line">  <span class="keyword">let</span> name = args[<span class="number">0</span>] ? args[<span class="number">0</span>].<span class="title function_">trim</span>() : <span class="string">&quot;未知&quot;</span>;</span><br><span class="line">  <span class="keyword">let</span> content = args[<span class="number">1</span>] ? args[<span class="number">1</span>].<span class="title function_">trim</span>() : <span class="string">&quot;无内容&quot;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 判断是否是“我”的消息</span></span><br><span class="line">  <span class="keyword">const</span> isMe = name.<span class="title function_">toLowerCase</span>() === <span class="string">&quot;me&quot;</span>; <span class="comment">// 根据传入的名字判断</span></span><br><span class="line">  <span class="keyword">const</span> chatName = isMe ? <span class="string">&quot;我&quot;</span> : name; <span class="comment">// 显示“我”或对方名字</span></span><br><span class="line">  <span class="keyword">const</span> chatClass = isMe ? <span class="string">&quot;me&quot;</span> : <span class="string">&quot;&quot;</span>; <span class="comment">// 自己的消息加上 &#x27;me&#x27; 类</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// 生成 HTML 布局</span></span><br><span class="line">  <span class="keyword">let</span> result = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatItem <span class="subst">$&#123;chatClass&#125;</span>&quot;&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;b class=&quot;chatName&quot;&gt;<span class="subst">$&#123;chatName&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatContent&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;/div&gt;`</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 注册自定义标签</span></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chat&quot;</span>, postChat);</span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chatBox&quot;</span>, postChatBox, &#123; <span class="attr">ends</span>: <span class="literal">true</span> &#125;);</span><br></pre></td></tr></table></figure>
-<p>在 <code>[themes]\butterfly\source\css\_tags</code> 目录下新建 <code>chat.styl</code> ，写入：</p>
-<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.chatBox</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.chatItem</span></span><br><span class="line">    <span class="attribute">display</span>: flex</span><br><span class="line">    <span class="attribute">flex-direction</span>: column</span><br><span class="line">    <span class="attribute">justify-content</span>: center</span><br><span class="line">    <span class="attribute">align-items</span>: flex-start</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="selector-class">.chatContent</span></span><br><span class="line">        <span class="attribute">background</span>: <span class="number">#e5e5e5</span></span><br><span class="line">        <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">        <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">        <span class="attribute">max-width</span>: <span class="number">50%</span></span><br><span class="line">        <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span></span><br><span class="line">        <span class="attribute">word-wrap</span>: break-word</span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.me</span></span><br><span class="line">        <span class="attribute">align-items</span>: flex-end</span><br><span class="line"></span><br><span class="line">        <span class="selector-class">.chatContent</span></span><br><span class="line">            <span class="attribute">border-radius</span>: <span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">            <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>执行三件套重启即可</p>
-</div>]]></content>
-      <categories>
-        <category>博客</category>
-        <category>项目</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>外挂标签</tag>
-        <tag>魔改</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用Xd画一个文章封面</title>
     <url>/posts/9bfa1cc/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="XD-下载地址（学习版）"><a href="#XD-下载地址（学习版）" class="headerlink" title="XD 下载地址（学习版）"></a>XD 下载地址（学习版）</h2><p><a href="https://www.123pan.com/s/iXN7Vv-i9mJv.html">123 网盘下载</a></p>
@@ -1426,6 +1393,56 @@
       </tags>
   </entry>
   <entry>
+    <title>外挂标签之聊天记录</title>
+    <url>/posts/829283e6/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>前几个星期看见 <strong>纸鹿</strong> 佬的聊天记录标签很好看，故有了自己写一个的念头。奈何事情有点多，拖到昨天才有时间来搞这个外挂标签</p>
+<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><div class="details" open>
+              <div class="collapsible"> 示例源码 </div>
+              <div class="content">
+              <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% chatBox %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% chat test,content %&#125;</span><br><span class="line">&#123;% chat me,content %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endchatBox %&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </div>
+<div class="details" open>
+              <div class="collapsible"> 渲染效果 </div>
+              <div class="content">
+              <div class="chatBox"><div class="chatItem "><b class="chatName">test</b><div class="chatContent">content</div></div><div class="chatItem me"><b class="chatName">我</b><div class="chatContent">content</div></div></div>
+              </div>
+            </div>
+<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>其实实现起来和 <strong>纸鹿</strong> 佬说的一样，很简单，仅需添加两个文件即可</p>
+<p>在 <code>[themes]\butterfly\scripts\tag</code> 目录下新建 <code>chat.js</code> ，写入：</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成聊天框的整体结构</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChatBox</span>(<span class="params">args, content</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`&lt;div class=&quot;chatBox&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="comment">// 生成单条聊天内容</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">postChat</span>(<span class="params">args</span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (!args || args.<span class="property">length</span> === <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;&quot;</span>; <span class="comment">// 如果参数为空，返回空字符串</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 合并并拆分参数</span></span><br><span class="line">  args = args.<span class="title function_">join</span>(<span class="string">&quot; &quot;</span>).<span class="title function_">split</span>(<span class="string">&quot;,&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 确保 args[0] 存在并进行 trim</span></span><br><span class="line">  <span class="keyword">let</span> name = args[<span class="number">0</span>] ? args[<span class="number">0</span>].<span class="title function_">trim</span>() : <span class="string">&quot;未知&quot;</span>;</span><br><span class="line">  <span class="keyword">let</span> content = args[<span class="number">1</span>] ? args[<span class="number">1</span>].<span class="title function_">trim</span>() : <span class="string">&quot;无内容&quot;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 判断是否是“我”的消息</span></span><br><span class="line">  <span class="keyword">const</span> isMe = name.<span class="title function_">toLowerCase</span>() === <span class="string">&quot;me&quot;</span>; <span class="comment">// 根据传入的名字判断</span></span><br><span class="line">  <span class="keyword">const</span> chatName = isMe ? <span class="string">&quot;我&quot;</span> : name; <span class="comment">// 显示“我”或对方名字</span></span><br><span class="line">  <span class="keyword">const</span> chatClass = isMe ? <span class="string">&quot;me&quot;</span> : <span class="string">&quot;&quot;</span>; <span class="comment">// 自己的消息加上 &#x27;me&#x27; 类</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">// 生成 HTML 布局</span></span><br><span class="line">  <span class="keyword">let</span> result = <span class="string">&quot;&quot;</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatItem <span class="subst">$&#123;chatClass&#125;</span>&quot;&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;b class=&quot;chatName&quot;&gt;<span class="subst">$&#123;chatName&#125;</span>&lt;/b&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;div class=&quot;chatContent&quot;&gt;<span class="subst">$&#123;content&#125;</span>&lt;/div&gt;`</span>;</span><br><span class="line">  result += <span class="string">`&lt;/div&gt;`</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 注册自定义标签</span></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chat&quot;</span>, postChat);</span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&quot;chatBox&quot;</span>, postChatBox, &#123; <span class="attr">ends</span>: <span class="literal">true</span> &#125;);</span><br></pre></td></tr></table></figure>
+<p>在 <code>[themes]\butterfly\source\css\_tags</code> 目录下新建 <code>chat.styl</code> ，写入：</p>
+<figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.chatBox</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span></span><br><span class="line">    <span class="attribute">box-sizing</span>: border-box</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.chatItem</span></span><br><span class="line">    <span class="attribute">display</span>: flex</span><br><span class="line">    <span class="attribute">flex-direction</span>: column</span><br><span class="line">    <span class="attribute">justify-content</span>: center</span><br><span class="line">    <span class="attribute">align-items</span>: flex-start</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">10px</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="selector-class">.chatContent</span></span><br><span class="line">        <span class="attribute">background</span>: <span class="number">#e5e5e5</span></span><br><span class="line">        <span class="attribute">padding</span>: <span class="number">10px</span></span><br><span class="line">        <span class="attribute">border-radius</span>: <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">        <span class="attribute">max-width</span>: <span class="number">50%</span></span><br><span class="line">        <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span></span><br><span class="line">        <span class="attribute">word-wrap</span>: break-word</span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.me</span></span><br><span class="line">        <span class="attribute">align-items</span>: flex-end</span><br><span class="line"></span><br><span class="line">        <span class="selector-class">.chatContent</span></span><br><span class="line">            <span class="attribute">border-radius</span>: <span class="number">10px</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">10px</span></span><br><span class="line">            <span class="attribute">margin</span>: <span class="number">5px</span> <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>执行三件套重启即可</p>
+</div>]]></content>
+      <categories>
+        <category>博客</category>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>外挂标签</tag>
+        <tag>魔改</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超链接动画样式</title>
+    <url>/posts/acd54f33/</url>
+    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>觉得原来的超链接样式不是很符合我的审美，所以就改了一下，本文章用于记录防止遗忘咋写的</p>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>我是超链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="comment">/* 清除超链接样式 */</span></span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="comment">/* 更改初始颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置一个填充让伪元素正常渲染 */</span></span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span><br><span class="line">  <span class="comment">/* 设置绝对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置底部距离 */</span></span><br><span class="line">  <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span><br><span class="line">  <span class="comment">/* 设置宽度 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="comment">/* 设置高度 */</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置水平方向缩放比例 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">0</span>);</span><br><span class="line">  <span class="comment">/* 设置背景 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置鼠标接触时颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置比例为1，使其显示 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</div>]]></content>
+      <categories>
+        <category>前端</category>
+        <category>Css</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Css</tag>
+        <tag>超链接</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>自用的bf导航栏魔改</title>
     <url>/posts/7aeab8a1/</url>
     <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这几天看到安知鱼大佬的洪里洪气的导航栏甚是喜欢，特别是那个下滑显示文章/页面标题，上滑显示菜单的功能十分眼馋。就找了找教程加上扒一下站，就有了这篇文章</p>
@@ -1497,23 +1514,6 @@
       <tags>
         <tag>Butterfly</tag>
         <tag>魔改</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超链接动画样式</title>
-    <url>/posts/acd54f33/</url>
-    <content><![CDATA[<div id="postchat_postcontent"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>觉得原来的超链接样式不是很符合我的审美，所以就改了一下，本文章用于记录防止遗忘咋写的</p>
-<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>我是超链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h2><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">body</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="comment">/* 设置居中 */</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span> &#123;</span><br><span class="line">  <span class="comment">/* 清除超链接样式 */</span></span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="comment">/* 更改初始颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#000</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置相对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置一个填充让伪元素正常渲染 */</span></span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot; &quot;</span>;</span><br><span class="line">  <span class="comment">/* 设置绝对定位 */</span></span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="comment">/* 设置底部距离 */</span></span><br><span class="line">  <span class="attribute">bottom</span>: -<span class="number">3px</span>;</span><br><span class="line">  <span class="comment">/* 设置宽度 */</span></span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="comment">/* 设置高度 */</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">  <span class="comment">/* 设置过渡动画 */</span></span><br><span class="line">  <span class="attribute">transition</span>: all <span class="number">0.3s</span>;</span><br><span class="line">  <span class="comment">/* 设置水平方向缩放比例 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">0</span>);</span><br><span class="line">  <span class="comment">/* 设置背景 */</span></span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置鼠标接触时颜色 */</span></span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">133</span>, <span class="number">153</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="comment">/* 设置比例为1，使其显示 */</span></span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">scaleX</span>(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</div>]]></content>
-      <categories>
-        <category>前端</category>
-        <category>Css</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>Css</tag>
-        <tag>超链接</tag>
       </tags>
   </entry>
   <entry>
@@ -2027,8 +2027,8 @@
 </div>]]></content>
       <categories>
         <category>Python</category>
-        <category>博客</category>
         <category>笔记</category>
+        <category>博客</category>
       </categories>
       <tags>
         <tag>IDM</tag>
